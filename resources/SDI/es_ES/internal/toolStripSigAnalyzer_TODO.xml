@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="ExportDescription">
+      <text>Export selected signals to the MATLAB workspace or to a file</text>
+      <translation>Export selected signals to the MATLAB workspace or to a file</translation>
+    </entry>
+    <entry key="DeleteDescription">
+      <text>Delete selected signals</text>
+      <translation>Delete selected signals</translation>
+    </entry>
+    <entry key="DeleteAdditionalText">
+      <text>Delete selected signals</text>
+      <translation>Delete selected signals</translation>
+    </entry>
+    <entry key="DeleteAllRunsAdditionalText">
+      <text>Delete all signals</text>
+      <translation>Delete all signals</translation>
+    </entry>
+    <entry key="Cursors">
+      <text>CURSORS</text>
+      <translation>CURSORS</translation>
+    </entry>
+    <entry key="TAxesLimits">
+      <text>TIME LIMITS</text>
+      <translation>TIME LIMITS</translation>
+    </entry>
+    <entry key="PropertyPane">
+      <text>Workspace\nBrowser</text>
+      <translation>Workspace\nBrowser</translation>
+    </entry>
+    <entry key="PropertyPaneDescription">
+      <text>Show/hide Workspace browser</text>
+      <translation>Show/hide Workspace browser</translation>
+    </entry>
+    <entry key="Runs">
+      <text>SIGNAL TABLE</text>
+      <translation>SIGNAL TABLE</translation>
+    </entry>
+    <entry key="Subplots">
+      <text>Displays</text>
+      <translation>Displays</translation>
+    </entry>
+    <entry key="SubplotsDescription">
+      <text>Choose display layout</text>
+      <translation>Choose display layout</translation>
+    </entry>
+    <entry key="ClearPlot">
+      <text>Clear Display</text>
+      <translation>Clear Display</translation>
+    </entry>
+    <entry key="ClearPlotButton">
+      <text>Clear\nDisplay</text>
+      <translation>Clear\nDisplay</translation>
+    </entry>
+    <entry key="ClearPlotDescription">
+      <text>Clear signals from selected display</text>
+      <translation>Clear signals from selected display</translation>
+    </entry>
+    <entry key="ClearPlotAdditionalText">
+      <text>Clear signals from selected display</text>
+      <translation>Clear signals from selected display</translation>
+    </entry>
+    <entry key="ClearHighlightedPlotAdditionalText">
+      <text>Clear signals from selected display</text>
+      <translation>Clear signals from selected display</translation>
+    </entry>
+    <entry key="ClearAllPlots">
+      <text>Clear All Displays</text>
+      <translation>Clear All Displays</translation>
+    </entry>
+    <entry key="ClearAllPlotsAdditionalText">
+      <text>Clear signals from all displays</text>
+      <translation>Clear signals from all displays</translation>
+    </entry>
+    <entry key="CopySubplots">
+      <text>Copy Displays</text>
+      <translation>Copy Displays</translation>
+    </entry>
+    <entry key="CopySubplotsDescription">
+      <text>Send all displays to clipboard</text>
+      <translation>Send all displays to clipboard</translation>
+    </entry>
+    <entry key="CopyAllSubplots">
+      <text>Copy All\nDisplays\n</text>
+      <translation>Copy All\nDisplays\n</translation>
+    </entry>
+    <entry key="CopyAllSubplotsAdditionalText">
+      <text>Send all displays to clipboard</text>
+      <translation>Send all displays to clipboard</translation>
+    </entry>
+    <entry key="CopySubplot">
+      <text>Copy Display</text>
+      <translation>Copy Display</translation>
+    </entry>
+    <entry key="CopySubplotAdditionalText">
+      <text>Send selected display to clipboard</text>
+      <translation>Send selected display to clipboard</translation>
+    </entry>
+    <entry key="SendToFigureDescription">
+      <text>Send all displays to MATLAB figure window</text>
+      <translation>Send all displays to MATLAB figure window</translation>
+    </entry>
+    <entry key="SubplotsMarkers">
+      <text>DISPLAYS &amp; MARKERS</text>
+      <translation>DISPLAYS &amp; MARKERS</translation>
+    </entry>
+    <entry key="ShowMarkersDescription">
+      <text>Show/hide markers of time plots in all displays</text>
+      <translation>Show/hide markers of time plots in all displays</translation>
+    </entry>
+    <entry key="LinkSubplot">
+      <text>Link Time</text>
+      <translation>Link Time</translation>
+    </entry>
+    <entry key="LinkSubplotDescription">
+      <text>Link time span with other linked displays</text>
+      <translation>Link time span with other linked displays</translation>
+    </entry>
+    <entry key="NormalizeYAxisDescription">
+      <text>Normalize Y-axis of time plot in selected display</text>
+      <translation>Normalize Y-axis of time plot in selected display</translation>
+    </entry>
+    <entry key="SDIHelp">
+      <text>Signal Analyzer Help</text>
+      <translation>Signal Analyzer Help</translation>
+    </entry>
+    <entry key="SPTHelpAbout">
+      <text>About Signal Processing Toolbox</text>
+      <translation>About Signal Processing Toolbox</translation>
+    </entry>
+    <entry key="HelpDescription">
+      <text>View Signal Analyzer documentation</text>
+      <translation>View Signal Analyzer documentation</translation>
+    </entry>
+    <entry key="EditTime">
+      <text>Time Values</text>
+      <translation>Time Values</translation>
+    </entry>
+    <entry key="EditTimeDescription">
+      <text>Edit sample rate, sample time, or time vector of selected signals</text>
+      <translation>Edit sample rate, sample time, or time vector of selected signals</translation>
+    </entry>
+    <entry key="ZoomInTLabel">
+      <text>Zoom in X</text>
+      <translation>Zoom in X</translation>
+    </entry>
+    <entry key="ZoomInTDescription">
+      <text>Zoom in X</text>
+      <translation>Zoom in X</translation>
+    </entry>
+    <entry key="UnitsLabel">
+      <text>Units:</text>
+      <translation>Units:</translation>
+    </entry>
+    <entry key="samples">
+      <text>samples</text>
+      <translation>samples</translation>
+    </entry>
+    <entry key="Years">
+      <text>years</text>
+      <translation>years</translation>
+    </entry>
+    <entry key="Days">
+      <text>days</text>
+      <translation>days</translation>
+    </entry>
+    <entry key="Hours">
+      <text>hours</text>
+      <translation>hours</translation>
+    </entry>
+    <entry key="Minutes">
+      <text>minutes</text>
+      <translation>minutes</translation>
+    </entry>
+    <entry key="CyclesPerYear">
+      <text>cycles/year</text>
+      <translation>cycles/year</translation>
+    </entry>
+    <entry key="CyclesPerDay">
+      <text>cycles/day</text>
+      <translation>cycles/day</translation>
+    </entry>
+    <entry key="CyclesPerHour">
+      <text>cycles/hour</text>
+      <translation>cycles/hour</translation>
+    </entry>
+    <entry key="CyclesPerMinute">
+      <text>cycles/minute</text>
+      <translation>cycles/minute</translation>
+    </entry>
+    <entry key="Analyzer">
+      <text>ANALYZER</text>
+      <translation>ANALYZER</translation>
+    </entry>
+    <entry key="Label">
+      <text>Label</text>
+      <translation>Label</translation>
+    </entry>
+    <entry key="LabelDesc">
+      <text>Label selected signals</text>
+      <translation>Label selected signals</translation>
+    </entry>
+    <entry key="SignalTable">
+      <text>Signal\nTable</text>
+      <translation>Signal\nTable</translation>
+    </entry>
+    <entry key="SignalTableDescription">
+      <text>Show/hide Signal table</text>
+      <translation>Show/hide Signal table</translation>
+    </entry>
+    <entry key="DisplayGrid">
+      <text>Display\nGrid\n</text>
+      <translation>Display\nGrid\n</translation>
+    </entry>
+    <entry key="Duplicate">
+      <text>Duplicate</text>
+      <translation>Duplicate</translation>
+    </entry>
+    <entry key="DuplicateDescription">
+      <text>Duplicate selected signals</text>
+      <translation>Duplicate selected signals</translation>
+    </entry>
+    <entry key="AnalyzerOptions">
+      <text>OPTIONS</text>
+      <translation>OPTIONS</translation>
+    </entry>
+    <entry key="PreferencesButton">
+      <text>Preferences</text>
+      <translation>Preferences</translation>
+    </entry>
+    <entry key="PreferencesButtonDesc">
+      <text>Set Signal Analyzer preferences</text>
+      <translation>Set Signal Analyzer preferences</translation>
+    </entry>
+    <entry key="PreferencesShareListHeader">
+      <text>EXPORT SIGNALS AND MATLAB SCRIPTS</text>
+      <translation>EXPORT SIGNALS AND MATLAB SCRIPTS</translation>
+    </entry>
+    <entry key="PreferencesShareCheckbox">
+      <text>Always use timetables when signals have time information</text>
+      <translation>Always use timetables when signals have time information</translation>
+    </entry>
+    <entry key="Preprocessing">
+      <text>PREPROCESSING</text>
+      <translation>PREPROCESSING</translation>
+    </entry>
+    <entry key="PreprocessSignalButton">
+      <text>Preprocess</text>
+      <translation>Preprocess</translation>
+    </entry>
+    <entry key="PreprocessSignalButtonDesc">
+      <text>Preprocess selected signals with various preprocessing functions and actions</text>
+      <translation>Preprocess selected signals with various preprocessing functions and actions</translation>
+    </entry>
+    <entry key="PreprocessUndo">
+      <text>Undo Preprocessing</text>
+      <translation>Undo Preprocessing</translation>
+    </entry>
+    <entry key="PreprocessUndoDescription">
+      <text>Undo last preprocessing action on selected signals</text>
+      <translation>Undo last preprocessing action on selected signals</translation>
+    </entry>
+    <entry key="GenerateFunction">
+      <text>Generate Function</text>
+      <translation>Generate Function</translation>
+    </entry>
+    <entry key="PreprocessGenerateFunctionDescription">
+      <text>Generate MATLAB function for signals selected in table</text>
+      <translation>Generate MATLAB function for signals selected in table</translation>
+    </entry>
+    <entry key="Display">
+      <text>DISPLAY</text>
+      <translation>DISPLAY</translation>
+    </entry>
+    <entry key="DisplayOptions">
+      <text>DISPLAY OPTIONS</text>
+      <translation>DISPLAY OPTIONS</translation>
+    </entry>
+    <entry key="SpectrogramDomain">
+      <text>Spectrogram</text>
+      <translation>Spectrogram</translation>
+    </entry>
+    <entry key="SpectrogramDomainAdditionalText">
+      <text>View spectrogram of a signal</text>
+      <translation>View spectrogram of a signal</translation>
+    </entry>
+    <entry key="CursorSnapToDataCheckbox">
+      <text>Snap to Data</text>
+      <translation>Snap to Data</translation>
+    </entry>
+    <entry key="CursorSnapToDataDescription">
+      <text>Position on data points when moving data cursors</text>
+      <translation>Position on data points when moving data cursors</translation>
+    </entry>
+    <entry key="ExtractROIMenu">
+      <text>Extract Signals</text>
+      <translation>Extract Signals</translation>
+    </entry>
+    <entry key="ExtractROISignalMenu">
+      <text>Extract Signal</text>
+      <translation>Extract Signal</translation>
+    </entry>
+    <entry key="ExtractROIBetweenLimitsMenu">
+      <text>Between Time Limits</text>
+      <translation>Between Time Limits</translation>
+    </entry>
+    <entry key="ExtractROIBetweenCursorsMenu">
+      <text>Between Time Cursors</text>
+      <translation>Between Time Cursors</translation>
+    </entry>
+    <entry key="ExtractROIMenuBetweenLimitsOnly">
+      <text>Extract Signals Between Time Limits</text>
+      <translation>Extract Signals Between Time Limits</translation>
+    </entry>
+    <entry key="ExtractROISignalMenuBetweenLimitsOnly">
+      <text>Extract Signal Between Time Limits</text>
+      <translation>Extract Signal Between Time Limits</translation>
+    </entry>
+    <entry key="ROI">
+      <text>REGION OF INTEREST</text>
+      <translation>REGION OF INTEREST</translation>
+    </entry>
+    <entry key="ExtractROIBtn">
+      <text>Extract Signals</text>
+      <translation>Extract Signals</translation>
+    </entry>
+    <entry key="ExtractROIBtnDescription">
+      <text>Extract signal regions between time limits in selected display</text>
+      <translation>Extract signal regions between time limits in selected display</translation>
+    </entry>
+    <entry key="ExtractROIBetweenLimits">
+      <text>Between Time Limits</text>
+      <translation>Between Time Limits</translation>
+    </entry>
+    <entry key="ExtractROIBetweenLimitsDescription">
+      <text>Extract signal regions between time limits in selected display</text>
+      <translation>Extract signal regions between time limits in selected display</translation>
+    </entry>
+    <entry key="ExtractROIBetweenCursors">
+      <text>Between Time Cursors</text>
+      <translation>Between Time Cursors</translation>
+    </entry>
+    <entry key="ExtractROIBetweenCursorsDescription">
+      <text>Extract signal regions between time data cursors in selected display</text>
+      <translation>Extract signal regions between time data cursors in selected display</translation>
+    </entry>
+    <entry key="ROIStartTimeCheckBox">
+      <text>Preserve Start Time</text>
+      <translation>Preserve Start Time</translation>
+    </entry>
+    <entry key="ROIStartTimeCheckBoxDescription">
+      <text>Preserve start time of extracted signal regions</text>
+      <translation>Preserve start time of extracted signal regions</translation>
+    </entry>
+    <entry key="GenerateScript">
+      <text>Generate\nScript\n</text>
+      <translation>Generate\nScript\n</translation>
+    </entry>
+    <entry key="GenerateScriptDescription">
+      <text>Generate MATLAB scripts for selected display</text>
+      <translation>Generate MATLAB scripts for selected display</translation>
+    </entry>
+    <entry key="GenerateROIBetweenLimitsScript">
+      <text>ROI Script Between Time Limits</text>
+      <translation>ROI Script Between Time Limits</translation>
+    </entry>
+    <entry key="GenerateROIBetweenLimitsScriptDescription">
+      <text>Generate MATLAB script to extract region of interest between time limits</text>
+      <translation>Generate MATLAB script to extract region of interest between time limits</translation>
+    </entry>
+    <entry key="GenerateROIBetweenCursorsScript">
+      <text>ROI Script Between Time Cursors</text>
+      <translation>ROI Script Between Time Cursors</translation>
+    </entry>
+    <entry key="GenerateROIBetweenCursorsScriptDescription">
+      <text>Generate MATLAB script to extract region of interest between time cursors</text>
+      <translation>Generate MATLAB script to extract region of interest between time cursors</translation>
+    </entry>
+    <entry key="GenerateSpectrumScript">
+      <text>Spectrum Script</text>
+      <translation>Spectrum Script</translation>
+    </entry>
+    <entry key="GenerateSpectrumScriptDescription">
+      <text>Generate MATLAB script for spectrum</text>
+      <translation>Generate MATLAB script for spectrum</translation>
+    </entry>
+    <entry key="GeneratePersistenceScript">
+      <text>Persistence Spectrum Script</text>
+      <translation>Persistence Spectrum Script</translation>
+    </entry>
+    <entry key="GeneratePersistenceScriptDescription">
+      <text>Generate MATLAB script for persistence spectrum</text>
+      <translation>Generate MATLAB script for persistence spectrum</translation>
+    </entry>
+    <entry key="GenerateSpectrogramScript">
+      <text>Spectrogram Script</text>
+      <translation>Spectrogram Script</translation>
+    </entry>
+    <entry key="GenerateSpectrogramScriptDescription">
+      <text>Generate MATLAB script for spectrogram</text>
+      <translation>Generate MATLAB script for spectrogram</translation>
+    </entry>
+    <entry key="GenerateScalogramScript">
+      <text>Scalogram Script</text>
+      <translation>Scalogram Script</translation>
+    </entry>
+    <entry key="GenerateScalogramScriptDescription">
+      <text>Generate MATLAB script for scalogram</text>
+      <translation>Generate MATLAB script for scalogram</translation>
+    </entry>
+    <entry key="PersistenceDomain">
+      <text>Persistence\nSpectrum</text>
+      <translation>Persistence\nSpectrum</translation>
+    </entry>
+    <entry key="PersistenceDomainAdditionalText">
+      <text>View persistence spectrum of a signal</text>
+      <translation>View persistence spectrum of a signal</translation>
+    </entry>
+    <entry key="SpectrumDomainAdditionalText">
+      <text>View frequency or persistence spectrum of signals</text>
+      <translation>View frequency or persistence spectrum of signals</translation>
+    </entry>
+    <entry key="FrequencyDomain">
+      <text>Spectrum</text>
+      <translation>Spectrum</translation>
+    </entry>
+    <entry key="FrequencyDomainAdditionalText">
+      <text>View frequency spectrum of signals</text>
+      <translation>View frequency spectrum of signals</translation>
+    </entry>
+    <entry key="ScalogramDomain">
+      <text>Scalogram</text>
+      <translation>Scalogram</translation>
+    </entry>
+    <entry key="ScalogramDomainAdditionalText">
+      <text>View scalogram of a real signal</text>
+      <translation>View scalogram of a real signal</translation>
+    </entry>
+    <entry key="TimeFreqDomain">
+      <text>Time-Frequency</text>
+      <translation>Time-Frequency</translation>
+    </entry>
+    <entry key="TimeFreqDomainAdditionalText">
+      <text>View spectrogram or scalogram of a signal</text>
+      <translation>View spectrogram or scalogram of a signal</translation>
+    </entry>
+    <entry key="ScaleSection">
+      <text>Scale</text>
+      <translation>Scale</translation>
+    </entry>
+    <entry key="FrequencyScale">
+      <text>Frequency Scale:</text>
+      <translation>Frequency Scale:</translation>
+    </entry>
+    <entry key="FrequencyScaleDescription">
+      <text>View the frequency axis in linear scale or log scale</text>
+      <translation>View the frequency axis in linear scale or log scale</translation>
+    </entry>
+    <entry key="LinearScale">
+      <text>Linear</text>
+      <translation>Linear</translation>
+    </entry>
+    <entry key="LogScale">
+      <text>Log</text>
+      <translation>Log</translation>
+    </entry>
+    <entry key="SpectrumInDBLabel">
+      <text>Spectrum in dB</text>
+      <translation>Spectrum in dB</translation>
+    </entry>
+    <entry key="SpectrumInDBDescription">
+      <text>Display power spectrum in dB</text>
+      <translation>Display power spectrum in dB</translation>
+    </entry>
+    <entry key="Type">
+      <text>TYPE</text>
+      <translation>TYPE</translation>
+    </entry>
+    <entry key="Power">
+      <text>Power</text>
+      <translation>Power</translation>
+    </entry>
+    <entry key="PSD">
+      <text>PSD</text>
+      <translation>PSD</translation>
+    </entry>
+    <entry key="PowerTypeDescription">
+      <text>Compute Power spectral estimation</text>
+      <translation>Compute Power spectral estimation</translation>
+    </entry>
+    <entry key="PSDTypeDescription">
+      <text>Compute Power Spectral Density</text>
+      <translation>Compute Power Spectral Density</translation>
+    </entry>
+    <entry key="ResolutionType">
+      <text>RESOLUTION TYPE</text>
+      <translation>RESOLUTION TYPE</translation>
+    </entry>
+    <entry key="Leakage">
+      <text>Leakage</text>
+      <translation>Leakage</translation>
+    </entry>
+    <entry key="RBW">
+      <text>RBW (\u03C0 r/sample)</text>
+      <translation>RBW (\u03C0 r/sample)</translation>
+    </entry>
+    <entry key="RBWHz">
+      <text>RBW (Hz)</text>
+      <translation>RBW (Hz)</translation>
+    </entry>
+    <entry key="WindowLength">
+      <text>Window Length</text>
+      <translation>Window Length</translation>
+    </entry>
+    <entry key="ErrorMsgLeakage">
+      <text>Value must be a nonnegative number between 0 and 40</text>
+      <translation>Value must be a nonnegative number between 0 and 40</translation>
+    </entry>
+    <entry key="LeakageDescription">
+      <text>Leakage</text>
+      <translation>Leakage</translation>
+    </entry>
+    <entry key="RBWDescription">
+      <text>RBW (\u03C0 rad/sample)</text>
+      <translation>RBW (\u03C0 rad/sample)</translation>
+    </entry>
+    <entry key="RBWHzDescription">
+      <text>RBW (Hz)</text>
+      <translation>RBW (Hz)</translation>
+    </entry>
+    <entry key="RBWMinDescription">
+      <text>Minimum RBW in axis</text>
+      <translation>Minimum RBW in axis</translation>
+    </entry>
+    <entry key="RBWMaxDescription">
+      <text>Maximum RBW in axis</text>
+      <translation>Maximum RBW in axis</translation>
+    </entry>
+    <entry key="WindowLengthDescription">
+      <text>Window Length</text>
+      <translation>Window Length</translation>
+    </entry>
+    <entry key="BandwidthSection">
+      <text>BANDWIDTH</text>
+      <translation>BANDWIDTH</translation>
+    </entry>
+    <entry key="RBWLabel">
+      <text>RBW</text>
+      <translation>RBW</translation>
+    </entry>
+    <entry key="RBWLabelActual">
+      <text>Actual RBW :</text>
+      <translation>Actual RBW :</translation>
+    </entry>
+    <entry key="RBWMinLabel">
+      <text>Min Actual RBW :</text>
+      <translation>Min Actual RBW :</translation>
+    </entry>
+    <entry key="RBWMaxLabel">
+      <text>Max Actual RBW :</text>
+      <translation>Max Actual RBW :</translation>
+    </entry>
+    <entry key="BandwidthAutoBtnDescription">
+      <text>Automatically select the bandwidth</text>
+      <translation>Automatically select the bandwidth</translation>
+    </entry>
+    <entry key="BandwidthSpecifyBtnDescription">
+      <text>Specify the bandwidth</text>
+      <translation>Specify the bandwidth</translation>
+    </entry>
+    <entry key="ErrorMsgRBW">
+      <text>Value must be a nonnegative number greater than 0</text>
+      <translation>Value must be a nonnegative number greater than 0</translation>
+    </entry>
+    <entry key="WindowLengthSection">
+      <text>WINDOW LENGTH</text>
+      <translation>WINDOW LENGTH</translation>
+    </entry>
+    <entry key="WindowLabel">
+      <text>Window</text>
+      <translation>Window</translation>
+    </entry>
+    <entry key="WindowLengthAutoBtnDescription">
+      <text>Automatically select the window length</text>
+      <translation>Automatically select the window length</translation>
+    </entry>
+    <entry key="WindowLengthSpecifyBtnDescription">
+      <text>Specify the window length</text>
+      <translation>Specify the window length</translation>
+    </entry>
+    <entry key="ErrorMsgWindowLength">
+      <text>Value must be a nonnegative integer greater than 1</text>
+      <translation>Value must be a nonnegative integer greater than 1</translation>
+    </entry>
+    <entry key="WindowOptionsSection">
+      <text>WINDOW OPTIONS</text>
+      <translation>WINDOW OPTIONS</translation>
+    </entry>
+    <entry key="WindowHamming">
+      <text>Hamming</text>
+      <translation>Hamming</translation>
+    </entry>
+    <entry key="WindowHann">
+      <text>Hann</text>
+      <translation>Hann</translation>
+    </entry>
+    <entry key="WindowChebyshev">
+      <text>Chebyshev</text>
+      <translation>Chebyshev</translation>
+    </entry>
+    <entry key="WindowBlackmanHarris">
+      <text>Blackman-Harris</text>
+      <translation>Blackman-Harris</translation>
+    </entry>
+    <entry key="WindowFlatTop">
+      <text>Flat-top</text>
+      <translation>Flat-top</translation>
+    </entry>
+    <entry key="WindowKaiser">
+      <text>Kaiser</text>
+      <translation>Kaiser</translation>
+    </entry>
+    <entry key="WindowRectangular">
+      <text>Rectangular</text>
+      <translation>Rectangular</translation>
+    </entry>
+    <entry key="WindowUserSpecified">
+      <text>User-specified</text>
+      <translation>User-specified</translation>
+    </entry>
+    <entry key="SidelobeAttenuationLabel">
+      <text>Sidelobe Attenuation (dB)</text>
+      <translation>Sidelobe Attenuation (dB)</translation>
+    </entry>
+    <entry key="OverlapLabel">
+      <text>Overlap (%)</text>
+      <translation>Overlap (%)</translation>
+    </entry>
+    <entry key="WindowDropdownDescription">
+      <text>Set the window type</text>
+      <translation>Set the window type</translation>
+    </entry>
+    <entry key="SidelobeAttenuationDescription">
+      <text>Set the sidelobe attenuation for the window</text>
+      <translation>Set the sidelobe attenuation for the window</translation>
+    </entry>
+    <entry key="OverlapDescription">
+      <text>Set the overlap percentage between windows</text>
+      <translation>Set the overlap percentage between windows</translation>
+    </entry>
+    <entry key="ErrorMsgInvalidAttenuation">
+      <text>Value must be a number</text>
+      <translation>Value must be a number</translation>
+    </entry>
+    <entry key="ErrorMsgOverlap">
+      <text>Value must be a percentage greater than or equal to 0 and less than 100</text>
+      <translation>Value must be a percentage greater than or equal to 0 and less than 100</translation>
+    </entry>
+    <entry key="NFFTSection">
+      <text>NFFT</text>
+      <translation>NFFT</translation>
+    </entry>
+    <entry key="NFFTLabel">
+      <text>NFFT</text>
+      <translation>NFFT</translation>
+    </entry>
+    <entry key="NFFTAutoBtnDescription">
+      <text>Automatically select the number of FFT points</text>
+      <translation>Automatically select the number of FFT points</translation>
+    </entry>
+    <entry key="NFFTSpecifyBtnDescription">
+      <text>Specify the number of FFT points</text>
+      <translation>Specify the number of FFT points</translation>
+    </entry>
+    <entry key="ErrorMsgNFFT">
+      <text>Value must be a nonnegative integer greater than the window length</text>
+      <translation>Value must be a nonnegative integer greater than the window length</translation>
+    </entry>
+    <entry key="ReassignmentText">
+      <text>Reassign</text>
+      <translation>Reassign</translation>
+    </entry>
+    <entry key="ReassignmentDescription">
+      <text>Sharpen the spectrogram estimate using time and frequency reassignment</text>
+      <translation>Sharpen the spectrogram estimate using time and frequency reassignment</translation>
+    </entry>
+    <entry key="PowerLimits">
+      <text>POWER LIMITS</text>
+      <translation>POWER LIMITS</translation>
+    </entry>
+    <entry key="ScaleColor">
+      <text>Scale\nColor</text>
+      <translation>Scale\nColor</translation>
+    </entry>
+    <entry key="ScaleColorAdditionalText">
+      <text>Fit colormap to current power limits</text>
+      <translation>Fit colormap to current power limits</translation>
+    </entry>
+    <entry key="ScaleColorAdditionalTextPersistence">
+      <text>Fit colormap to current density limits</text>
+      <translation>Fit colormap to current density limits</translation>
+    </entry>
+    <entry key="ScaleColorAdditionalTextScalogram">
+      <text>Fit colormap to current magnitude limits</text>
+      <translation>Fit colormap to current magnitude limits</translation>
+    </entry>
+    <entry key="ColorLimits">
+      <text>COLOR</text>
+      <translation>COLOR</translation>
+    </entry>
+    <entry key="ColorBar">
+      <text>Color Bar</text>
+      <translation>Color Bar</translation>
+    </entry>
+    <entry key="Scale">
+      <text>Scale</text>
+      <translation>Scale</translation>
+    </entry>
+    <entry key="TimeResolution">
+      <text>TIME RESOLUTION</text>
+      <translation>TIME RESOLUTION</translation>
+    </entry>
+    <entry key="TimeResolutionErrorMsg">
+      <text>Value must be at least one sample or less than signal length</text>
+      <translation>Value must be at least one sample or less than signal length</translation>
+    </entry>
+    <entry key="SpectrogramErrorMsgForInvalidWindowsNum">
+      <text>The parameters for the selected signal, results in more than 100,000 spectrogram windows for spectrogram computation. Either increase the time resolution or reduce percentage overlap</text>
+      <translation>The parameters for the selected signal, results in more than 100,000 spectrogram windows for spectrogram computation. Either increase the time resolution or reduce percentage overlap</translation>
+    </entry>
+    <entry key="PersistenceErrorMsgForInvalidWindowsNum">
+      <text>The parameters for the selected signal, results in more than 100,000 spectrogram windows for persistence spectrum computation. Either increase the time resolution or reduce percentage overlap</text>
+      <translation>The parameters for the selected signal, results in more than 100,000 spectrogram windows for persistence spectrum computation. Either increase the time resolution or reduce percentage overlap</translation>
+    </entry>
+    <entry key="TimeResolutionSampleErrorMsg">
+      <text>Value must be a nonnegative integer</text>
+      <translation>Value must be a nonnegative integer</translation>
+    </entry>
+    <entry key="AutoBtn">
+      <text>Auto</text>
+      <translation>Auto</translation>
+    </entry>
+    <entry key="AutoResolutionDescription">
+      <text>Automatically select time resolution</text>
+      <translation>Automatically select time resolution</translation>
+    </entry>
+    <entry key="SpecifyBtn">
+      <text>Specify</text>
+      <translation>Specify</translation>
+    </entry>
+    <entry key="SpecifyBtnDescription">
+      <text>Specify time resolution</text>
+      <translation>Specify time resolution</translation>
+    </entry>
+    <entry key="Resolution">
+      <text>Resolution:</text>
+      <translation>Resolution:</translation>
+    </entry>
+    <entry key="ResolutionDescription">
+      <text>Time resolution</text>
+      <translation>Time resolution</translation>
+    </entry>
+    <entry key="Overlap">
+      <text>Overlap:</text>
+      <translation>Overlap:</translation>
+    </entry>
+    <entry key="OverlapErrorMsg">
+      <text> Value must be less than 100% </text>
+      <translation> Value must be less than 100% </translation>
+    </entry>
+    <entry key="OverLapDescription">
+      <text>Control percentage of overlap between segments</text>
+      <translation>Control percentage of overlap between segments</translation>
+    </entry>
+    <entry key="DensityLimits">
+      <text>DENSITY LIMITS</text>
+      <translation>DENSITY LIMITS</translation>
+    </entry>
+    <entry key="PowBinsSection">
+      <text>POWER BINS</text>
+      <translation>POWER BINS</translation>
+    </entry>
+    <entry key="AutoPowBinsDescription">
+      <text>Automatically select number of power bins</text>
+      <translation>Automatically select number of power bins</translation>
+    </entry>
+    <entry key="SpecifyPowBinsBtnDescription">
+      <text>Specify number of power bins</text>
+      <translation>Specify number of power bins</translation>
+    </entry>
+    <entry key="PowBinsSliderDescription">
+      <text>Control number of power bins</text>
+      <translation>Control number of power bins</translation>
+    </entry>
+    <entry key="MagLimits">
+      <text>MAGNITUDE LIMITS</text>
+      <translation>MAGNITUDE LIMITS</translation>
+    </entry>
+    <entry key="VoicePerOctave">
+      <text>Voices per Octave</text>
+      <translation>Voices per Octave</translation>
+    </entry>
+    <entry key="VoicePerOctaveSliderDescription">
+      <text>Adjust frequency resolution using voices per octave</text>
+      <translation>Adjust frequency resolution using voices per octave</translation>
+    </entry>
+    <entry key="TimeBW">
+      <text>Time-Bandwidth</text>
+      <translation>Time-Bandwidth</translation>
+    </entry>
+    <entry key="TimeBWSliderDescription">
+      <text>Adjust frequency resolution using time-bandwidth product</text>
+      <translation>Adjust frequency resolution using time-bandwidth product</translation>
+    </entry>
+    <entry key="Measurements">
+      <text>MEASUREMENTS</text>
+      <translation>MEASUREMENTS</translation>
+    </entry>
+    <entry key="MeasurementButton">
+      <text>Measurements</text>
+      <translation>Measurements</translation>
+    </entry>
+    <entry key="MeasurementButtonDescription">
+      <text>Show/hide measurements table in the measurements panel</text>
+      <translation>Show/hide measurements table in the measurements panel</translation>
+    </entry>
+    <entry key="Calculate">
+      <text>Calculate</text>
+      <translation>Calculate</translation>
+    </entry>
+    <entry key="SignalStatistics">
+      <text>Signal\nStatistics</text>
+      <translation>Signal\nStatistics</translation>
+    </entry>
+    <entry key="BetweenCursorButton">
+      <text>Between\nCursors</text>
+      <translation>Between\nCursors</translation>
+    </entry>
+    <entry key="BetweenCursorButtonDescription">
+      <text>Calculate measurements between two cursors</text>
+      <translation>Calculate measurements between two cursors</translation>
+    </entry>
+    <entry key="TimeStatistics">
+      <text>Time Statistics</text>
+      <translation>Time Statistics</translation>
+    </entry>
+    <entry key="MinimumStatistic">
+      <text>Minimum</text>
+      <translation>Minimum</translation>
+    </entry>
+    <entry key="MaximumStatistic">
+      <text>Maximum</text>
+      <translation>Maximum</translation>
+    </entry>
+    <entry key="MeanStatistic">
+      <text>Mean</text>
+      <translation>Mean</translation>
+    </entry>
+    <entry key="MedianStatistic">
+      <text>Median</text>
+      <translation>Median</translation>
+    </entry>
+    <entry key="PeaktopeakStatistic">
+      <text>Peak to peak</text>
+      <translation>Peak to peak</translation>
+    </entry>
+    <entry key="RmsStatistic">
+      <text>RMS</text>
+      <translation>RMS</translation>
+    </entry>
+    <entry key="SignalStatisticsDescription">
+      <text>Calculate signal statistics like minimum, maximum, mean, and median</text>
+      <translation>Calculate signal statistics like minimum, maximum, mean, and median</translation>
+    </entry>
+    <entry key="PeaksButton">
+      <text>Peaks</text>
+      <translation>Peaks</translation>
+    </entry>
+    <entry key="PeaksButtonDescription">
+      <text>Find peaks</text>
+      <translation>Find peaks</translation>
+    </entry>
+    <entry key="PeaksFindPeaksButton">
+      <text>Find Peaks</text>
+      <translation>Find Peaks</translation>
+    </entry>
+    <entry key="PeaksFindPeaksButtonDescription">
+      <text>Find peaks in time domain plot</text>
+      <translation>Find peaks in time domain plot</translation>
+    </entry>
+    <entry key="PeaksSettingsButton">
+      <text>Peaks Settings...</text>
+      <translation>Peaks Settings...</translation>
+    </entry>
+    <entry key="PeaksSettingsButtonDescription">
+      <text>Change settings used to find peaks</text>
+      <translation>Change settings used to find peaks</translation>
+    </entry>
+    <entry key="ShowPeaksCheckbox">
+      <text>Label Peaks</text>
+      <translation>Label Peaks</translation>
+    </entry>
+    <entry key="ShowPeaksCheckboxDescription">
+      <text>Annotate peaks in the time domain plot</text>
+      <translation>Annotate peaks in the time domain plot</translation>
+    </entry>
+    <entry key="Accept">
+      <text>Accept</text>
+      <translation>Accept</translation>
+    </entry>
+  </message>
+</bicat>

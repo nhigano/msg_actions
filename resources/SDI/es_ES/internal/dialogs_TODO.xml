@@ -1,0 +1,2259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="Runs">
+      <text>Runs</text>
+      <translation>Runs</translation>
+    </entry>
+    <entry key="Comparisons">
+      <text>Comparisons</text>
+      <translation>Comparisons</translation>
+    </entry>
+    <entry key="Line">
+      <text>Line style and color:</text>
+      <translation>Line style and color:</translation>
+    </entry>
+    <entry key="Axes">
+      <text>Subplots for signal display e.g 1,2,3:</text>
+      <translation>Subplots for signal display e.g 1,2,3:</translation>
+    </entry>
+    <entry key="UserDefinedStyleColor">
+      <text>Custom style and color</text>
+      <translation>Custom style and color</translation>
+    </entry>
+    <entry key="LineStyle">
+      <text>Style:</text>
+      <translation>Style:</translation>
+    </entry>
+    <entry key="LineColor">
+      <text>Color:</text>
+      <translation>Color:</translation>
+    </entry>
+    <entry key="NoDisplayAxes">
+      <text>None</text>
+      <translation>None</translation>
+    </entry>
+    <entry key="ExpandAll">
+      <text>Expand all</text>
+      <translation>Expand all</translation>
+    </entry>
+    <entry key="CollapseAll">
+      <text>Collapse all</text>
+      <translation>Collapse all</translation>
+    </entry>
+    <entry key="Rename">
+      <text>Rename</text>
+      <translation>Rename</translation>
+    </entry>
+    <entry key="Duplicate">
+      <text>Duplicate</text>
+      <translation>Duplicate</translation>
+    </entry>
+    <entry key="OK">
+      <text>OK</text>
+      <translation>OK</translation>
+    </entry>
+    <entry key="Set">
+      <text>Set</text>
+      <translation>Set</translation>
+    </entry>
+    <entry key="Cancel">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="Apply">
+      <text>Apply</text>
+      <translation>Apply</translation>
+    </entry>
+    <entry key="Help">
+      <text>Help</text>
+      <translation>Help</translation>
+    </entry>
+    <entry key="Close">
+      <text>Close</text>
+      <translation>Close</translation>
+    </entry>
+    <entry key="ComparisonOptionsTitle">
+      <text>Comparison Options</text>
+      <translation>Comparison Options</translation>
+    </entry>
+    <entry key="ComparisonOptionsTitleDesc">
+      <text>Change how signals are matched when runs are compared</text>
+      <translation>Change how signals are matched when runs are compared</translation>
+    </entry>
+    <entry key="AlignByLabel">
+      <text>Align By:</text>
+      <translation>Align By:</translation>
+    </entry>
+    <entry key="Path">
+      <text>Path</text>
+      <translation>Path</translation>
+    </entry>
+    <entry key="DataSource">
+      <text>Data Source</text>
+      <translation>Data Source</translation>
+    </entry>
+    <entry key="SignalName">
+      <text>Signal Name</text>
+      <translation>Signal Name</translation>
+    </entry>
+    <entry key="GroupSignalsTitle">
+      <text>Group Signals</text>
+      <translation>Group Signals</translation>
+    </entry>
+    <entry key="GroupSignalsTitleDesc">
+      <text>Change the signal grouping in the Runs pane</text>
+      <translation>Change the signal grouping in the Runs pane</translation>
+    </entry>
+    <entry key="GroupByLabel">
+      <text>Group signals within a run</text>
+      <translation>Group signals within a run</translation>
+    </entry>
+    <entry key="GroupByLabelFirstChild" note="First criteria to group signals by">
+      <text>By:</text>
+      <translation>By:</translation>
+    </entry>
+    <entry key="RunNameLabel">
+      <text>Run Name</text>
+      <translation>Run Name</translation>
+    </entry>
+    <entry key="ThenByLabel" note="Criteria to group signals by after the first criteria">
+      <text>Then By:</text>
+      <translation>Then By:</translation>
+    </entry>
+    <entry key="None">
+      <text>None</text>
+      <translation>None</translation>
+    </entry>
+    <entry key="ModelHierarchy">
+      <text>Model Hierarchy</text>
+      <translation>Model Hierarchy</translation>
+    </entry>
+    <entry key="DataHierarchy">
+      <text>Data Hierarchy</text>
+      <translation>Data Hierarchy</translation>
+    </entry>
+    <entry key="PhysicalSystemHierarchy">
+      <text>Physical System Hierarchy</text>
+      <translation>Physical System Hierarchy</translation>
+    </entry>
+    <entry key="DomainGrouping">
+      <text>Domain</text>
+      <translation>Domain</translation>
+    </entry>
+    <entry key="ComparisonDialogTitle">
+      <text>Run Comparison</text>
+      <translation>Run Comparison</translation>
+    </entry>
+    <entry key="SigSettingsTitle">
+      <text>Instrumentation Properties:</text>
+      <translation>Instrumentation Properties:</translation>
+    </entry>
+    <entry key="SigSettingsLogTab">
+      <text>Logging and Visualization</text>
+      <translation>Logging and Visualization</translation>
+    </entry>
+    <entry key="SigSettingsDataAccessTab">
+      <text>Data Access</text>
+      <translation>Data Access</translation>
+    </entry>
+    <entry key="SigSettingsTolerancesTab">
+      <text>Tolerances</text>
+      <translation>Tolerances</translation>
+    </entry>
+    <entry key="SigSettingsFrameLabel">
+      <text>Input processing:</text>
+      <translation>Input processing:</translation>
+    </entry>
+    <entry key="SigSettingsFrameTooltip">
+      <text>Mark signal sample or frame based</text>
+      <translation>Mark signal sample or frame based</translation>
+    </entry>
+    <entry key="SigSettingsSampleMode">
+      <text>Elements as channels (sample based)</text>
+      <translation>Elements as channels (sample based)</translation>
+    </entry>
+    <entry key="SigSettingsFrameMode">
+      <text>Columns as channels (frame based)</text>
+      <translation>Columns as channels (frame based)</translation>
+    </entry>
+    <entry key="SigSettingsVisualType">
+      <text>Visualization Type:</text>
+      <translation>Visualization Type:</translation>
+    </entry>
+    <entry key="SigSettingsVisualTypeTooltip">
+      <text>Default type of visualization to use for signal</text>
+      <translation>Default type of visualization to use for signal</translation>
+    </entry>
+    <entry key="SigSettingsVisModeAuto">
+      <text>Auto</text>
+      <translation>Auto</translation>
+    </entry>
+    <entry key="SigSettingsVisModeVideo">
+      <text>Video</text>
+      <translation>Video</translation>
+    </entry>
+    <entry key="SigSettingsComplexFormatLabel">
+      <text>Complex Format:</text>
+      <translation>Complex Format:</translation>
+    </entry>
+    <entry key="SigSettingsComplexFormatTooltip">
+      <text>Specify how to display complex signals</text>
+      <translation>Specify how to display complex signals</translation>
+    </entry>
+    <entry key="SigSettingsSubPlotsLabel">
+      <text>Subplots:</text>
+      <translation>Subplots:</translation>
+    </entry>
+    <entry key="SigSettingsSubPlotsPlaceholder">
+      <text>None</text>
+      <translation>None</translation>
+    </entry>
+    <entry key="SigSettingsSubPlotsTooltip">
+      <text>Subplots for signal display e.g 1,2,3</text>
+      <translation>Subplots for signal display e.g 1,2,3</translation>
+    </entry>
+    <entry key="SigSettingsSubPlotsError">
+      <text>Subplots must be an integer vector with values from 1 to 64</text>
+      <translation>Subplots must be an integer vector with values from 1 to 64</translation>
+    </entry>
+    <entry key="SigSettingsDecimationLabel">
+      <text>Decimate data</text>
+      <translation>Decimate data</translation>
+    </entry>
+    <entry key="SigSettingsDecimationTooltip">
+      <text>Log every Nth point</text>
+      <translation>Log every Nth point</translation>
+    </entry>
+    <entry key="SigSettingsMaxPointsLabel">
+      <text>Limit data points to last</text>
+      <translation>Limit data points to last</translation>
+    </entry>
+    <entry key="SigSettingsMaxPointsTooltip">
+      <text>Specify maximum number of points to log</text>
+      <translation>Specify maximum number of points to log</translation>
+    </entry>
+    <entry key="SigSettingsCustomNameLabel">
+      <text>Use custom name</text>
+      <translation>Use custom name</translation>
+    </entry>
+    <entry key="SigSettingsCustomNameTooltip">
+      <text>Specify a custom logging name</text>
+      <translation>Specify a custom logging name</translation>
+    </entry>
+    <entry key="SigSettingsSampleTimeLabel">
+      <text>Logging sample time:</text>
+      <translation>Logging sample time:</translation>
+    </entry>
+    <entry key="SigSettingsSampleTimeTooltip">
+      <text>Specify sample time to log signal</text>
+      <translation>Specify sample time to log signal</translation>
+    </entry>
+    <entry key="DataAccessGroupUsage">
+      <text>Run-Time Data Access</text>
+      <translation>Run-Time Data Access</translation>
+    </entry>
+    <entry key="DataAccessUsage">
+      <text>Provide a MATLAB function to process data during simulation</text>
+      <translation>Provide a MATLAB function to process data during simulation</translation>
+    </entry>
+    <entry key="DataAccessEnable">
+      <text>Enable Run-Time Data Access</text>
+      <translation>Enable Run-Time Data Access</translation>
+    </entry>
+    <entry key="DataAccessFcnLabel">
+      <text>Function name:</text>
+      <translation>Function name:</translation>
+    </entry>
+    <entry key="DataAccessFcnTooltip">
+      <text>Specify name of callback function</text>
+      <translation>Specify name of callback function</translation>
+    </entry>
+    <entry key="DataAccessParamsLabel">
+      <text>Function parameter:</text>
+      <translation>Function parameter:</translation>
+    </entry>
+    <entry key="DataAccessParamsTooltip">
+      <text>Specify an optional parameter to use when calling callback function</text>
+      <translation>Specify an optional parameter to use when calling callback function</translation>
+    </entry>
+    <entry key="DataAccessParamsHint">
+      <text>optional</text>
+      <translation>optional</translation>
+    </entry>
+    <entry key="DataAccessTimeChkBoxLabel">
+      <text>Include simulation time:</text>
+      <translation>Include simulation time:</translation>
+    </entry>
+    <entry key="DataAccessTimeChkBoxTooltip">
+      <text>Specify whether to provide simulation time to callback</text>
+      <translation>Specify whether to provide simulation time to callback</translation>
+    </entry>
+    <entry key="DataAccessEnableTooltip">
+      <text>Enable or disable data access feature</text>
+      <translation>Enable or disable data access feature</translation>
+    </entry>
+    <entry key="ToleranceGroupUsage">
+      <text>Simulation Data Inspector Tolerances</text>
+      <translation>Simulation Data Inspector Tolerances</translation>
+    </entry>
+    <entry key="ToleranceUsage">
+      <text>Set the relative and/or absolute tolerance for use in the Simulation Data Inspector.  Changes to tolerance values are applied upon simulation.&lt;br/&gt;&lt;br/&gt;Specify a fractional multiplier for the relative tolerance. For example, specify 0.2 for a relative tolerance of 20%.</text>
+      <translation>Set the relative and/or absolute tolerance for use in the Simulation Data Inspector.  Changes to tolerance values are applied upon simulation.&lt;br/&gt;&lt;br/&gt;Specify a fractional multiplier for the relative tolerance. For example, specify 0.2 for a relative tolerance of 20%.</translation>
+    </entry>
+    <entry key="ToleranceAbsLabel">
+      <text>Absolute tolerance:</text>
+      <translation>Absolute tolerance:</translation>
+    </entry>
+    <entry key="ToleranceAbsTooltip">
+      <text>Specify absolute tolerance</text>
+      <translation>Specify absolute tolerance</translation>
+    </entry>
+    <entry key="ToleranceRelLabel">
+      <text>Relative tolerance:</text>
+      <translation>Relative tolerance:</translation>
+    </entry>
+    <entry key="ToleranceRelTooltip">
+      <text>Specify relative tolerance as a fractional multiplier</text>
+      <translation>Specify relative tolerance as a fractional multiplier</translation>
+    </entry>
+    <entry key="SigSettingsTolError">
+      <text>Tolerances must be scalar, real, non-negative values</text>
+      <translation>Tolerances must be scalar, real, non-negative values</translation>
+    </entry>
+    <entry key="SLRTOptionsTitle">
+      <text>Simulink Real-Time Options</text>
+      <translation>Simulink Real-Time Options</translation>
+    </entry>
+    <entry key="SLRTLoggingModeTitle">
+      <text>Logging Mode</text>
+      <translation>Logging Mode</translation>
+    </entry>
+    <entry key="SLRTLoggingModeEntriesImmediate">
+      <text>Immediate\nView live data during real-time application execution</text>
+      <translation>Immediate\nView live data during real-time application execution</translation>
+    </entry>
+    <entry key="SLRTLoggingModeEntriesBuffered">
+      <text>Buffered\nStore data on target computer file system and view it at end of simulation</text>
+      <translation>Buffered\nStore data on target computer file system and view it at end of simulation</translation>
+    </entry>
+    <entry key="SLRTLoggingModeTooltip">
+      <text>Select logging mode based on target connectivity requirements</text>
+      <translation>Select logging mode based on target connectivity requirements</translation>
+    </entry>
+    <entry key="Title">
+      <text>Visualization Properties:</text>
+      <translation>Visualization Properties:</translation>
+    </entry>
+    <entry key="DlgHeading">
+      <text>Visualization Properties</text>
+      <translation>Visualization Properties</translation>
+    </entry>
+    <entry key="DlgUsage">
+      <text>Usage</text>
+      <translation>Usage</translation>
+    </entry>
+    <entry key="DlgDescription">
+      <text>Changes to visualization properties are applied to the next run at the start of simulation.</text>
+      <translation>Changes to visualization properties are applied to the next run at the start of simulation.</translation>
+    </entry>
+    <entry key="LineColorAndStyle">
+      <text>Line:</text>
+      <translation>Line:</translation>
+    </entry>
+    <entry key="AxesErrorMsg">
+      <text>Invalid axes specified</text>
+      <translation>Invalid axes specified</translation>
+    </entry>
+    <entry key="UnsetText">
+      <text>Use default line colors</text>
+      <translation>Use default line colors</translation>
+    </entry>
+    <entry key="OverrideStyleAndColor">
+      <text>Override style and color</text>
+      <translation>Override style and color</translation>
+    </entry>
+    <entry key="Standard">
+      <text>STANDARD</text>
+      <translation>STANDARD</translation>
+    </entry>
+    <entry key="Custom">
+      <text>CUSTOM</text>
+      <translation>CUSTOM</translation>
+    </entry>
+    <entry key="HEX">
+      <text>HEX</text>
+      <translation>HEX</translation>
+    </entry>
+    <entry key="Style">
+      <text>STYLE</text>
+      <translation>STYLE</translation>
+    </entry>
+    <entry key="LineWidth">
+      <text>Line width (px):</text>
+      <translation>Line width (px):</translation>
+    </entry>
+    <entry key="LineWidthRangeErrorMsg">
+      <text>Line width must be an integer between 1 and 20</text>
+      <translation>Line width must be an integer between 1 and 20</translation>
+    </entry>
+    <entry key="PlottedSignals">
+      <text>Plotted</text>
+      <translation>Plotted</translation>
+    </entry>
+    <entry key="MatchedTooltip">
+      <text>Match</text>
+      <translation>Match</translation>
+    </entry>
+    <entry key="UnmatchedTooltip">
+      <text>Mismatch</text>
+      <translation>Mismatch</translation>
+    </entry>
+    <entry key="NotComparedStatus">
+      <text>Not compared</text>
+      <translation>Not compared</translation>
+    </entry>
+    <entry key="UnalignedTooltip">
+      <text>Unaligned</text>
+      <translation>Unaligned</translation>
+    </entry>
+    <entry key="UnprocessedTooltip">
+      <text>Unprocessed comparison</text>
+      <translation>Unprocessed comparison</translation>
+    </entry>
+    <entry key="UnknownStatusTooltip">
+      <text>Unknown comparison status</text>
+      <translation>Unknown comparison status</translation>
+    </entry>
+    <entry key="ProcessingComparisonTooltip">
+      <text>Comparison in progress</text>
+      <translation>Comparison in progress</translation>
+    </entry>
+    <entry key="UnitsMismatchTooltip">
+      <text>Mismatched signal units</text>
+      <translation>Mismatched signal units</translation>
+    </entry>
+    <entry key="EmptyBaselineTooltip">
+      <text>Signal contains no data</text>
+      <translation>Signal contains no data</translation>
+    </entry>
+    <entry key="PlottedToken">
+      <text>plotted</text>
+      <translation>plotted</translation>
+    </entry>
+    <entry key="PassedToken">
+      <text>passed</text>
+      <translation>passed</translation>
+    </entry>
+    <entry key="FailedToken">
+      <text>failed</text>
+      <translation>failed</translation>
+    </entry>
+    <entry key="NotAlignedToken">
+      <text>notaligned</text>
+      <translation>notaligned</translation>
+    </entry>
+    <entry key="NoSavedFilters">
+      <text>No saved searches</text>
+      <translation>No saved searches</translation>
+    </entry>
+    <entry key="SavedFilters">
+      <text>Quick Search</text>
+      <translation>Quick Search</translation>
+    </entry>
+    <entry key="SaveSettings">
+      <text>Quick Search Settings</text>
+      <translation>Quick Search Settings</translation>
+    </entry>
+    <entry key="SaveCurrentFilter">
+      <text>Save Search As</text>
+      <translation>Save Search As</translation>
+    </entry>
+    <entry key="NoSearchErrorMessage">
+      <text>No search entries to save</text>
+      <translation>No search entries to save</translation>
+    </entry>
+    <entry key="DeleteFilter">
+      <text>Saved Searches</text>
+      <translation>Saved Searches</translation>
+    </entry>
+    <entry key="FilterByColumn">
+      <text>Search By Column</text>
+      <translation>Search By Column</translation>
+    </entry>
+    <entry key="FilterByColumnDescription">
+      <text>Select columns and enter search terms</text>
+      <translation>Select columns and enter search terms</translation>
+    </entry>
+    <entry key="ColumnFilterPlaceHolder">
+      <text>Enter term</text>
+      <translation>Enter term</translation>
+    </entry>
+    <entry key="AddColumn">
+      <text>Add Column</text>
+      <translation>Add Column</translation>
+    </entry>
+    <entry key="FilterSave">
+      <text>Save</text>
+      <translation>Save</translation>
+    </entry>
+    <entry key="AdvancedFilter">
+      <text>Advanced</text>
+      <translation>Advanced</translation>
+    </entry>
+    <entry key="SelectColumnFilter">
+      <text>Columns</text>
+      <translation>Columns</translation>
+    </entry>
+    <entry key="ColumnFilterTerms">
+      <text>Search Terms</text>
+      <translation>Search Terms</translation>
+    </entry>
+    <entry key="SaveDescription">
+      <text>Enter search label to save current search terms</text>
+      <translation>Enter search label to save current search terms</translation>
+    </entry>
+    <entry key="SetAsBaseline">
+      <text>Set as Baseline</text>
+      <translation>Set as Baseline</translation>
+    </entry>
+    <entry key="SetAsCompareTo">
+      <text>Set as Compare to</text>
+      <translation>Set as Compare to</translation>
+    </entry>
+    <entry key="EditTimeMetadata">
+      <text>Time Values...</text>
+      <translation>Time Values...</translation>
+    </entry>
+    <entry key="EditTimeDlgTitle">
+      <text>Time Values</text>
+      <translation>Time Values</translation>
+    </entry>
+    <entry key="EditTimeDesc">
+      <text>Edit sample rate, sample time, or time values vector of selected signals</text>
+      <translation>Edit sample rate, sample time, or time values vector of selected signals</translation>
+    </entry>
+    <entry key="TimeSpecification">
+      <text>Time Specification:</text>
+      <translation>Time Specification:</translation>
+    </entry>
+    <entry key="TimeSpecificationDesc">
+      <text>Select time specification type</text>
+      <translation>Select time specification type</translation>
+    </entry>
+    <entry key="WorkInSamples">
+      <text>Work in Samples</text>
+      <translation>Work in Samples</translation>
+    </entry>
+    <entry key="SampleRateAndStartTime">
+      <text>Sample Rate and Start Time</text>
+      <translation>Sample Rate and Start Time</translation>
+    </entry>
+    <entry key="SampleTimeAndStartTime">
+      <text>Sample Time and Start Time</text>
+      <translation>Sample Time and Start Time</translation>
+    </entry>
+    <entry key="TimeVectorOption">
+      <text>Time Values</text>
+      <translation>Time Values</translation>
+    </entry>
+    <entry key="SampleRate">
+      <text>Sample Rate:</text>
+      <translation>Sample Rate:</translation>
+    </entry>
+    <entry key="SampleRateDesc">
+      <text>Specify sample rate.</text>
+      <translation>Specify sample rate.</translation>
+    </entry>
+    <entry key="SampleTime">
+      <text>Sample Time:</text>
+      <translation>Sample Time:</translation>
+    </entry>
+    <entry key="SampleTimeDesc">
+      <text>Specify sample time.</text>
+      <translation>Specify sample time.</translation>
+    </entry>
+    <entry key="StartTime">
+      <text>Start Time:</text>
+      <translation>Start Time:</translation>
+    </entry>
+    <entry key="StartTimeDesc">
+      <text>Specify start time.</text>
+      <translation>Specify start time.</translation>
+    </entry>
+    <entry key="TimeVector">
+      <text>Time Values:</text>
+      <translation>Time Values:</translation>
+    </entry>
+    <entry key="TimeVectorDesc">
+      <text>Specify time values vector in seconds.</text>
+      <translation>Specify time values vector in seconds.</translation>
+    </entry>
+    <entry key="Years">
+      <text>years</text>
+      <translation>years</translation>
+    </entry>
+    <entry key="Days">
+      <text>days</text>
+      <translation>days</translation>
+    </entry>
+    <entry key="Hours">
+      <text>hours</text>
+      <translation>hours</translation>
+    </entry>
+    <entry key="Minutes">
+      <text>minutes</text>
+      <translation>minutes</translation>
+    </entry>
+    <entry key="TimeSpecEmpty">
+      <text>Time specification is empty</text>
+      <translation>Time specification is empty</translation>
+    </entry>
+    <entry key="FsEmpty">
+      <text>Specify a sample rate value</text>
+      <translation>Specify a sample rate value</translation>
+    </entry>
+    <entry key="FsUnitsEmpty">
+      <text>Specify sample rate units</text>
+      <translation>Specify sample rate units</translation>
+    </entry>
+    <entry key="TsEmpty">
+      <text>Specify a sample time value</text>
+      <translation>Specify a sample time value</translation>
+    </entry>
+    <entry key="TsUnitsEmpty">
+      <text>Specify sample time units</text>
+      <translation>Specify sample time units</translation>
+    </entry>
+    <entry key="StartTimeEmpty">
+      <text>Specify a start time value</text>
+      <translation>Specify a start time value</translation>
+    </entry>
+    <entry key="StartTimeUnitsEmpty">
+      <text>Specify start time units</text>
+      <translation>Specify start time units</translation>
+    </entry>
+    <entry key="TimeVectorEmpty">
+      <text>Specify a time values vector</text>
+      <translation>Specify a time values vector</translation>
+    </entry>
+    <entry key="TimeVectorLength">
+      <text>Time values vector length must be equal to the length of all selected signals.</text>
+      <translation>Time values vector length must be equal to the length of all selected signals.</translation>
+    </entry>
+    <entry key="TimeVectorUnique">
+      <text>Time values vector must have unique elements.</text>
+      <translation>Time values vector must have unique elements.</translation>
+    </entry>
+    <entry key="TimeVectorSorted">
+      <text>Time values vector must have increasing elements.</text>
+      <translation>Time values vector must have increasing elements.</translation>
+    </entry>
+    <entry key="NotNumericOrDuration">
+      <text>Time values vector must be numeric or duration.</text>
+      <translation>Time values vector must be numeric or duration.</translation>
+    </entry>
+    <entry key="IncompatibleSignal">
+      <text>Unable to combine signals with and without time information in the same display.</text>
+      <translation>Unable to combine signals with and without time information in the same display.</translation>
+    </entry>
+    <entry key="IncompatibleSignals">
+      <text>Unable to combine signals with and without time information in the same display and signals must be uniformly sampled to compute scalogram. Some signals will be cleared from plots.</text>
+      <translation>Unable to combine signals with and without time information in the same display and signals must be uniformly sampled to compute scalogram. Some signals will be cleared from plots.</translation>
+    </entry>
+    <entry key="IncompatibleSignalsMsg">
+      <text>Unable to combine signals with and without time information in the same display and signals must be uniformly sampled to compute scalogram. Some signals will be cleared from plots. Do you want to continue?</text>
+      <translation>Unable to combine signals with and without time information in the same display and signals must be uniformly sampled to compute scalogram. Some signals will be cleared from plots. Do you want to continue?</translation>
+    </entry>
+    <entry key="IncompatibleSignalsWithScalogramMsg">
+      <text>Signals must be uniformly sampled to compute scalogram. Some signals will be cleared from plots. Do you want to continue?</text>
+      <translation>Signals must be uniformly sampled to compute scalogram. Some signals will be cleared from plots. Do you want to continue?</translation>
+    </entry>
+    <entry key="IncompatibleSignalsWithTImeAndSampleMsg">
+      <text>Unable to combine signals with and without time information in the same display. Some signals will be cleared from plots. Do you want to continue?</text>
+      <translation>Unable to combine signals with and without time information in the same display. Some signals will be cleared from plots. Do you want to continue?</translation>
+    </entry>
+    <entry key="CannotEditTime">
+      <text>You can only edit time information of signals imported through the Signal Analyzer app.</text>
+      <translation>You can only edit time information of signals imported through the Signal Analyzer app.</translation>
+    </entry>
+    <entry key="ColumnSelectorTitle">
+      <text>Check columns to display:</text>
+      <translation>Check columns to display:</translation>
+    </entry>
+    <entry key="ColumnSortTitle">
+      <text>Configure multi-column sort:</text>
+      <translation>Configure multi-column sort:</translation>
+    </entry>
+    <entry key="ColumnGroupTitle">
+      <text>Configure grouping:</text>
+      <translation>Configure grouping:</translation>
+    </entry>
+    <entry key="Sort">
+      <text>Sort</text>
+      <translation>Sort</translation>
+    </entry>
+    <entry key="Group">
+      <text>Group</text>
+      <translation>Group</translation>
+    </entry>
+    <entry key="Selection">
+      <text>Selection</text>
+      <translation>Selection</translation>
+    </entry>
+    <entry key="SortAscend">
+      <text>Ascend</text>
+      <translation>Ascend</translation>
+    </entry>
+    <entry key="SortDescend">
+      <text>Descend</text>
+      <translation>Descend</translation>
+    </entry>
+    <entry key="GroupByTitleCase">
+      <text>Group by</text>
+      <translation>Group by</translation>
+    </entry>
+    <entry key="ThenByTitleCase">
+      <text>Then by</text>
+      <translation>Then by</translation>
+    </entry>
+    <entry key="ClickToSort">
+      <text>Click to Sort</text>
+      <translation>Click to Sort</translation>
+    </entry>
+    <entry key="AddGrouping">
+      <text>Add Grouping</text>
+      <translation>Add Grouping</translation>
+    </entry>
+    <entry key="CheckMode">
+      <text>Check Mode</text>
+      <translation>Check Mode</translation>
+    </entry>
+    <entry key="BrowseMode">
+      <text>Browse Mode</text>
+      <translation>Browse Mode</translation>
+    </entry>
+    <entry key="CheckModeDesc">
+      <text>Use check boxes to plot signals. Use this mode to build custom views.</text>
+      <translation>Use check boxes to plot signals. Use this mode to build custom views.</translation>
+    </entry>
+    <entry key="BrowseModeDesc">
+      <text>Use row selection to plot signals. Use this mode for simple browsing of data.</text>
+      <translation>Use row selection to plot signals. Use this mode for simple browsing of data.</translation>
+    </entry>
+    <entry key="BrowseModeDisalbledMsg">
+      <text>To use browse mode, only include time plots in your view.</text>
+      <translation>To use browse mode, only include time plots in your view.</translation>
+    </entry>
+    <entry key="AutoscaleOn">
+      <text>Automatically scale axes limits when plotting new signals</text>
+      <translation>Automatically scale axes limits when plotting new signals</translation>
+    </entry>
+    <entry key="AutoscaleOff">
+      <text>Do not scale axes limits when plotting new signals</text>
+      <translation>Do not scale axes limits when plotting new signals</translation>
+    </entry>
+    <entry key="ArchiveDescription">
+      <text>The archive is a place to store prior simulation runs.</text>
+      <translation>The archive is a place to store prior simulation runs.</translation>
+    </entry>
+    <entry key="ArchiveAuto">
+      <text>Automatically archive</text>
+      <translation>Automatically archive</translation>
+    </entry>
+    <entry key="ArchiveAutoDescr">
+      <text>When a model simulates, the prior run automatically moves to the archive and the view is updated.</text>
+      <translation>When a model simulates, the prior run automatically moves to the archive and the view is updated.</translation>
+    </entry>
+    <entry key="ArchiveRadioHeader">
+      <text>Size:</text>
+      <translation>Size:</translation>
+    </entry>
+    <entry key="ArchiveRadioDesc">
+      <text>To limit the amount of data stored, select Automatically archive and specify the maximum number of runs for the archive to retain.</text>
+      <translation>To limit the amount of data stored, select Automatically archive and specify the maximum number of runs for the archive to retain.</translation>
+    </entry>
+    <entry key="ArchiveNoLimit">
+      <text>No limit</text>
+      <translation>No limit</translation>
+    </entry>
+    <entry key="ArchiveLastPrefix" note="Last as in the last n number of runs for the archive to retain">
+      <text>Last</text>
+      <translation>Last</translation>
+    </entry>
+    <entry key="ArchiveLastSuffix" note="Runs as in the maximum number of runs for the archive to retain">
+      <text>runs</text>
+      <translation>runs</translation>
+    </entry>
+    <entry key="ArchiveHelp">
+      <text>Archive Help</text>
+      <translation>Archive Help</translation>
+    </entry>
+    <entry key="ArchiveClear">
+      <text>Delete all runs from the archive?</text>
+      <translation>Delete all runs from the archive?</translation>
+    </entry>
+    <entry key="ArchiveClearTitle">
+      <text>Archive Delete</text>
+      <translation>Archive Delete</translation>
+    </entry>
+    <entry key="ArchiveRun">
+      <text>Archive Run</text>
+      <translation>Archive Run</translation>
+    </entry>
+    <entry key="UnarchiveRun">
+      <text>Unarchive Run</text>
+      <translation>Unarchive Run</translation>
+    </entry>
+    <entry key="ArchiveWarnTitle">
+      <text>Archive Resize</text>
+      <translation>Archive Resize</translation>
+    </entry>
+    <entry key="ArchiveWarnDescription1">
+      <text>Reducing a run from the archive.  Continue?</text>
+      <translation>Reducing a run from the archive.  Continue?</translation>
+    </entry>
+    <entry key="ArchiveWarnDescription2">
+      <text>Reducing 99 runs from the archive.  Continue?</text>
+      <translation>Reducing 99 runs from the archive.  Continue?</translation>
+    </entry>
+    <entry key="Baseline">
+      <text>Baseline:</text>
+      <translation>Baseline:</translation>
+    </entry>
+    <entry key="CompareTo">
+      <text>Compare to:</text>
+      <translation>Compare to:</translation>
+    </entry>
+    <entry key="AbsoluteTolerance">
+      <text>Global Abs Tolerance:</text>
+      <translation>Global Abs Tolerance:</translation>
+    </entry>
+    <entry key="RelativeTolerance">
+      <text>Global Rel Tolerance:</text>
+      <translation>Global Rel Tolerance:</translation>
+    </entry>
+    <entry key="TimeTolerance">
+      <text>Global Time Tolerance:</text>
+      <translation>Global Time Tolerance:</translation>
+    </entry>
+    <entry key="Advanced">
+      <text>Advanced</text>
+      <translation>Advanced</translation>
+    </entry>
+    <entry key="Compare">
+      <text>Compare</text>
+      <translation>Compare</translation>
+    </entry>
+    <entry key="GlobalToleranceTitle">
+      <text>Global Tolerances</text>
+      <translation>Global Tolerances</translation>
+    </entry>
+    <entry key="ConstraintsTitle">
+      <text>Constraints</text>
+      <translation>Constraints</translation>
+    </entry>
+    <entry key="AbsoluteToleranceV3">
+      <text>Absolute:</text>
+      <translation>Absolute:</translation>
+    </entry>
+    <entry key="RelativeToleranceV3">
+      <text>Relative:</text>
+      <translation>Relative:</translation>
+    </entry>
+    <entry key="TimeToleranceV3">
+      <text>Time:</text>
+      <translation>Time:</translation>
+    </entry>
+    <entry key="ExpandChannelsLabel">
+      <text>Expand multidimensional channels</text>
+      <translation>Expand multidimensional channels</translation>
+    </entry>
+    <entry key="DataMismatchLabel">
+      <text>Signal data types must match</text>
+      <translation>Signal data types must match</translation>
+    </entry>
+    <entry key="StartStopMismatchLabel">
+      <text>Signal start and stop times must match</text>
+      <translation>Signal start and stop times must match</translation>
+    </entry>
+    <entry key="TimeMismatchLabel">
+      <text>Signal time vectors must match</text>
+      <translation>Signal time vectors must match</translation>
+    </entry>
+    <entry key="StopOnFirstMismatchLabel">
+      <text>Stop comparison on first mismatch of:</text>
+      <translation>Stop comparison on first mismatch of:</translation>
+    </entry>
+    <entry key="StopOnFirstMismatchMetadata">
+      <text>Metadata</text>
+      <translation>Metadata</translation>
+    </entry>
+    <entry key="StopOnFirstMismatchAny">
+      <text>Metadata or signal data</text>
+      <translation>Metadata or signal data</translation>
+    </entry>
+    <entry key="MoreLink">
+      <text>More</text>
+      <translation>More</translation>
+    </entry>
+    <entry key="LessLink">
+      <text>Less</text>
+      <translation>Less</translation>
+    </entry>
+    <entry key="PlotAreaSettingsImgTitle">
+      <text>Visualization settings</text>
+      <translation>Visualization settings</translation>
+    </entry>
+    <entry key="TimePlotsLabel">
+      <text>Time Plot</text>
+      <translation>Time Plot</translation>
+    </entry>
+    <entry key="ApplicableToAllTimePlots">
+      <text>Applicable to all Time Plots</text>
+      <translation>Applicable to all Time Plots</translation>
+    </entry>
+    <entry key="AllTimePlotsLabel">
+      <text>All Time Plots</text>
+      <translation>All Time Plots</translation>
+    </entry>
+    <entry key="SelectedTimePlotLabel">
+      <text>Selected Time Plot</text>
+      <translation>Selected Time Plot</translation>
+    </entry>
+    <entry key="StyleIconLabel">
+      <text>Style</text>
+      <translation>Style</translation>
+    </entry>
+    <entry key="AxesIconLabel">
+      <text>Axes</text>
+      <translation>Axes</translation>
+    </entry>
+    <entry key="LimitsIconLabel">
+      <text>Limits</text>
+      <translation>Limits</translation>
+    </entry>
+    <entry key="LegendLabel">
+      <text>Legend</text>
+      <translation>Legend</translation>
+    </entry>
+    <entry key="MoreIconLabel">
+      <text>More</text>
+      <translation>More</translation>
+    </entry>
+    <entry key="BackgroundColorLabel" note="Label for choosing the background color in Simulation Data Inspector">
+      <text>Background</text>
+      <translation>Background</translation>
+    </entry>
+    <entry key="PlotAreaColorLabel">
+      <text>Plot color</text>
+      <translation>Plot color</translation>
+    </entry>
+    <entry key="AxesColorLabel">
+      <text>Font color</text>
+      <translation>Font color</translation>
+    </entry>
+    <entry key="GridColorLabel">
+      <text>Grid color</text>
+      <translation>Grid color</translation>
+    </entry>
+    <entry key="AxisLabel">
+      <text>Axis</text>
+      <translation>Axis</translation>
+    </entry>
+    <entry key="TLabel">
+      <text>t</text>
+      <translation>t</translation>
+    </entry>
+    <entry key="YLabel">
+      <text>y</text>
+      <translation>y</translation>
+    </entry>
+    <entry key="MinLabel" note="Label for Minimum axes limits textbox">
+      <text>min</text>
+      <translation>min</translation>
+    </entry>
+    <entry key="MaxLabel" note="Label for Maximum axes limits textbox">
+      <text>max</text>
+      <translation>max</translation>
+    </entry>
+    <entry key="Timespan">
+      <text>Time span</text>
+      <translation>Time span</translation>
+    </entry>
+    <entry key="NormalizeLabel">
+      <text>Normalize</text>
+      <translation>Normalize</translation>
+    </entry>
+    <entry key="AxisLimitsLabel">
+      <text>axis limits</text>
+      <translation>axis limits</translation>
+    </entry>
+    <entry key="RestoreDefaultsLabel">
+      <text>Restore Defaults</text>
+      <translation>Restore Defaults</translation>
+    </entry>
+    <entry key="StylePanelTitle">
+      <text>Plot colors:</text>
+      <translation>Plot colors:</translation>
+    </entry>
+    <entry key="LinkSubplotLabel">
+      <text>Link plot</text>
+      <translation>Link plot</translation>
+    </entry>
+    <entry key="ShowMarkersLabel">
+      <text>Markers</text>
+      <translation>Markers</translation>
+    </entry>
+    <entry key="TicksLabel">
+      <text>Ticks</text>
+      <translation>Ticks</translation>
+    </entry>
+    <entry key="TicksOptionInside">
+      <text>Inside</text>
+      <translation>Inside</translation>
+    </entry>
+    <entry key="TicksOptionOutside">
+      <text>Outside</text>
+      <translation>Outside</translation>
+    </entry>
+    <entry key="TickLabelsText">
+      <text>Tick labels</text>
+      <translation>Tick labels</translation>
+    </entry>
+    <entry key="TickLabelsAll">
+      <text>All</text>
+      <translation>All</translation>
+    </entry>
+    <entry key="ShowGridLabel">
+      <text>Grid</text>
+      <translation>Grid</translation>
+    </entry>
+    <entry key="ShowAxesBorderLabel">
+      <text>Border</text>
+      <translation>Border</translation>
+    </entry>
+    <entry key="InvalidAxesLimitErrMsg">
+      <text>Axes limit is invalid</text>
+      <translation>Axes limit is invalid</translation>
+    </entry>
+    <entry key="InvalidTimespanErrMsg">
+      <text>Time span must be greater than zero or "auto"</text>
+      <translation>Time span must be greater than zero or "auto"</translation>
+    </entry>
+    <entry key="AxesMinGreaterThanMaxErrMsg">
+      <text>Minimum must be less than maximum</text>
+      <translation>Minimum must be less than maximum</translation>
+    </entry>
+    <entry key="AxesMaxLessThanMinErrMsg">
+      <text>Maximum must be greater than minimum</text>
+      <translation>Maximum must be greater than minimum</translation>
+    </entry>
+    <entry key="OutsideTopLabel">
+      <text>Outside top</text>
+      <translation>Outside top</translation>
+    </entry>
+    <entry key="OutsideRightLabel">
+      <text>Outside right</text>
+      <translation>Outside right</translation>
+    </entry>
+    <entry key="InsideTopLabel">
+      <text>Inside top</text>
+      <translation>Inside top</translation>
+    </entry>
+    <entry key="InsideRightLabel">
+      <text>Inside right</text>
+      <translation>Inside right</translation>
+    </entry>
+    <entry key="UpdateModeLabel">
+      <text>Update mode</text>
+      <translation>Update mode</translation>
+    </entry>
+    <entry key="ScrollLabel">
+      <text>Scroll</text>
+      <translation>Scroll</translation>
+    </entry>
+    <entry key="WrapLabel">
+      <text>Wrap</text>
+      <translation>Wrap</translation>
+    </entry>
+    <entry key="NoSettingsLabel">
+      <text>No visualization settings for configured view</text>
+      <translation>No visualization settings for configured view</translation>
+    </entry>
+    <entry key="ApplicableToAllMaps">
+      <text>Applicable to all Maps</text>
+      <translation>Applicable to all Maps</translation>
+    </entry>
+    <entry key="LayersLabel">
+      <text>Layers</text>
+      <translation>Layers</translation>
+    </entry>
+    <entry key="StreetLabel">
+      <text>Street</text>
+      <translation>Street</translation>
+    </entry>
+    <entry key="SatelliteLabel">
+      <text>Satellite</text>
+      <translation>Satellite</translation>
+    </entry>
+    <entry key="Remove">
+      <text>Remove</text>
+      <translation>Remove</translation>
+    </entry>
+    <entry key="Swap">
+      <text>Swap</text>
+      <translation>Swap</translation>
+    </entry>
+    <entry key="XYOverlayHeader">
+      <text>XY Data</text>
+      <translation>XY Data</translation>
+    </entry>
+    <entry key="XYOverlayDescription">
+      <text>Select or drag signals from signal table onto subplot. Assign signals to x-Axis and y-Axis. Click OK to create pairings.</text>
+      <translation>Select or drag signals from signal table onto subplot. Assign signals to x-Axis and y-Axis. Click OK to create pairings.</translation>
+    </entry>
+    <entry key="ApplicableToAllXYs">
+      <text>Applicable to all XYs</text>
+      <translation>Applicable to all XYs</translation>
+    </entry>
+    <entry key="PlotTypesLabel">
+      <text>Style</text>
+      <translation>Style</translation>
+    </entry>
+    <entry key="ShowLineLabel" note="Line as one of the plot types">
+      <text>Line</text>
+      <translation>Line</translation>
+    </entry>
+    <entry key="LineColorLabel">
+      <text>Color</text>
+      <translation>Color</translation>
+    </entry>
+    <entry key="XAxisSignal">
+      <text>x-Axis</text>
+      <translation>x-Axis</translation>
+    </entry>
+    <entry key="YAxisSignal">
+      <text>y-Axis</text>
+      <translation>y-Axis</translation>
+    </entry>
+    <entry key="Series">
+      <text>Series</text>
+      <translation>Series</translation>
+    </entry>
+    <entry key="Point">
+      <text>Point</text>
+      <translation>Point</translation>
+    </entry>
+    <entry key="AutoscaleLabel">
+      <text>Autoscale</text>
+      <translation>Autoscale</translation>
+    </entry>
+    <entry key="XYAxisSignal">
+      <text>&lt;i&gt;x&lt;/i&gt;-Axis and &lt;i&gt;y&lt;/i&gt;-Axis</text>
+      <translation>&lt;i&gt;x&lt;/i&gt;-Axis and &lt;i&gt;y&lt;/i&gt;-Axis</translation>
+    </entry>
+    <entry key="TrendLineWarningMsg">
+      <text>Unable to add &lt;b&gt;_argument1_&lt;/b&gt; trend line. &lt;b&gt;_argument2_&lt;/b&gt; data must not contain zero or negative values.</text>
+      <translation>Unable to add &lt;b&gt;_argument1_&lt;/b&gt; trend line. &lt;b&gt;_argument2_&lt;/b&gt; data must not contain zero or negative values.</translation>
+    </entry>
+    <entry key="ConstantXAxisMsg">
+      <text>Unable to add &lt;b&gt;_argument1_&lt;/b&gt; trend line when &lt;i&gt;x&lt;/i&gt;-Axis signal is a constant.</text>
+      <translation>Unable to add &lt;b&gt;_argument1_&lt;/b&gt; trend line when &lt;i&gt;x&lt;/i&gt;-Axis signal is a constant.</translation>
+    </entry>
+    <entry key="BadlyConditionedPolynomialWarningMsg">
+      <text>Polynomial trend line is badly conditioned. Ensure each x value has a distinct y value and then try reducing the degree of the polynomial.</text>
+      <translation>Polynomial trend line is badly conditioned. Ensure each x value has a distinct y value and then try reducing the degree of the polynomial.</translation>
+    </entry>
+    <entry key="CustomColor">
+      <text>Custom</text>
+      <translation>Custom</translation>
+    </entry>
+    <entry key="MarkersFillColorLabel">
+      <text>Fill</text>
+      <translation>Fill</translation>
+    </entry>
+    <entry key="MarkersBorderColorLabel">
+      <text>Border</text>
+      <translation>Border</translation>
+    </entry>
+    <entry key="MarkersSizeLabel">
+      <text>Size (px)</text>
+      <translation>Size (px)</translation>
+    </entry>
+    <entry key="ShowTrendlineLabel">
+      <text>Trend Line</text>
+      <translation>Trend Line</translation>
+    </entry>
+    <entry key="TrendlineTitle">
+      <text>Trend line</text>
+      <translation>Trend line</translation>
+    </entry>
+    <entry key="TrendlineType" note="Type as a trend or regression type">
+      <text>Type</text>
+      <translation>Type</translation>
+    </entry>
+    <entry key="TrendlineLinearLabel">
+      <text>Linear</text>
+      <translation>Linear</translation>
+    </entry>
+    <entry key="TrendlineLogarithmicLabel">
+      <text>Logarithmic</text>
+      <translation>Logarithmic</translation>
+    </entry>
+    <entry key="TrendlinePolynomialLabel">
+      <text>Polynomial</text>
+      <translation>Polynomial</translation>
+    </entry>
+    <entry key="TrendlineExponentialLabel">
+      <text>Exponential</text>
+      <translation>Exponential</translation>
+    </entry>
+    <entry key="TrendlinePowerLabel" note="Power as one of the trend or regression types">
+      <text>Power</text>
+      <translation>Power</translation>
+    </entry>
+    <entry key="TrendlineColorLabel">
+      <text>Color</text>
+      <translation>Color</translation>
+    </entry>
+    <entry key="TrendlineThicknessLabel">
+      <text>Thickness (px)</text>
+      <translation>Thickness (px)</translation>
+    </entry>
+    <entry key="HorizontalLabel">
+      <text>Horizontal</text>
+      <translation>Horizontal</translation>
+    </entry>
+    <entry key="VerticalLabel">
+      <text>Vertical</text>
+      <translation>Vertical</translation>
+    </entry>
+    <entry key="OnLabel" note="Indicates if both the gridlines are turned on">
+      <text>On</text>
+      <translation>On</translation>
+    </entry>
+    <entry key="OffLabel" note="Indicates if both the gridlines are turned off">
+      <text>Off</text>
+      <translation>Off</translation>
+    </entry>
+    <entry key="MarkerSizeOutOfRangeErrMsg">
+      <text>Must be between 1 and 4</text>
+      <translation>Must be between 1 and 4</translation>
+    </entry>
+    <entry key="TrendLineThicknessOutOfRangeErrMsg">
+      <text>Must be between 1 and 4</text>
+      <translation>Must be between 1 and 4</translation>
+    </entry>
+    <entry key="PolynomialOrderOutOfRangeErrMsg">
+      <text>Must be between 2 and 6</text>
+      <translation>Must be between 2 and 6</translation>
+    </entry>
+    <entry key="SparkSettingsContextMenu">
+      <text>Sparkline settings</text>
+      <translation>Sparkline settings</translation>
+    </entry>
+    <entry key="SparklinesDefaultText">
+      <text>Select signals to display</text>
+      <translation>Select signals to display</translation>
+    </entry>
+    <entry key="AxesHeight">
+      <text>Min height (px)</text>
+      <translation>Min height (px)</translation>
+    </entry>
+    <entry key="AxesHeightRangeErrorMsg">
+      <text>Min height must be an integer between 50 and 1000</text>
+      <translation>Min height must be an integer between 50 and 1000</translation>
+    </entry>
+    <entry key="SparklinesEmptySignalLabel">
+      <text>(empty)</text>
+      <translation>(empty)</translation>
+    </entry>
+    <entry key="TimeLabels">
+      <text>Time labels:</text>
+      <translation>Time labels:</translation>
+    </entry>
+    <entry key="LastSparkline">
+      <text>Last sparkline</text>
+      <translation>Last sparkline</translation>
+    </entry>
+    <entry key="AllSparklines">
+      <text>All sparklines</text>
+      <translation>All sparklines</translation>
+    </entry>
+    <entry key="SparklinesVisualizationTag">
+      <text>Sparklines</text>
+      <translation>Sparklines</translation>
+    </entry>
+    <entry key="Preferences">
+      <text>Preferences</text>
+      <translation>Preferences</translation>
+    </entry>
+    <entry key="PreferencesStorage">
+      <text>Storage</text>
+      <translation>Storage</translation>
+    </entry>
+    <entry key="PreferencesDiskManagement">
+      <text>Storage - Disk Management</text>
+      <translation>Storage - Disk Management</translation>
+    </entry>
+    <entry key="PreferencesDeletePriorRun">
+      <text>Delete prior runs then stop recording</text>
+      <translation>Delete prior runs then stop recording</translation>
+    </entry>
+    <entry key="PreferencesKeepPriorRun">
+      <text>Keep prior runs and stop recording</text>
+      <translation>Keep prior runs and stop recording</translation>
+    </entry>
+    <entry key="PreferencesMemory">
+      <text>Memory</text>
+      <translation>Memory</translation>
+    </entry>
+    <entry key="PreferencesDisk">
+      <text>Disk</text>
+      <translation>Disk</translation>
+    </entry>
+    <entry key="PreferencesRecordModeLabel">
+      <text>Record Mode:</text>
+      <translation>Record Mode:</translation>
+    </entry>
+    <entry key="PreferencesRecordAllTimeLabel">
+      <text>View and record data</text>
+      <translation>View and record data</translation>
+    </entry>
+    <entry key="PreferencesRecordInSimulationLabel">
+      <text>View during simulation only</text>
+      <translation>View during simulation only</translation>
+    </entry>
+    <entry key="PreferencesRequriedFreeSpaceLabel">
+      <text>Required Free Space: </text>
+      <translation>Required Free Space: </translation>
+    </entry>
+    <entry key="PreferencesRequriedFreeSpaceUnit">
+      <text>GB</text>
+      <translation>GB</translation>
+    </entry>
+    <entry key="PreferencesMaxDiskLabel">
+      <text>Max Disk Usage: </text>
+      <translation>Max Disk Usage: </translation>
+    </entry>
+    <entry key="PreferencesMaxDiskUsageUnit">
+      <text>GB</text>
+      <translation>GB</translation>
+    </entry>
+    <entry key="PreferencesLowDiskSpaceLabel">
+      <text>When low on disk space:</text>
+      <translation>When low on disk space:</translation>
+    </entry>
+    <entry key="PreferencesStorageModeLabel">
+      <text>Storage Mode:</text>
+      <translation>Storage Mode:</translation>
+    </entry>
+    <entry key="PreferencesUseTempDirLabel">
+      <text>Use TEMPDIR</text>
+      <translation>Use TEMPDIR</translation>
+    </entry>
+    <entry key="PreferencesStorageLocationLabel">
+      <text>Storage Location: </text>
+      <translation>Storage Location: </translation>
+    </entry>
+    <entry key="PreferencesCustomLocationPrefix">
+      <text>Custom Location: </text>
+      <translation>Custom Location: </translation>
+    </entry>
+    <entry key="PreferencesRecordAllTimeLabelHelp">
+      <text>All logged data available during and after simulation</text>
+      <translation>All logged data available during and after simulation</translation>
+    </entry>
+    <entry key="PreferencesRecordInSimulationLabelHelp">
+      <text>Data only available during simulation. No data available after simulation. See &lt;span id="recordInSimulationlabelDetailHelp" class="recordInSimulationLabelHelp"&gt;more details&lt;/span&gt;</text>
+      <translation>Data only available during simulation. No data available after simulation. See &lt;span id="recordInSimulationlabelDetailHelp" class="recordInSimulationLabelHelp"&gt;more details&lt;/span&gt;</translation>
+    </entry>
+    <entry key="PreferencesStorageNumberInputError">
+      <text>Value must be a positive number</text>
+      <translation>Value must be a positive number</translation>
+    </entry>
+    <entry key="PreferencesArchive">
+      <text>Storage - Archive</text>
+      <translation>Storage - Archive</translation>
+    </entry>
+    <entry key="PreferencesArchiveLimitError">
+      <text>Value must be a number between 0 and 999</text>
+      <translation>Value must be a number between 0 and 999</translation>
+    </entry>
+    <entry key="PreferencesInspect">
+      <text>Inspect</text>
+      <translation>Inspect</translation>
+    </entry>
+    <entry key="PreferencesInspectColumns">
+      <text>Inspect - Columns</text>
+      <translation>Inspect - Columns</translation>
+    </entry>
+    <entry key="PreferencesInspectSelection">
+      <text>Inspect - Selection</text>
+      <translation>Inspect - Selection</translation>
+    </entry>
+    <entry key="PreferencesCompare">
+      <text>Compare</text>
+      <translation>Compare</translation>
+    </entry>
+    <entry key="PreferencesCompareColumns">
+      <text>Compare - Columns</text>
+      <translation>Compare - Columns</translation>
+    </entry>
+    <entry key="PreferencesCompareAlignment">
+      <text>Compare - Alignment</text>
+      <translation>Compare - Alignment</translation>
+    </entry>
+    <entry key="PreferencesCompareColors">
+      <text>Compare - Colors</text>
+      <translation>Compare - Colors</translation>
+    </entry>
+    <entry key="RestoreDefalutsConfirmationTitle">
+      <text>Restore Default Preferences</text>
+      <translation>Restore Default Preferences</translation>
+    </entry>
+    <entry key="RestoreDefalutsConfirmationContent">
+      <text>Are you sure you want to restore all preferences to default values? This action cannot be undone.</text>
+      <translation>Are you sure you want to restore all preferences to default values? This action cannot be undone.</translation>
+    </entry>
+    <entry key="NewRunConfigPanelTitle">
+      <text>New Run:</text>
+      <translation>New Run:</translation>
+    </entry>
+    <entry key="NewRunIconLabel">
+      <text>New Run</text>
+      <translation>New Run</translation>
+    </entry>
+    <entry key="LayoutIconLabel">
+      <text>Layout</text>
+      <translation>Layout</translation>
+    </entry>
+    <entry key="SaveIconLabel">
+      <text>Save</text>
+      <translation>Save</translation>
+    </entry>
+    <entry key="LayoutConfigPanelTitle">
+      <text>Show or hide navigation and properties panes:</text>
+      <translation>Show or hide navigation and properties panes:</translation>
+    </entry>
+    <entry key="ShowNavigationPaneLabel">
+      <text>Show navigation pane</text>
+      <translation>Show navigation pane</translation>
+    </entry>
+    <entry key="ShowPropertiesPaneLabel">
+      <text>Show properties pane</text>
+      <translation>Show properties pane</translation>
+    </entry>
+    <entry key="NavigationPaneHelp">
+      <text>Show the run table and property table</text>
+      <translation>Show the run table and property table</translation>
+    </entry>
+    <entry key="PropertiesPaneHelp">
+      <text>Show the properties of runs and signals</text>
+      <translation>Show the properties of runs and signals</translation>
+    </entry>
+    <entry key="NavigationPaneInspectPrefs">
+      <text>Inspect Preferences</text>
+      <translation>Inspect Preferences</translation>
+    </entry>
+    <entry key="NavigationPaneComparePrefs">
+      <text>Compare Preferences</text>
+      <translation>Compare Preferences</translation>
+    </entry>
+    <entry key="ArchivePrefs">
+      <text>Archive Preferences</text>
+      <translation>Archive Preferences</translation>
+    </entry>
+    <entry key="MemoryLimitLabel">
+      <text>Memory limit:</text>
+      <translation>Memory limit:</translation>
+    </entry>
+    <entry key="MemoryLimitHelp">
+      <text>Limit the memory used during save and load operations</text>
+      <translation>Limit the memory used during save and load operations</translation>
+    </entry>
+    <entry key="CompressionLabel">
+      <text>Compression:</text>
+      <translation>Compression:</translation>
+    </entry>
+    <entry key="CompressionHelp">
+      <text>Compression reduces the file size but may take more time</text>
+      <translation>Compression reduces the file size but may take more time</translation>
+    </entry>
+    <entry key="CompressionOptionNone">
+      <text>None</text>
+      <translation>None</translation>
+    </entry>
+    <entry key="CompressionOptionNormal">
+      <text>Normal</text>
+      <translation>Normal</translation>
+    </entry>
+    <entry key="CompressionOptionFastest">
+      <text>Fastest</text>
+      <translation>Fastest</translation>
+    </entry>
+    <entry key="InvalidMemoryLimitErrorMsg">
+      <text>Memory limit must be a positive integer greater than</text>
+      <translation>Memory limit must be a positive integer greater than</translation>
+    </entry>
+    <entry key="AlignmentIconLabel">
+      <text>Alignment</text>
+      <translation>Alignment</translation>
+    </entry>
+    <entry key="BrowserConfigIconLabel">
+      <text>Browser</text>
+      <translation>Browser</translation>
+    </entry>
+    <entry key="PCTIconLabel">
+      <text>Parallel</text>
+      <translation>Parallel</translation>
+    </entry>
+    <entry key="PCTPrefDesc">
+      <text>Control when to import data from parallel simulations</text>
+      <translation>Control when to import data from parallel simulations</translation>
+    </entry>
+    <entry key="PCTPrefManual">
+      <text>&lt;span&gt;Manual&lt;/span&gt; (see &lt;span id='pct-manual-help'&gt;help&lt;/span&gt;)</text>
+      <translation>&lt;span&gt;Manual&lt;/span&gt; (see &lt;span id='pct-manual-help'&gt;help&lt;/span&gt;)</translation>
+    </entry>
+    <entry key="PCTPrefLocal">
+      <text>From &lt;span&gt;local&lt;/span&gt; pools only</text>
+      <translation>From &lt;span&gt;local&lt;/span&gt; pools only</translation>
+    </entry>
+    <entry key="PCTPrefAll">
+      <text>From &lt;span&gt;all&lt;/span&gt; pools (local and remote)</text>
+      <translation>From &lt;span&gt;all&lt;/span&gt; pools (local and remote)</translation>
+    </entry>
+    <entry key="PCTPrefSubDesc">
+      <text>May affect simulation performance under heavy loads</text>
+      <translation>May affect simulation performance under heavy loads</translation>
+    </entry>
+    <entry key="ColorsIconLabel">
+      <text>Colors</text>
+      <translation>Colors</translation>
+    </entry>
+    <entry key="ComparisonColorTitle">
+      <text>Comparison colors</text>
+      <translation>Comparison colors</translation>
+    </entry>
+    <entry key="SignalColor">
+      <text>Use signal color</text>
+      <translation>Use signal color</translation>
+    </entry>
+    <entry key="FixedColor">
+      <text>Use fixed color</text>
+      <translation>Use fixed color</translation>
+    </entry>
+    <entry key="Tolerance">
+      <text>Tolerance:</text>
+      <translation>Tolerance:</translation>
+    </entry>
+    <entry key="Difference">
+      <text>Difference:</text>
+      <translation>Difference:</translation>
+    </entry>
+    <entry key="UnitsIconLabel">
+      <text>Units</text>
+      <translation>Units</translation>
+    </entry>
+    <entry key="UseSigUnitsLabel">
+      <text>Use Stored Units</text>
+      <translation>Use Stored Units</translation>
+    </entry>
+    <entry key="SIUnitsLabel">
+      <text>SI</text>
+      <translation>SI</translation>
+    </entry>
+    <entry key="USCustomaryLabel">
+      <text>US Customary</text>
+      <translation>US Customary</translation>
+    </entry>
+    <entry key="UnitsDescLabel">
+      <text>Display signals using units defined by a system of measurement</text>
+      <translation>Display signals using units defined by a system of measurement</translation>
+    </entry>
+    <entry key="UnitsOverrideText">
+      <text>Specify units to override those used by the system of measurement</text>
+      <translation>Specify units to override those used by the system of measurement</translation>
+    </entry>
+    <entry key="SnapshotIconLabel">
+      <text>Snapshot</text>
+      <translation>Snapshot</translation>
+    </entry>
+    <entry key="WhatLabel">
+      <text>Take snapshot of:</text>
+      <translation>Take snapshot of:</translation>
+    </entry>
+    <entry key="EntirePlotAreaLabel">
+      <text>Entire plot area</text>
+      <translation>Entire plot area</translation>
+    </entry>
+    <entry key="SelectedPlotOnlyLabel">
+      <text>Selected plot only</text>
+      <translation>Selected plot only</translation>
+    </entry>
+    <entry key="WhereLabel">
+      <text>Send to:</text>
+      <translation>Send to:</translation>
+    </entry>
+    <entry key="To" note="Snapshots of entire plot area or selected plot can be sent to clipboard, image file or MATLAB figure">
+      <text>To</text>
+      <translation>To</translation>
+    </entry>
+    <entry key="ToClipboardLabel">
+      <text>Clipboard</text>
+      <translation>Clipboard</translation>
+    </entry>
+    <entry key="ToImgFileLabel">
+      <text>Image file</text>
+      <translation>Image file</translation>
+    </entry>
+    <entry key="ToMLFigLabel">
+      <text>MATLAB figure</text>
+      <translation>MATLAB figure</translation>
+    </entry>
+    <entry key="CreateButtonLabel">
+      <text>Create</text>
+      <translation>Create</translation>
+    </entry>
+    <entry key="CancelButtonLabel">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="Visualizations">
+      <text>Visualizations</text>
+      <translation>Visualizations</translation>
+    </entry>
+    <entry key="UndockGalleryIconTooltipText">
+      <text>Undock Visualization Gallery</text>
+      <translation>Undock Visualization Gallery</translation>
+    </entry>
+    <entry key="DockGalleryIconTooltipText">
+      <text>Dock Visualization Gallery</text>
+      <translation>Dock Visualization Gallery</translation>
+    </entry>
+    <entry key="SubplotsHelpText">
+      <text>Visualizations and layouts</text>
+      <translation>Visualizations and layouts</translation>
+    </entry>
+    <entry key="LayoutsHelpText">
+      <text>Layouts</text>
+      <translation>Layouts</translation>
+    </entry>
+    <entry key="BasicLayouts">
+      <text>Basic layouts</text>
+      <translation>Basic layouts</translation>
+    </entry>
+    <entry key="GridLayout">
+      <text>Grid</text>
+      <translation>Grid</translation>
+    </entry>
+    <entry key="Rows">
+      <text>Rows</text>
+      <translation>Rows</translation>
+    </entry>
+    <entry key="Columns">
+      <text>Columns</text>
+      <translation>Columns</translation>
+    </entry>
+    <entry key="InvalidLayoutValue">
+      <text>Value must be an integer between 1 and 8</text>
+      <translation>Value must be an integer between 1 and 8</translation>
+    </entry>
+    <entry key="Overlays">
+      <text>Overlay layouts</text>
+      <translation>Overlay layouts</translation>
+    </entry>
+    <entry key="EditView">
+      <text>Edit View</text>
+      <translation>Edit View</translation>
+    </entry>
+    <entry key="EditViewDescription">
+      <text>Customize the layout with different&lt;br/&gt;&amp;nbsp;visualizations</text>
+      <translation>Customize the layout with different&lt;br/&gt;&amp;nbsp;visualizations</translation>
+    </entry>
+    <entry key="Signals">
+      <text>Signals</text>
+      <translation>Signals</translation>
+    </entry>
+    <entry key="DropdownPlaceholder">
+      <text>Enter run or signal name</text>
+      <translation>Enter run or signal name</translation>
+    </entry>
+    <entry key="VisualizationGallery">
+      <text>Visualization Gallery</text>
+      <translation>Visualization Gallery</translation>
+    </entry>
+    <entry key="DragToChangeVisualization">
+      <text>Click or drag visualization onto subplot</text>
+      <translation>Click or drag visualization onto subplot</translation>
+    </entry>
+    <entry key="TimePlotVisualization">
+      <text>Time Plot</text>
+      <translation>Time Plot</translation>
+    </entry>
+    <entry key="MapVisualization">
+      <text>Map</text>
+      <translation>Map</translation>
+    </entry>
+    <entry key="XYPlotVisualization">
+      <text>XY</text>
+      <translation>XY</translation>
+    </entry>
+    <entry key="SparklinesVisualization">
+      <text>Sparklines</text>
+      <translation>Sparklines</translation>
+    </entry>
+    <entry key="TextEditorVisualization">
+      <text>Text Editor</text>
+      <translation>Text Editor</translation>
+    </entry>
+    <entry key="BrowseModeMsg">
+      <text>Browse mode supports only time plots</text>
+      <translation>Browse mode supports only time plots</translation>
+    </entry>
+    <entry key="VizGalleryCheckModeMsgOne" note="Switch to check mode using Preferences">
+      <text>Switch to check mode using</text>
+      <translation>Switch to check mode using</translation>
+    </entry>
+    <entry key="VizGalleryCheckModeMsgTwo">
+      <text>Preferences</text>
+      <translation>Preferences</translation>
+    </entry>
+    <entry key="ChangeVisualization">
+      <text>Change visualization</text>
+      <translation>Change visualization</translation>
+    </entry>
+    <entry key="ArrayPlotVisualization">
+      <text>Array</text>
+      <translation>Array</translation>
+    </entry>
+    <entry key="ArrayPlotTypes">
+      <text>Plot types</text>
+      <translation>Plot types</translation>
+    </entry>
+    <entry key="ArrayPlotXOffset">
+      <text>&lt;i&gt;x&lt;/i&gt;-Axis offset</text>
+      <translation>&lt;i&gt;x&lt;/i&gt;-Axis offset</translation>
+    </entry>
+    <entry key="ArrayPlotXIncrement">
+      <text>&lt;i&gt;x&lt;/i&gt;-Axis increment</text>
+      <translation>&lt;i&gt;x&lt;/i&gt;-Axis increment</translation>
+    </entry>
+    <entry key="ArrayPlotLine" note="Line as a plot type for Array visualization">
+      <text>Line</text>
+      <translation>Line</translation>
+    </entry>
+    <entry key="ArrayPlotMarker">
+      <text>Marker</text>
+      <translation>Marker</translation>
+    </entry>
+    <entry key="ArrayPlotStem">
+      <text>Stem</text>
+      <translation>Stem</translation>
+    </entry>
+    <entry key="ArrayPlotBar">
+      <text>Bar</text>
+      <translation>Bar</translation>
+    </entry>
+    <entry key="ArrayPlotStair">
+      <text>Stair</text>
+      <translation>Stair</translation>
+    </entry>
+    <entry key="InvalidXOffsetErrMsg">
+      <text>Must be numeric</text>
+      <translation>Must be numeric</translation>
+    </entry>
+    <entry key="InvalidXIncrementErrMsg">
+      <text>Must be numeric and greater than zero</text>
+      <translation>Must be numeric and greater than zero</translation>
+    </entry>
+    <entry key="OnlyRealSignal">
+      <text>{0}(channel {1})</text>
+      <translation>{0}(channel {1})</translation>
+    </entry>
+    <entry key="RealSignalName">
+      <text>{0}(real, channel {1})</text>
+      <translation>{0}(real, channel {1})</translation>
+    </entry>
+    <entry key="ImagSignalName">
+      <text>{0}(imag, channel {1})</text>
+      <translation>{0}(imag, channel {1})</translation>
+    </entry>
+    <entry key="MagSignalName">
+      <text>{0}(magnitude, channel {1})</text>
+      <translation>{0}(magnitude, channel {1})</translation>
+    </entry>
+    <entry key="PhaseSignalName">
+      <text>{0}(phase, channel {1})</text>
+      <translation>{0}(phase, channel {1})</translation>
+    </entry>
+    <entry key="Connect">
+      <text>Connect:</text>
+      <translation>Connect:</translation>
+    </entry>
+    <entry key="Time">
+      <text>Time:</text>
+      <translation>Time:</translation>
+    </entry>
+    <entry key="Latitude">
+      <text>Latitude</text>
+      <translation>Latitude</translation>
+    </entry>
+    <entry key="Longitude">
+      <text>Longitude</text>
+      <translation>Longitude</translation>
+    </entry>
+    <entry key="SourceMarkerLabel">
+      <text>Starting Position</text>
+      <translation>Starting Position</translation>
+    </entry>
+    <entry key="DestinationMarkerLabel">
+      <text>Destination</text>
+      <translation>Destination</translation>
+    </entry>
+    <entry key="CursorLabel">
+      <text>Cursor Marker</text>
+      <translation>Cursor Marker</translation>
+    </entry>
+    <entry key="MapLoadingErrorMsg">
+      <text>Unable to load map. No internet connection available.</text>
+      <translation>Unable to load map. No internet connection available.</translation>
+    </entry>
+    <entry key="InvalidSpeedValueErrorMsg">
+      <text>Replay speed must be a positive numeric value</text>
+      <translation>Replay speed must be a positive numeric value</translation>
+    </entry>
+    <entry key="ReportDescription">
+      <text>Create a report of the runs or comparison plots</text>
+      <translation>Create a report of the runs or comparison plots</translation>
+    </entry>
+    <entry key="ReportTypeLabel" note="Type means things like category, format, or group">
+      <text>Type:</text>
+      <translation>Type:</translation>
+    </entry>
+    <entry key="ReportInspectLabel">
+      <text>Inspect</text>
+      <translation>Inspect</translation>
+    </entry>
+    <entry key="ReportCompareLabel">
+      <text>Compare</text>
+      <translation>Compare</translation>
+    </entry>
+    <entry key="ReportContentLabel">
+      <text>Content:</text>
+      <translation>Content:</translation>
+    </entry>
+    <entry key="ReportHeaderLabel">
+      <text>Header:</text>
+      <translation>Header:</translation>
+    </entry>
+    <entry key="ReportTitleLabel">
+      <text>Title:</text>
+      <translation>Title:</translation>
+    </entry>
+    <entry key="ReportAuthorLabel">
+      <text>Author:</text>
+      <translation>Author:</translation>
+    </entry>
+    <entry key="ReportStyleLabel">
+      <text>Style:</text>
+      <translation>Style:</translation>
+    </entry>
+    <entry key="ReportPrintableLabel">
+      <text>Printable document</text>
+      <translation>Printable document</translation>
+    </entry>
+    <entry key="ReportWebStyleLabel">
+      <text>Interactive web view</text>
+      <translation>Interactive web view</translation>
+    </entry>
+    <entry key="ReportSaveLabel">
+      <text>Save as:</text>
+      <translation>Save as:</translation>
+    </entry>
+    <entry key="ReportOptionsLabel">
+      <text>Options:</text>
+      <translation>Options:</translation>
+    </entry>
+    <entry key="ReportDataUnavailable">
+      <text>Run data is not available.  Import data and try again.</text>
+      <translation>Run data is not available.  Import data and try again.</translation>
+    </entry>
+    <entry key="CursorOptionsLabel">
+      <text>Cursor Options</text>
+      <translation>Cursor Options</translation>
+    </entry>
+    <entry key="ShadingLabel">
+      <text>Shading:</text>
+      <translation>Shading:</translation>
+    </entry>
+    <entry key="EmphasizeLabel">
+      <text>Emphasize</text>
+      <translation>Emphasize</translation>
+    </entry>
+    <entry key="EmphasizeDesc">
+      <text>Signals on top of shaded region</text>
+      <translation>Signals on top of shaded region</translation>
+    </entry>
+    <entry key="DeemphasizeLabel">
+      <text>De-emphasize</text>
+      <translation>De-emphasize</translation>
+    </entry>
+    <entry key="DeemphasizeDesc">
+      <text>Signals behind shaded region</text>
+      <translation>Signals behind shaded region</translation>
+    </entry>
+    <entry key="LagLabel">
+      <text>Lag</text>
+      <translation>Lag</translation>
+    </entry>
+    <entry key="LeadLabel">
+      <text>Lead</text>
+      <translation>Lead</translation>
+    </entry>
+    <entry key="LeadAndLagLabel">
+      <text>Lead and lag</text>
+      <translation>Lead and lag</translation>
+    </entry>
+    <entry key="InBetweenLabel">
+      <text>In between</text>
+      <translation>In between</translation>
+    </entry>
+    <entry key="NoneLabel">
+      <text>None</text>
+      <translation>None</translation>
+    </entry>
+    <entry key="ColorLabel">
+      <text>Color:</text>
+      <translation>Color:</translation>
+    </entry>
+    <entry key="OpacityLabel">
+      <text>Opacity:</text>
+      <translation>Opacity:</translation>
+    </entry>
+    <entry key="InvalidOpacityErrorMsg">
+      <text>Opacity value should be between 0 and 1</text>
+      <translation>Opacity value should be between 0 and 1</translation>
+    </entry>
+    <entry key="AddTriggerHeader">
+      <text>Display Trigger</text>
+      <translation>Display Trigger</translation>
+    </entry>
+    <entry key="ReplaceTriggerHeader">
+      <text>Add Trigger</text>
+      <translation>Add Trigger</translation>
+    </entry>
+    <entry key="TriggerModeLabel" note="Mode as a way to specify when the display should update from the last trigger event">
+      <text>Mode</text>
+      <translation>Mode</translation>
+    </entry>
+    <entry key="TriggerTypeLabel" note="Type as a type of trigger">
+      <text>Type</text>
+      <translation>Type</translation>
+    </entry>
+    <entry key="TriggerPolarityLabel">
+      <text>Polarity</text>
+      <translation>Polarity</translation>
+    </entry>
+    <entry key="AutoLevelLabel">
+      <text>Auto level</text>
+      <translation>Auto level</translation>
+    </entry>
+    <entry key="LevelLabel">
+      <text>Level</text>
+      <translation>Level</translation>
+    </entry>
+    <entry key="HysteresisLabel">
+      <text>Hysteresis</text>
+      <translation>Hysteresis</translation>
+    </entry>
+    <entry key="DelayLabel">
+      <text>Delay (s)</text>
+      <translation>Delay (s)</translation>
+    </entry>
+    <entry key="HoldOffLabel">
+      <text>Holdoff (s)</text>
+      <translation>Holdoff (s)</translation>
+    </entry>
+    <entry key="AddTriggerButton">
+      <text>Add</text>
+      <translation>Add</translation>
+    </entry>
+    <entry key="UpdateTriggerButton">
+      <text>Update</text>
+      <translation>Update</translation>
+    </entry>
+    <entry key="RemoveTriggerButton">
+      <text>Remove</text>
+      <translation>Remove</translation>
+    </entry>
+    <entry key="PositionLabel">
+      <text>Position (%)</text>
+      <translation>Position (%)</translation>
+    </entry>
+    <entry key="TriggerModeAuto">
+      <text>Auto</text>
+      <translation>Auto</translation>
+    </entry>
+    <entry key="TriggerModeNormal">
+      <text>Normal</text>
+      <translation>Normal</translation>
+    </entry>
+    <entry key="TriggerModeOnce">
+      <text>Once</text>
+      <translation>Once</translation>
+    </entry>
+    <entry key="TriggerModeOff" note="Off as a way to disable triggering">
+      <text>Off</text>
+      <translation>Off</translation>
+    </entry>
+    <entry key="TriggerTypeEdge" note="Edge as a way to trigger when the signal crosses a threshold">
+      <text>Edge</text>
+      <translation>Edge</translation>
+    </entry>
+    <entry key="TriggerTypePulseWidth">
+      <text>Pulse Width</text>
+      <translation>Pulse Width</translation>
+    </entry>
+    <entry key="TriggerTypeTransition">
+      <text>Transition</text>
+      <translation>Transition</translation>
+    </entry>
+    <entry key="TriggerTypeRunt">
+      <text>Runt</text>
+      <translation>Runt</translation>
+    </entry>
+    <entry key="TriggerTypeWindow">
+      <text>Window</text>
+      <translation>Window</translation>
+    </entry>
+    <entry key="TriggerTypeTimeout">
+      <text>Timeout</text>
+      <translation>Timeout</translation>
+    </entry>
+    <entry key="TriggerPolarityRising">
+      <text>Rising</text>
+      <translation>Rising</translation>
+    </entry>
+    <entry key="TriggerPolarityFalling">
+      <text>Falling</text>
+      <translation>Falling</translation>
+    </entry>
+    <entry key="TriggerPolarityEither">
+      <text>Either</text>
+      <translation>Either</translation>
+    </entry>
+    <entry key="TriggerPolarityPositive">
+      <text>Positive</text>
+      <translation>Positive</translation>
+    </entry>
+    <entry key="TriggerPolarityNegative">
+      <text>Negative</text>
+      <translation>Negative</translation>
+    </entry>
+    <entry key="TriggerPolarityRiseTime">
+      <text>Rise Time</text>
+      <translation>Rise Time</translation>
+    </entry>
+    <entry key="TriggerPolarityFallTime">
+      <text>Fall Time</text>
+      <translation>Fall Time</translation>
+    </entry>
+    <entry key="TriggerPolarityInside" note="Trigger when a signal leaves a region between the low and high levels">
+      <text>Inside</text>
+      <translation>Inside</translation>
+    </entry>
+    <entry key="TriggerPolarityOutside" note="Trigger when a signal enters a region between the low and high levels">
+      <text>Outside</text>
+      <translation>Outside</translation>
+    </entry>
+    <entry key="MinWidth" note="s as in seconds">
+      <text>Min Width (s)</text>
+      <translation>Min Width (s)</translation>
+    </entry>
+    <entry key="MaxWidth" note="s as in seconds">
+      <text>Max Width (s)</text>
+      <translation>Max Width (s)</translation>
+    </entry>
+    <entry key="MinTime">
+      <text>Min Time (s)</text>
+      <translation>Min Time (s)</translation>
+    </entry>
+    <entry key="MaxTime">
+      <text>Max Time (s)</text>
+      <translation>Max Time (s)</translation>
+    </entry>
+    <entry key="RearmTriggerButton">
+      <text>Rearm</text>
+      <translation>Rearm</translation>
+    </entry>
+    <entry key="Timeout">
+      <text>Timeout (s)</text>
+      <translation>Timeout (s)</translation>
+    </entry>
+    <entry key="High">
+      <text>High</text>
+      <translation>High</translation>
+    </entry>
+    <entry key="Low">
+      <text>Low</text>
+      <translation>Low</translation>
+    </entry>
+    <entry key="InvalidHighValue">
+      <text>High value must be greater than Low value.</text>
+      <translation>High value must be greater than Low value.</translation>
+    </entry>
+    <entry key="InvalidLowValue">
+      <text>Low value must be less than High value.</text>
+      <translation>Low value must be less than High value.</translation>
+    </entry>
+    <entry key="TriggerRemovalAlert">
+      <text>Adding a new trigger removes the existing trigger. Are you sure you want to add the trigger?</text>
+      <translation>Adding a new trigger removes the existing trigger. Are you sure you want to add the trigger?</translation>
+    </entry>
+    <entry key="InvalidMaxWidth">
+      <text>Max Width must be Inf or greater than zero.</text>
+      <translation>Max Width must be Inf or greater than zero.</translation>
+    </entry>
+    <entry key="InvalidMaxTime">
+      <text>Max Time must be Inf or greater than zero.</text>
+      <translation>Max Time must be Inf or greater than zero.</translation>
+    </entry>
+    <entry key="InvalidMinWidthOrTime">
+      <text>Minimum must be less than maximum.</text>
+      <translation>Minimum must be less than maximum.</translation>
+    </entry>
+    <entry key="InvalidMaxWidthOrTime">
+      <text>Maximum must be greater than minimum.</text>
+      <translation>Maximum must be greater than minimum.</translation>
+    </entry>
+    <entry key="MultidimensionalSignal">
+      <text>Multidimensional Signal</text>
+      <translation>Multidimensional Signal</translation>
+    </entry>
+    <entry key="ConvertToChannels">
+      <text>Convert to channels</text>
+      <translation>Convert to channels</translation>
+    </entry>
+    <entry key="ConvertToChannelsDescription">
+      <text>Represents signal as separate channels</text>
+      <translation>Represents signal as separate channels</translation>
+    </entry>
+    <entry key="ConvertFrames">
+      <text>Convert frames</text>
+      <translation>Convert frames</translation>
+    </entry>
+    <entry key="ConvertFramesDescription">
+      <text>Interprets each {0} sample as {1} evenly spaced {2} samples</text>
+      <translation>Interprets each {0} sample as {1} evenly spaced {2} samples</translation>
+    </entry>
+    <entry key="Vector">
+      <text>vector</text>
+      <translation>vector</translation>
+    </entry>
+    <entry key="FrameSize">
+      <text>,&amp;nbsp;frame size&amp;nbsp;</text>
+      <translation>,&amp;nbsp;frame size&amp;nbsp;</translation>
+    </entry>
+    <entry key="ChangeToArrayPlot">
+      <text>Change active subplot to array plot</text>
+      <translation>Change active subplot to array plot</translation>
+    </entry>
+    <entry key="ChangeToArrayPlotDescription">
+      <text>Clears other signals plotted on subplot</text>
+      <translation>Clears other signals plotted on subplot</translation>
+    </entry>
+    <entry key="Channels">
+      <text>Channels</text>
+      <translation>Channels</translation>
+    </entry>
+    <entry key="ConvertToMultidimensionalSignal">
+      <text>Convert to multidimensional signal</text>
+      <translation>Convert to multidimensional signal</translation>
+    </entry>
+    <entry key="ConvertToMDSignalAndChangeToArrayPlot">
+      <text>Convert to multidimensional signal and&lt;br/&gt;change active subplot to array plot</text>
+      <translation>Convert to multidimensional signal and&lt;br/&gt;change active subplot to array plot</translation>
+    </entry>
+    <entry key="ConvertToMDSignalDescription">
+      <text>Removes separate channels and clears&lt;br/&gt;plotted channels from all subplots</text>
+      <translation>Removes separate channels and clears&lt;br/&gt;plotted channels from all subplots</translation>
+    </entry>
+    <entry key="RunMenuTooltip">
+      <text>Show run actions</text>
+      <translation>Show run actions</translation>
+    </entry>
+    <entry key="Unarchive">
+      <text>Unarchive</text>
+      <translation>Unarchive</translation>
+    </entry>
+    <entry key="Checkmarks">
+      <text>Plotted signal selection</text>
+      <translation>Plotted signal selection</translation>
+    </entry>
+    <entry key="Cut">
+      <text>Cut</text>
+      <translation>Cut</translation>
+    </entry>
+    <entry key="Copy">
+      <text>Copy</text>
+      <translation>Copy</translation>
+    </entry>
+    <entry key="Paste">
+      <text>Paste</text>
+      <translation>Paste</translation>
+    </entry>
+    <entry key="ClearPlottedSignals">
+      <text>Clear plotted signals in this run</text>
+      <translation>Clear plotted signals in this run</translation>
+    </entry>
+    <entry key="ClearFromAllRunsExceptThis">
+      <text>Clear plotted signals in all other runs</text>
+      <translation>Clear plotted signals in all other runs</translation>
+    </entry>
+    <entry key="DebugConsoleHeaderText">
+      <text>Debug Window</text>
+      <translation>Debug Window</translation>
+    </entry>
+    <entry key="DebugInfoCheckboxLabel">
+      <text>Log Debug Info</text>
+      <translation>Log Debug Info</translation>
+    </entry>
+    <entry key="DebugConsoleGeneralLogs">
+      <text>General</text>
+      <translation>General</translation>
+    </entry>
+    <entry key="DebugInfoGroupByCheckboxLabel">
+      <text>Group Logs</text>
+      <translation>Group Logs</translation>
+    </entry>
+    <entry key="DebugInfoExportLabel">
+      <text>Export</text>
+      <translation>Export</translation>
+    </entry>
+    <entry key="Tab">
+      <text>Tab</text>
+      <translation>Tab</translation>
+    </entry>
+    <entry key="NewTab">
+      <text>New tab</text>
+      <translation>New tab</translation>
+    </entry>
+    <entry key="CloseAllOtherTabs">
+      <text>Close all other tabs</text>
+      <translation>Close all other tabs</translation>
+    </entry>
+    <entry key="CloseTab">
+      <text>Close tab</text>
+      <translation>Close tab</translation>
+    </entry>
+    <entry key="TabsLimitMessage">
+      <text>Maximum number of tabs allowed is 8</text>
+      <translation>Maximum number of tabs allowed is 8</translation>
+    </entry>
+  </message>
+</bicat>

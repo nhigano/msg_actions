@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="Show">
+      <text>Show</text>
+      <translation>Show</translation>
+    </entry>
+    <entry key="ShowAll">
+      <text>Show All</text>
+      <translation>Show All</translation>
+    </entry>
+    <entry key="Hide">
+      <text>Hide</text>
+      <translation>Hide</translation>
+    </entry>
+    <entry key="HideAll">
+      <text>Hide All</text>
+      <translation>Hide All</translation>
+    </entry>
+    <entry key="Visualize">
+      <text>DATA INSPECTOR</text>
+      <translation>DATA INSPECTOR</translation>
+    </entry>
+    <entry key="File">
+      <text>FILE</text>
+      <translation>FILE</translation>
+    </entry>
+    <entry key="New">
+      <text>New</text>
+      <translation>New</translation>
+    </entry>
+    <entry key="NewDescription">
+      <text>Start new session</text>
+      <translation>Start new session</translation>
+    </entry>
+    <entry key="Open">
+      <text>Open</text>
+      <translation>Open</translation>
+    </entry>
+    <entry key="OpenDescription">
+      <text>Open saved session from file</text>
+      <translation>Open saved session from file</translation>
+    </entry>
+    <entry key="Save">
+      <text>Save</text>
+      <translation>Save</translation>
+    </entry>
+    <entry key="SaveDescription">
+      <text>Save session to file</text>
+      <translation>Save session to file</translation>
+    </entry>
+    <entry key="SaveAdditionalText">
+      <text>Save session to file</text>
+      <translation>Save session to file</translation>
+    </entry>
+    <entry key="SaveAs">
+      <text>Save As...</text>
+      <translation>Save As...</translation>
+    </entry>
+    <entry key="SaveAsAdditionalText">
+      <text>Save session to new file</text>
+      <translation>Save session to new file</translation>
+    </entry>
+    <entry key="Import">
+      <text>Import</text>
+      <translation>Import</translation>
+    </entry>
+    <entry key="ImportDescription">
+      <text>Select signals to import from workspace or file</text>
+      <translation>Select signals to import from workspace or file</translation>
+    </entry>
+    <entry key="Export">
+      <text>Export</text>
+      <translation>Export</translation>
+    </entry>
+    <entry key="ExportDescription">
+      <text>Export highlighted rows of signals/runs to a file</text>
+      <translation>Export highlighted rows of signals/runs to a file</translation>
+    </entry>
+    <entry key="Preferences">
+      <text>Preferences</text>
+      <translation>Preferences</translation>
+    </entry>
+    <entry key="PreferencesDescription">
+      <text>Data Inspector Preferences</text>
+      <translation>Data Inspector Preferences</translation>
+    </entry>
+    <entry key="ShowMoreActions">
+      <text>Show more actions</text>
+      <translation>Show more actions</translation>
+    </entry>
+    <entry key="SidebarNewDesc">
+      <text>Start&amp;nbsp;new&amp;nbsp;session</text>
+      <translation>Start&amp;nbsp;new&amp;nbsp;session</translation>
+    </entry>
+    <entry key="SidebarOpenDesc">
+      <text>Open&amp;nbsp;Data&amp;nbsp;Inspector&amp;nbsp;session</text>
+      <translation>Open&amp;nbsp;Data&amp;nbsp;Inspector&amp;nbsp;session</translation>
+    </entry>
+    <entry key="SidebarSaveDesc">
+      <text>Save&amp;nbsp;Data&amp;nbsp;Inspector&amp;nbsp;session</text>
+      <translation>Save&amp;nbsp;Data&amp;nbsp;Inspector&amp;nbsp;session</translation>
+    </entry>
+    <entry key="SidebarSaveAsDesc">
+      <text>Save&amp;nbsp;As</text>
+      <translation>Save&amp;nbsp;As</translation>
+    </entry>
+    <entry key="SidebarImportDesc">
+      <text>Import&amp;nbsp;data&amp;nbsp;from&amp;nbsp;workspace&amp;nbsp;or&amp;nbsp;file</text>
+      <translation>Import&amp;nbsp;data&amp;nbsp;from&amp;nbsp;workspace&amp;nbsp;or&amp;nbsp;file</translation>
+    </entry>
+    <entry key="SidebarExportDesc">
+      <text>Export&amp;nbsp;data&amp;nbsp;to&amp;nbsp;workspace&amp;nbsp;or&amp;nbsp;file</text>
+      <translation>Export&amp;nbsp;data&amp;nbsp;to&amp;nbsp;workspace&amp;nbsp;or&amp;nbsp;file</translation>
+    </entry>
+    <entry key="SidebarReportDesc">
+      <text>Generate&amp;nbsp;report</text>
+      <translation>Generate&amp;nbsp;report</translation>
+    </entry>
+    <entry key="SidebarPrefsDesc">
+      <text>Data&amp;nbsp;Inspector&amp;nbsp;preferences</text>
+      <translation>Data&amp;nbsp;Inspector&amp;nbsp;preferences</translation>
+    </entry>
+    <entry key="SidebarSDIHelpDesc">
+      <text>Data&amp;nbsp;Inspector&amp;nbsp;Help</text>
+      <translation>Data&amp;nbsp;Inspector&amp;nbsp;Help</translation>
+    </entry>
+    <entry key="Edit">
+      <text>EDIT</text>
+      <translation>EDIT</translation>
+    </entry>
+    <entry key="Runs">
+      <text>RUNS</text>
+      <translation>RUNS</translation>
+    </entry>
+    <entry key="Delete">
+      <text>Delete</text>
+      <translation>Delete</translation>
+    </entry>
+    <entry key="DeleteDescription">
+      <text>Delete highlighted rows</text>
+      <translation>Delete highlighted rows</translation>
+    </entry>
+    <entry key="DeleteAdditionalText">
+      <text>Delete highlighted rows</text>
+      <translation>Delete highlighted rows</translation>
+    </entry>
+    <entry key="DeleteAll">
+      <text>Delete All</text>
+      <translation>Delete All</translation>
+    </entry>
+    <entry key="DeleteAllRunsAdditionalText">
+      <text>Delete all runs</text>
+      <translation>Delete all runs</translation>
+    </entry>
+    <entry key="DeleteAllComparisonsAdditionalText">
+      <text>Delete all comparisons</text>
+      <translation>Delete all comparisons</translation>
+    </entry>
+    <entry key="GroupSignals">
+      <text>Group Signals</text>
+      <translation>Group Signals</translation>
+    </entry>
+    <entry key="GroupSignalsDescription">
+      <text>Change signal grouping options in navigation pane</text>
+      <translation>Change signal grouping options in navigation pane</translation>
+    </entry>
+    <entry key="Overwrite">
+      <text>Overwrite</text>
+      <translation>Overwrite</translation>
+    </entry>
+    <entry key="OverwriteDescription">
+      <text>Overwrite a selected run</text>
+      <translation>Overwrite a selected run</translation>
+    </entry>
+    <entry key="RunOptions">
+      <text>Run Options</text>
+      <translation>Run Options</translation>
+    </entry>
+    <entry key="RunOptionsDescription">
+      <text>Open run configuration options</text>
+      <translation>Open run configuration options</translation>
+    </entry>
+    <entry key="ZoomPan">
+      <text>ZOOM &amp; PAN</text>
+      <translation>ZOOM &amp; PAN</translation>
+    </entry>
+    <entry key="ZoomMarqueeLabel">
+      <text>Zoom in</text>
+      <translation>Zoom in</translation>
+    </entry>
+    <entry key="ZoomMarqueeDescription">
+      <text>Zoom in</text>
+      <translation>Zoom in</translation>
+    </entry>
+    <entry key="ZoomOutLabel">
+      <text>Zoom out</text>
+      <translation>Zoom out</translation>
+    </entry>
+    <entry key="ZoomOutDescription">
+      <text>Zoom out</text>
+      <translation>Zoom out</translation>
+    </entry>
+    <entry key="ZoomInTLabel">
+      <text>Zoom in time</text>
+      <translation>Zoom in time</translation>
+    </entry>
+    <entry key="ZoomInTDescription">
+      <text>Zoom in time</text>
+      <translation>Zoom in time</translation>
+    </entry>
+    <entry key="ZoomInXDescription">
+      <text>Zoom in X</text>
+      <translation>Zoom in X</translation>
+    </entry>
+    <entry key="ZoomInYLabel">
+      <text>Zoom in Y</text>
+      <translation>Zoom in Y</translation>
+    </entry>
+    <entry key="ZoomInYDescription">
+      <text>Zoom in Y</text>
+      <translation>Zoom in Y</translation>
+    </entry>
+    <entry key="FitWindowLabel">
+      <text>Fit to view</text>
+      <translation>Fit to view</translation>
+    </entry>
+    <entry key="FitWindowDescription">
+      <text>Fit to view</text>
+      <translation>Fit to view</translation>
+    </entry>
+    <entry key="FitWindowShortcutKey">
+      <text>Space bar</text>
+      <translation>Space bar</translation>
+    </entry>
+    <entry key="FitInTLabel">
+      <text>Fit to view in time</text>
+      <translation>Fit to view in time</translation>
+    </entry>
+    <entry key="FitInTDescription">
+      <text>Fit to view in time</text>
+      <translation>Fit to view in time</translation>
+    </entry>
+    <entry key="FitInTShortcutKey">
+      <text>Ctrl+Alt+T</text>
+      <translation>Ctrl+Alt+T</translation>
+    </entry>
+    <entry key="FitInYLabel">
+      <text>Fit to view in Y</text>
+      <translation>Fit to view in Y</translation>
+    </entry>
+    <entry key="FitInYDescription">
+      <text>Fit to view in Y</text>
+      <translation>Fit to view in Y</translation>
+    </entry>
+    <entry key="FitInYSelectedSubplotLabel">
+      <text>Fit selected subplot to view in Y</text>
+      <translation>Fit selected subplot to view in Y</translation>
+    </entry>
+    <entry key="FitInYShortcutKey">
+      <text>Ctrl+Alt+Y</text>
+      <translation>Ctrl+Alt+Y</translation>
+    </entry>
+    <entry key="FitInXShortcutKey">
+      <text>Ctrl+Alt+X</text>
+      <translation>Ctrl+Alt+X</translation>
+    </entry>
+    <entry key="DefaultCursorLabel">
+      <text>Pan</text>
+      <translation>Pan</translation>
+    </entry>
+    <entry key="DefaultCursorDescription">
+      <text>Pan and select</text>
+      <translation>Pan and select</translation>
+    </entry>
+    <entry key="PanZoomDescription">
+      <text>Pan and zoom</text>
+      <translation>Pan and zoom</translation>
+    </entry>
+    <entry key="MaximizeDescription">
+      <text>Maximize</text>
+      <translation>Maximize</translation>
+    </entry>
+    <entry key="MinimizeDescription">
+      <text>Restore</text>
+      <translation>Restore</translation>
+    </entry>
+    <entry key="MaximizeSelectedSubplotDescription">
+      <text>Maximize selected subplot</text>
+      <translation>Maximize selected subplot</translation>
+    </entry>
+    <entry key="MinimizeSelectedSubplotDescription">
+      <text>Restore selected subplot</text>
+      <translation>Restore selected subplot</translation>
+    </entry>
+    <entry key="FullScreenDescription">
+      <text>Full screen</text>
+      <translation>Full screen</translation>
+    </entry>
+    <entry key="FullScreenExitDescription">
+      <text>Exit full screen</text>
+      <translation>Exit full screen</translation>
+    </entry>
+    <entry key="MeasureTrace">
+      <text>MEASURE &amp; TRACE</text>
+      <translation>MEASURE &amp; TRACE</translation>
+    </entry>
+    <entry key="Measure">
+      <text>MEASURE</text>
+      <translation>MEASURE</translation>
+    </entry>
+    <entry key="Trace">
+      <text>TRACE</text>
+      <translation>TRACE</translation>
+    </entry>
+    <entry key="DataCursors">
+      <text>Data cursors</text>
+      <translation>Data cursors</translation>
+    </entry>
+    <entry key="DataCursorsDescription">
+      <text>Show/hide data cursors</text>
+      <translation>Show/hide data cursors</translation>
+    </entry>
+    <entry key="ShowHideOneCursor">
+      <text>Show/Hide One Data Cursor</text>
+      <translation>Show/Hide One Data Cursor</translation>
+    </entry>
+    <entry key="ShowHideTwoCursors">
+      <text>Show/Hide Two Data Cursors</text>
+      <translation>Show/Hide Two Data Cursors</translation>
+    </entry>
+    <entry key="ShowOneCursor">
+      <text>One</text>
+      <translation>One</translation>
+    </entry>
+    <entry key="ShowTwoCursors">
+      <text>Two</text>
+      <translation>Two</translation>
+    </entry>
+    <entry key="HideAllCursors">
+      <text>None</text>
+      <translation>None</translation>
+    </entry>
+    <entry key="OneCursorLabel">
+      <text>One cursor</text>
+      <translation>One cursor</translation>
+    </entry>
+    <entry key="TwoCursorsLabel">
+      <text>Two cursors</text>
+      <translation>Two cursors</translation>
+    </entry>
+    <entry key="OptionsLabel">
+      <text>Cursor options</text>
+      <translation>Cursor options</translation>
+    </entry>
+    <entry key="HighlightInModel">
+      <text>Highlight\nin Model</text>
+      <translation>Highlight\nin Model</translation>
+    </entry>
+    <entry key="HighlightInModelDescription">
+      <text>Trace a selected signal in a subplot to its source block in a model</text>
+      <translation>Trace a selected signal in a subplot to its source block in a model</translation>
+    </entry>
+    <entry key="Views">
+      <text>VIEWS</text>
+      <translation>VIEWS</translation>
+    </entry>
+    <entry key="ClearPlot">
+      <text>Clear subplot</text>
+      <translation>Clear subplot</translation>
+    </entry>
+    <entry key="ClearPlotDescription">
+      <text>Clear signals from subplot</text>
+      <translation>Clear signals from subplot</translation>
+    </entry>
+    <entry key="ClearPlotAdditionalText">
+      <text>Clear selected subplot</text>
+      <translation>Clear selected subplot</translation>
+    </entry>
+    <entry key="ClearHighlightedPlotAdditionalText">
+      <text>Clear highlighted subplot</text>
+      <translation>Clear highlighted subplot</translation>
+    </entry>
+    <entry key="ClearAllPlots">
+      <text>Clear all subplots</text>
+      <translation>Clear all subplots</translation>
+    </entry>
+    <entry key="ClearAllPlotsAdditionalText">
+      <text>Clear signals from all subplots</text>
+      <translation>Clear signals from all subplots</translation>
+    </entry>
+    <entry key="Legend">
+      <text>LEGEND</text>
+      <translation>LEGEND</translation>
+    </entry>
+    <entry key="LegendLabel">
+      <text>Legend</text>
+      <translation>Legend</translation>
+    </entry>
+    <entry key="LegendDescription">
+      <text>Show/hide legend</text>
+      <translation>Show/hide legend</translation>
+    </entry>
+    <entry key="ShowLegendOnTop">
+      <text>Top</text>
+      <translation>Top</translation>
+    </entry>
+    <entry key="ShowLegendOnRight">
+      <text>Right</text>
+      <translation>Right</translation>
+    </entry>
+    <entry key="HideLegend">
+      <text>Hide</text>
+      <translation>Hide</translation>
+    </entry>
+    <entry key="SavedViews">
+      <text>Saved views</text>
+      <translation>Saved views</translation>
+    </entry>
+    <entry key="SavedViewsDescription">
+      <text>Open a saved view from a file</text>
+      <translation>Open a saved view from a file</translation>
+    </entry>
+    <entry key="OpenView">
+      <text>Open View</text>
+      <translation>Open View</translation>
+    </entry>
+    <entry key="OpenViewAdditionalText">
+      <text>Open saved view</text>
+      <translation>Open saved view</translation>
+    </entry>
+    <entry key="SaveView">
+      <text>Save View</text>
+      <translation>Save View</translation>
+    </entry>
+    <entry key="SaveViewAdditionalText">
+      <text>Save current view</text>
+      <translation>Save current view</translation>
+    </entry>
+    <entry key="TimeDomain">
+      <text>Time</text>
+      <translation>Time</translation>
+    </entry>
+    <entry key="TimeDomainAdditionalText">
+      <text>View signals in time domain</text>
+      <translation>View signals in time domain</translation>
+    </entry>
+    <entry key="FrequencyDomain">
+      <text>Spectrum</text>
+      <translation>Spectrum</translation>
+    </entry>
+    <entry key="FrequencyDomainAdditionalText">
+      <text>View frequency spectrum of signals</text>
+      <translation>View frequency spectrum of signals</translation>
+    </entry>
+    <entry key="PannerDomain">
+      <text>Panner</text>
+      <translation>Panner</translation>
+    </entry>
+    <entry key="PannerDomainAdditionalText">
+      <text>View panner</text>
+      <translation>View panner</translation>
+    </entry>
+    <entry key="Share">
+      <text>SHARE</text>
+      <translation>SHARE</translation>
+    </entry>
+    <entry key="CopySubplots">
+      <text>Copy Plots</text>
+      <translation>Copy Plots</translation>
+    </entry>
+    <entry key="CopySubplotsDescription">
+      <text>Send all subplots to clipboard</text>
+      <translation>Send all subplots to clipboard</translation>
+    </entry>
+    <entry key="CopyAllSubplots">
+      <text>Copy All Plots</text>
+      <translation>Copy All Plots</translation>
+    </entry>
+    <entry key="CopyAllSubplotsAdditionalText">
+      <text>Send all subplots to clipboard</text>
+      <translation>Send all subplots to clipboard</translation>
+    </entry>
+    <entry key="CopySubplot">
+      <text>Copy Plot</text>
+      <translation>Copy Plot</translation>
+    </entry>
+    <entry key="CopySubplotAdditionalText">
+      <text>Send highlighted subplot to clipboard</text>
+      <translation>Send highlighted subplot to clipboard</translation>
+    </entry>
+    <entry key="CreateReport">
+      <text>Create Report</text>
+      <translation>Create Report</translation>
+    </entry>
+    <entry key="Report">
+      <text>Report</text>
+      <translation>Report</translation>
+    </entry>
+    <entry key="CreateReportDescription">
+      <text>Change options to generate report</text>
+      <translation>Change options to generate report</translation>
+    </entry>
+    <entry key="SendToFigure">
+      <text>Send to Figure</text>
+      <translation>Send to Figure</translation>
+    </entry>
+    <entry key="SendToFigureDescription">
+      <text>Send all subplots to MATLAB figure window</text>
+      <translation>Send all subplots to MATLAB figure window</translation>
+    </entry>
+    <entry key="Resources">
+      <text>RESOURCES</text>
+      <translation>RESOURCES</translation>
+    </entry>
+    <entry key="Help">
+      <text>Help</text>
+      <translation>Help</translation>
+    </entry>
+    <entry key="HelpDescription">
+      <text>View Data Inspector documentation</text>
+      <translation>View Data Inspector documentation</translation>
+    </entry>
+    <entry key="GettingStartedPage">
+      <text>Getting Started</text>
+      <translation>Getting Started</translation>
+    </entry>
+    <entry key="SDIHelp">
+      <text>Data Inspector Help</text>
+      <translation>Data Inspector Help</translation>
+    </entry>
+    <entry key="ProgrammaticInterfaceHelp">
+      <text>Programmatic Interface Help</text>
+      <translation>Programmatic Interface Help</translation>
+    </entry>
+    <entry key="MatlabHelp">
+      <text>About MATLAB</text>
+      <translation>About MATLAB</translation>
+    </entry>
+    <entry key="SimulinkHelp">
+      <text>About Simulink</text>
+      <translation>About Simulink</translation>
+    </entry>
+    <entry key="Compare">
+      <text>COMPARE</text>
+      <translation>COMPARE</translation>
+    </entry>
+    <entry key="Options">
+      <text>OPTIONS</text>
+      <translation>OPTIONS</translation>
+    </entry>
+    <entry key="ComparisonOptions">
+      <text>Comparison\nOptions</text>
+      <translation>Comparison\nOptions</translation>
+    </entry>
+    <entry key="ComparisonOptionsDescription">
+      <text>Change how signals are matched when runs are compared</text>
+      <translation>Change how signals are matched when runs are compared</translation>
+    </entry>
+    <entry key="CompareTypeTitle">
+      <text>Compare</text>
+      <translation>Compare</translation>
+    </entry>
+    <entry key="CompareTypeRuns">
+      <text>Runs</text>
+      <translation>Runs</translation>
+    </entry>
+    <entry key="CompareTypeSignals">
+      <text>Signals</text>
+      <translation>Signals</translation>
+    </entry>
+    <entry key="CompareRuns">
+      <text>COMPARE RUNS</text>
+      <translation>COMPARE RUNS</translation>
+    </entry>
+    <entry key="Baseline">
+      <text>Baseline:</text>
+      <translation>Baseline:</translation>
+    </entry>
+    <entry key="CompareTo">
+      <text>Compare To:</text>
+      <translation>Compare To:</translation>
+    </entry>
+    <entry key="SwapRuns">
+      <text>Swap a baseline run with a comparison run</text>
+      <translation>Swap a baseline run with a comparison run</translation>
+    </entry>
+    <entry key="RunComparison">
+      <text>Compare\nRuns</text>
+      <translation>Compare\nRuns</translation>
+    </entry>
+    <entry key="RunComparisonDescription">
+      <text>Compare a baseline run to a comparison run</text>
+      <translation>Compare a baseline run to a comparison run</translation>
+    </entry>
+    <entry key="NoRunsExist">
+      <text>No runs exist</text>
+      <translation>No runs exist</translation>
+    </entry>
+    <entry key="NoRunsToCompare">
+      <text>No runs to compare</text>
+      <translation>No runs to compare</translation>
+    </entry>
+    <entry key="NoSignalsSelected">
+      <text>Choose two signals from the Runs pane to compare</text>
+      <translation>Choose two signals from the Runs pane to compare</translation>
+    </entry>
+    <entry key="NoSignalsToCompare">
+      <text>Choose two signals from the Runs pane to compare</text>
+      <translation>Choose two signals from the Runs pane to compare</translation>
+    </entry>
+    <entry key="Format">
+      <text>FORMAT</text>
+      <translation>FORMAT</translation>
+    </entry>
+    <entry key="Insert">
+      <text>INSERT</text>
+      <translation>INSERT</translation>
+    </entry>
+    <entry key="Subplots">
+      <text>Subplots</text>
+      <translation>Subplots</translation>
+    </entry>
+    <entry key="SubplotsDescription">
+      <text>Choose subplot layout</text>
+      <translation>Choose subplot layout</translation>
+    </entry>
+    <entry key="SubplotsMarkers">
+      <text>SUBPLOTS &amp; MARKERS</text>
+      <translation>SUBPLOTS &amp; MARKERS</translation>
+    </entry>
+    <entry key="NormalizeYAxis">
+      <text>Normalize Y Axis</text>
+      <translation>Normalize Y Axis</translation>
+    </entry>
+    <entry key="NormalizeYAxisDescription">
+      <text>Normalize selected Y-axis on subplot</text>
+      <translation>Normalize selected Y-axis on subplot</translation>
+    </entry>
+    <entry key="LinkSubplot">
+      <text>Link Subplot</text>
+      <translation>Link Subplot</translation>
+    </entry>
+    <entry key="LinkSubplotDescription">
+      <text>Link/unlink subplot</text>
+      <translation>Link/unlink subplot</translation>
+    </entry>
+    <entry key="ShowMarkers">
+      <text>Show Markers</text>
+      <translation>Show Markers</translation>
+    </entry>
+    <entry key="ShowMarkersDescription">
+      <text>Show/hide markers</text>
+      <translation>Show/hide markers</translation>
+    </entry>
+    <entry key="TAxesLimits">
+      <text>T-AXES LIMITS</text>
+      <translation>T-AXES LIMITS</translation>
+    </entry>
+    <entry key="Min">
+      <text>Min:</text>
+      <translation>Min:</translation>
+    </entry>
+    <entry key="Max">
+      <text>Max:</text>
+      <translation>Max:</translation>
+    </entry>
+    <entry key="MinDescription">
+      <text>Minimum value</text>
+      <translation>Minimum value</translation>
+    </entry>
+    <entry key="MaxDescription">
+      <text>Maximum value</text>
+      <translation>Maximum value</translation>
+    </entry>
+    <entry key="YAxesLimits">
+      <text>Y-AXES LIMITS</text>
+      <translation>Y-AXES LIMITS</translation>
+    </entry>
+    <entry key="Layout">
+      <text>LAYOUT</text>
+      <translation>LAYOUT</translation>
+    </entry>
+    <entry key="NavigationPane">
+      <text>Navigation\nPane</text>
+      <translation>Navigation\nPane</translation>
+    </entry>
+    <entry key="NavigationPaneDescription">
+      <text>Show/hide navigation pane</text>
+      <translation>Show/hide navigation pane</translation>
+    </entry>
+    <entry key="PropertyPane">
+      <text>Property\nPane</text>
+      <translation>Property\nPane</translation>
+    </entry>
+    <entry key="PropertyPaneDescription">
+      <text>Show/hide property pane</text>
+      <translation>Show/hide property pane</translation>
+    </entry>
+    <entry key="TimeDomainOptions">
+      <text>OPTIONS</text>
+      <translation>OPTIONS</translation>
+    </entry>
+    <entry key="FreqAxesLimits">
+      <text>FREQUENCY LIMITS</text>
+      <translation>FREQUENCY LIMITS</translation>
+    </entry>
+    <entry key="Leakage">
+      <text>LEAKAGE</text>
+      <translation>LEAKAGE</translation>
+    </entry>
+    <entry key="SharpnessSliderDescription">
+      <text>Adjust spectral leakage</text>
+      <translation>Adjust spectral leakage</translation>
+    </entry>
+    <entry key="MaxLeakage" note="maximum leakage">
+      <text>Max</text>
+      <translation>Max</translation>
+    </entry>
+    <entry key="MinLeakage" note="minimum leakage">
+      <text>Min</text>
+      <translation>Min</translation>
+    </entry>
+    <entry key="RBW">
+      <text>FREQUENCY RESOLUTION</text>
+      <translation>FREQUENCY RESOLUTION</translation>
+    </entry>
+    <entry key="RBWDescription">
+      <text>Frequency resolution bandwidth</text>
+      <translation>Frequency resolution bandwidth</translation>
+    </entry>
+    <entry key="NavigateToPrevFailureRegion">
+      <text>Previous out of tolerance region</text>
+      <translation>Previous out of tolerance region</translation>
+    </entry>
+    <entry key="NavigateToNextFailureRegion">
+      <text>Next out of tolerance region</text>
+      <translation>Next out of tolerance region</translation>
+    </entry>
+    <entry key="SlicerTab">
+      <text>Model Slicer Data Inspector</text>
+      <translation>Model Slicer Data Inspector</translation>
+    </entry>
+    <entry key="Slice">
+      <text>Highlight</text>
+      <translation>Highlight</translation>
+    </entry>
+    <entry key="SliceDescr">
+      <text>Compute slice for time window</text>
+      <translation>Compute slice for time window</translation>
+    </entry>
+    <entry key="StartTime">
+      <text>Start</text>
+      <translation>Start</translation>
+    </entry>
+    <entry key="StopTime">
+      <text>Stop</text>
+      <translation>Stop</translation>
+    </entry>
+    <entry key="StartTimeDescr">
+      <text>Simulation start time</text>
+      <translation>Simulation start time</translation>
+    </entry>
+    <entry key="StopTimeDescr">
+      <text>Simulation stop time</text>
+      <translation>Simulation stop time</translation>
+    </entry>
+    <entry key="TimeWindow">
+      <text>TIME WINDOW</text>
+      <translation>TIME WINDOW</translation>
+    </entry>
+    <entry key="SliceManager">
+      <text>MANAGE</text>
+      <translation>MANAGE</translation>
+    </entry>
+    <entry key="ModelSlicer">
+      <text>Model\nSlicer</text>
+      <translation>Model\nSlicer</translation>
+    </entry>
+    <entry key="ModelSlicerDescr">
+      <text>Bring Model Slice Manager to front</text>
+      <translation>Bring Model Slice Manager to front</translation>
+    </entry>
+    <entry key="ShowReplayControls">
+      <text>Show replay controls</text>
+      <translation>Show replay controls</translation>
+    </entry>
+    <entry key="HideReplayControls">
+      <text>Hide replay controls</text>
+      <translation>Hide replay controls</translation>
+    </entry>
+    <entry key="ReplayIconDescription">
+      <text>Show/hide replay controls</text>
+      <translation>Show/hide replay controls</translation>
+    </entry>
+    <entry key="Pause">
+      <text>Pause</text>
+      <translation>Pause</translation>
+    </entry>
+    <entry key="Replay">
+      <text>Replay</text>
+      <translation>Replay</translation>
+    </entry>
+    <entry key="StepForward">
+      <text>Step forward</text>
+      <translation>Step forward</translation>
+    </entry>
+    <entry key="StepBackward">
+      <text>Step backward</text>
+      <translation>Step backward</translation>
+    </entry>
+    <entry key="IncreaseReplaySpeed">
+      <text>Increase replay speed</text>
+      <translation>Increase replay speed</translation>
+    </entry>
+    <entry key="DecreaseReplaySpeed">
+      <text>Decrease replay speed</text>
+      <translation>Decrease replay speed</translation>
+    </entry>
+    <entry key="FreezeDisplay">
+      <text>Hold</text>
+      <translation>Hold</translation>
+    </entry>
+    <entry key="UnFreezeDisplay">
+      <text>Resume</text>
+      <translation>Resume</translation>
+    </entry>
+    <entry key="ShowPlottedSignals">
+      <text>Show plotted signals</text>
+      <translation>Show plotted signals</translation>
+    </entry>
+    <entry key="ZoomAreaLabel">
+      <text>Zoom Area</text>
+      <translation>Zoom Area</translation>
+    </entry>
+    <entry key="PlotTypes">
+      <text>Plot type</text>
+      <translation>Plot type</translation>
+    </entry>
+    <entry key="FitInXLabel">
+      <text>Fit to view in X</text>
+      <translation>Fit to view in X</translation>
+    </entry>
+    <entry key="FitInXLabelShortcutKey">
+      <text>Ctrl+Alt+T</text>
+      <translation>Ctrl+Alt+T</translation>
+    </entry>
+    <entry key="Layout1by1">
+      <text>1x1</text>
+      <translation>1x1</translation>
+    </entry>
+    <entry key="Layout2by1">
+      <text>2x1</text>
+      <translation>2x1</translation>
+    </entry>
+    <entry key="Layout1by2">
+      <text>1x2</text>
+      <translation>1x2</translation>
+    </entry>
+    <entry key="Layout2by2">
+      <text>2x2</text>
+      <translation>2x2</translation>
+    </entry>
+    <entry key="LayoutRowTop">
+      <text>Split Bottom</text>
+      <translation>Split Bottom</translation>
+    </entry>
+    <entry key="LayoutRowBottom">
+      <text>Split Top</text>
+      <translation>Split Top</translation>
+    </entry>
+    <entry key="LayoutRowRight">
+      <text>Split Left</text>
+      <translation>Split Left</translation>
+    </entry>
+    <entry key="LayoutRowLeft">
+      <text>Split Right</text>
+      <translation>Split Right</translation>
+    </entry>
+    <entry key="LayoutOverlayTop">
+      <text>Top</text>
+      <translation>Top</translation>
+    </entry>
+    <entry key="LayoutOverlayBottom">
+      <text>Bottom</text>
+      <translation>Bottom</translation>
+    </entry>
+    <entry key="LayoutOverlayLeft">
+      <text>Left</text>
+      <translation>Left</translation>
+    </entry>
+    <entry key="LayoutOverlayRight">
+      <text>Right</text>
+      <translation>Right</translation>
+    </entry>
+    <entry key="Layout1x1Tooltip">
+      <text>One-plot layout</text>
+      <translation>One-plot layout</translation>
+    </entry>
+    <entry key="Layout2x1Tooltip">
+      <text>Two-plot vertical grid layout</text>
+      <translation>Two-plot vertical grid layout</translation>
+    </entry>
+    <entry key="Layout1x2Tooltip">
+      <text>Two-plot horizontal grid layout</text>
+      <translation>Two-plot horizontal grid layout</translation>
+    </entry>
+    <entry key="Layout2x2Tooltip">
+      <text>Four-plot grid layout</text>
+      <translation>Four-plot grid layout</translation>
+    </entry>
+    <entry key="RowTopTooltip">
+      <text>Three-plot layout with two plots on bottom</text>
+      <translation>Three-plot layout with two plots on bottom</translation>
+    </entry>
+    <entry key="RowBottomTooltip">
+      <text>Three-plot layout with two plots on top</text>
+      <translation>Three-plot layout with two plots on top</translation>
+    </entry>
+    <entry key="ColumnRightTooltip">
+      <text>Three-plot layout with two plots on left</text>
+      <translation>Three-plot layout with two plots on left</translation>
+    </entry>
+    <entry key="ColumnLeftTooltip">
+      <text>Three-plot layout with two plots on right</text>
+      <translation>Three-plot layout with two plots on right</translation>
+    </entry>
+    <entry key="TopTooltip">
+      <text>Two subplots overlay 1x1 grid at the top</text>
+      <translation>Two subplots overlay 1x1 grid at the top</translation>
+    </entry>
+    <entry key="BottomTooltip">
+      <text>Two subplots overlay 1x1 grid at the bottom</text>
+      <translation>Two subplots overlay 1x1 grid at the bottom</translation>
+    </entry>
+    <entry key="LeftTooltip">
+      <text>Two subplots overlay 1x1 grid on the left</text>
+      <translation>Two subplots overlay 1x1 grid on the left</translation>
+    </entry>
+    <entry key="RightTooltip">
+      <text>Two subplots overlay 1x1 grid on the right</text>
+      <translation>Two subplots overlay 1x1 grid on the right</translation>
+    </entry>
+  </message>
+</bicat>

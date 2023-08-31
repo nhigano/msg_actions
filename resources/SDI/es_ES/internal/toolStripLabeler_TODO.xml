@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="LabelerHelp">
+      <text>Signal Labeler Help</text>
+      <translation>Signal Labeler Help</translation>
+    </entry>
+    <entry key="HelpDescription">
+      <text>View Signal Labeler documentation</text>
+      <translation>View Signal Labeler documentation</translation>
+    </entry>
+    <entry key="AutoLabelModeHelp">
+      <text>Auto-Label Help</text>
+      <translation>Auto-Label Help</translation>
+    </entry>
+    <entry key="AutoLabelModeHelpDescription">
+      <text>View Auto-Label mode documentation</text>
+      <translation>View Auto-Label mode documentation</translation>
+    </entry>
+    <entry key="FastLabelModeHelp">
+      <text>Fast-Navigation Help</text>
+      <translation>Fast-Navigation Help</translation>
+    </entry>
+    <entry key="FastLabelModeHelpDescription">
+      <text>View Fast-Navigation mode documentation</text>
+      <translation>View Fast-Navigation mode documentation</translation>
+    </entry>
+    <entry key="DashboardModeHelp">
+      <text>Dashboard Help</text>
+      <translation>Dashboard Help</translation>
+    </entry>
+    <entry key="DashboardModeHelpDescription">
+      <text>View Dashboard mode documentation</text>
+      <translation>View Dashboard mode documentation</translation>
+    </entry>
+    <entry key="Label">
+      <text>Labeler</text>
+      <translation>Labeler</translation>
+    </entry>
+    <entry key="LabelDesc">
+      <text>Create label</text>
+      <translation>Create label</translation>
+    </entry>
+    <entry key="FileSectionName">
+      <text>FILE</text>
+      <translation>FILE</translation>
+    </entry>
+    <entry key="NewButtonText">
+      <text>New</text>
+      <translation>New</translation>
+    </entry>
+    <entry key="NewButtonDesc">
+      <text>New session: clear all members and label definitions</text>
+      <translation>New session: clear all members and label definitions</translation>
+    </entry>
+    <entry key="NewButtonSessionHeader">
+      <text>SESSION</text>
+      <translation>SESSION</translation>
+    </entry>
+    <entry key="NewButtonSessionItemLabel">
+      <text>Session</text>
+      <translation>Session</translation>
+    </entry>
+    <entry key="NewButtonSessionItemDesc">
+      <text>Clear all members and label definitions</text>
+      <translation>Clear all members and label definitions</translation>
+    </entry>
+    <entry key="NewButtonDataSourceHeader">
+      <text>DATA SOURCE</text>
+      <translation>DATA SOURCE</translation>
+    </entry>
+    <entry key="NewButtonDataSourceMembersItemLabel">
+      <text>Members</text>
+      <translation>Members</translation>
+    </entry>
+    <entry key="NewButtonDataSourceMembersItemDesc">
+      <text>Clear all members</text>
+      <translation>Clear all members</translation>
+    </entry>
+    <entry key="NewButtonDataSourceLabelDefinitionsItemLabel">
+      <text>Label Definitions</text>
+      <translation>Label Definitions</translation>
+    </entry>
+    <entry key="NewButtonDataSourceLabelDefinitionsItemDesc">
+      <text>Clear all label definitions</text>
+      <translation>Clear all label definitions</translation>
+    </entry>
+    <entry key="ImportButtonMembersHeader">
+      <text>MEMBERS</text>
+      <translation>MEMBERS</translation>
+    </entry>
+    <entry key="ImportButtonMembersFromWorkspaceItemLabel">
+      <text>From Workspace</text>
+      <translation>From Workspace</translation>
+    </entry>
+    <entry key="ImportButtonMembersFromFileItemLabel">
+      <text>From Files</text>
+      <translation>From Files</translation>
+    </entry>
+    <entry key="ImportButtonMembersFromFolderItemLabel">
+      <text>From Folders</text>
+      <translation>From Folders</translation>
+    </entry>
+    <entry key="ImportButtonLabelDefinitionsHeader">
+      <text>LABEL DEFINITIONS</text>
+      <translation>LABEL DEFINITIONS</translation>
+    </entry>
+    <entry key="ImportButtonLabelDefinitionsFromWorkspaceItemLabel">
+      <text>From workspace</text>
+      <translation>From workspace</translation>
+    </entry>
+    <entry key="ImportButtonLabelDefinitionsFromFileItemLabel">
+      <text>From File</text>
+      <translation>From File</translation>
+    </entry>
+    <entry key="ImportButtonText">
+      <text>Import</text>
+      <translation>Import</translation>
+    </entry>
+    <entry key="ImportButtonDesc">
+      <text>Import members or label definitions</text>
+      <translation>Import members or label definitions</translation>
+    </entry>
+    <entry key="LabelDefinitionSectionName">
+      <text>LABEL DEFINITION</text>
+      <translation>LABEL DEFINITION</translation>
+    </entry>
+    <entry key="LabelTabAddLabelDefinition">
+      <text>Add</text>
+      <translation>Add</translation>
+    </entry>
+    <entry key="LabelTabAddLabelDefinitionlDesc">
+      <text>Add label/sublabel definition</text>
+      <translation>Add label/sublabel definition</translation>
+    </entry>
+    <entry key="LabelTabAddLabel">
+      <text>Add Label Definition</text>
+      <translation>Add Label Definition</translation>
+    </entry>
+    <entry key="LabelTabAddLabelDesc">
+      <text>Add label definition</text>
+      <translation>Add label definition</translation>
+    </entry>
+    <entry key="LabelTabAddSubLabel">
+      <text>Add Sublabel Definition</text>
+      <translation>Add Sublabel Definition</translation>
+    </entry>
+    <entry key="LabelTabAddSubLabelDesc">
+      <text>Add sublabel definition</text>
+      <translation>Add sublabel definition</translation>
+    </entry>
+    <entry key="LabelTabEditLabelDef">
+      <text>Edit</text>
+      <translation>Edit</translation>
+    </entry>
+    <entry key="LabelTabEditLabelDefDesc">
+      <text>Edit label definition</text>
+      <translation>Edit label definition</translation>
+    </entry>
+    <entry key="LabelTabDeleteLabelDef">
+      <text>Delete</text>
+      <translation>Delete</translation>
+    </entry>
+    <entry key="LabelTabDeleteLabelDefDesc">
+      <text>Delete label definition</text>
+      <translation>Delete label definition</translation>
+    </entry>
+    <entry key="LabelTabExportLabelDef">
+      <text>Export</text>
+      <translation>Export</translation>
+    </entry>
+    <entry key="LabelTabExportLabelDefDescription">
+      <text>Export label definition</text>
+      <translation>Export label definition</translation>
+    </entry>
+    <entry key="LabelTabImportLabelDef">
+      <text>Import</text>
+      <translation>Import</translation>
+    </entry>
+    <entry key="LabelTabImportLabelDefDescription">
+      <text>Import label definition</text>
+      <translation>Import label definition</translation>
+    </entry>
+    <entry key="SelectedDefinitionSectionName">
+      <text>SELECTED DEFINITION</text>
+      <translation>SELECTED DEFINITION</translation>
+    </entry>
+    <entry key="ParentLabelDefNameLabel">
+      <text>Parent Name:</text>
+      <translation>Parent Name:</translation>
+    </entry>
+    <entry key="ParentLabelDefNameDesc">
+      <text>Parent label definition name (read-only)</text>
+      <translation>Parent label definition name (read-only)</translation>
+    </entry>
+    <entry key="LabelDefNameLabel">
+      <text>Name:</text>
+      <translation>Name:</translation>
+    </entry>
+    <entry key="LabelDefNameDesc">
+      <text>Label definition name (read-only)</text>
+      <translation>Label definition name (read-only)</translation>
+    </entry>
+    <entry key="Description">
+      <text>Description</text>
+      <translation>Description</translation>
+    </entry>
+    <entry key="DescriptionDesc">
+      <text>Label definition description (read-only)</text>
+      <translation>Label definition description (read-only)</translation>
+    </entry>
+    <entry key="SetValueSectionName">
+      <text>SET LABEL VALUE</text>
+      <translation>SET LABEL VALUE</translation>
+    </entry>
+    <entry key="LabelDefValue">
+      <text>Value</text>
+      <translation>Value</translation>
+    </entry>
+    <entry key="LabelDefValueDesc">
+      <text>Value for new label</text>
+      <translation>Value for new label</translation>
+    </entry>
+    <entry key="LabelDefValuePlaceholderTextNumeric">
+      <text>Type a numeric value</text>
+      <translation>Type a numeric value</translation>
+    </entry>
+    <entry key="LabelDefValuePlaceholderTextString">
+      <text>Type a string value</text>
+      <translation>Type a string value</translation>
+    </entry>
+    <entry key="LabelAttributeButton">
+      <text>Label Attribute</text>
+      <translation>Label Attribute</translation>
+    </entry>
+    <entry key="LabelAttributeDesc">
+      <text>Add new attribute label to plotted signals</text>
+      <translation>Add new attribute label to plotted signals</translation>
+    </entry>
+    <entry key="LabelSelectedSignal">
+      <text>Label All</text>
+      <translation>Label All</translation>
+    </entry>
+    <entry key="LabelSelectedSignalDesc">
+      <text>Add new label to all signals in labeled signal set</text>
+      <translation>Add new label to all signals in labeled signal set</translation>
+    </entry>
+    <entry key="LabelValueRestore">
+      <text>Restore Value</text>
+      <translation>Restore Value</translation>
+    </entry>
+    <entry key="LabelValueRestoreDesc">
+      <text>Restore label value to default</text>
+      <translation>Restore label value to default</translation>
+    </entry>
+    <entry key="AcceptLabels">
+      <text>Accept</text>
+      <translation>Accept</translation>
+    </entry>
+    <entry key="AcceptLabelsDesc">
+      <text>Accept active label</text>
+      <translation>Accept active label</translation>
+    </entry>
+    <entry key="EditLabels">
+      <text>Edit</text>
+      <translation>Edit</translation>
+    </entry>
+    <entry key="EditLabelsDesc">
+      <text>Edit selected label</text>
+      <translation>Edit selected label</translation>
+    </entry>
+    <entry key="DrawLabelButton">
+      <text>Draw\nLabels</text>
+      <translation>Draw\nLabels</translation>
+    </entry>
+    <entry key="OptionsSectionName">
+      <text>OPTIONS</text>
+      <translation>OPTIONS</translation>
+    </entry>
+    <entry key="DeleteLabels">
+      <text>Delete</text>
+      <translation>Delete</translation>
+    </entry>
+    <entry key="DeleteLabelsDesc">
+      <text>Delete selected label</text>
+      <translation>Delete selected label</translation>
+    </entry>
+    <entry key="ZoomToLabels">
+      <text>Zoom</text>
+      <translation>Zoom</translation>
+    </entry>
+    <entry key="ZoomToLabelsDesc">
+      <text>Zoom to Label</text>
+      <translation>Zoom to Label</translation>
+    </entry>
+    <entry key="BrowserSectionName">
+      <text>BROWSER</text>
+      <translation>BROWSER</translation>
+    </entry>
+    <entry key="FastLabel">
+      <text>Fast\nNavigation</text>
+      <translation>Fast\nNavigation</translation>
+    </entry>
+    <entry key="FastLabelDesc">
+      <text>Quickly navigate through members to label</text>
+      <translation>Quickly navigate through members to label</translation>
+    </entry>
+    <entry key="AutomatedSectionName">
+      <text>AUTOMATE VALUE</text>
+      <translation>AUTOMATE VALUE</translation>
+    </entry>
+    <entry key="AutoPointLabelFunctionGalleryTitle">
+      <text>POINT FUNCTIONS</text>
+      <translation>POINT FUNCTIONS</translation>
+    </entry>
+    <entry key="AutoROILabelFunctionGalleryTitle">
+      <text>ROI FUNCTIONS</text>
+      <translation>ROI FUNCTIONS</translation>
+    </entry>
+    <entry key="AutoAttributeLabelFunctionGalleryTitle">
+      <text>ATTRIBUTE FUNCTIONS</text>
+      <translation>ATTRIBUTE FUNCTIONS</translation>
+    </entry>
+    <entry key="AutoLabelFunctionGalleryNoSelectionMsg">
+      <text>Select definition to automate</text>
+      <translation>Select definition to automate</translation>
+    </entry>
+    <entry key="AutoLabelFunctionGalleryInvalidSelectionMsg">
+      <text>No function for selection</text>
+      <translation>No function for selection</translation>
+    </entry>
+    <entry key="AutoLabelAddCustomFunction">
+      <text>Add Custom Function</text>
+      <translation>Add Custom Function</translation>
+    </entry>
+    <entry key="AutoLabelManageCustomFunction">
+      <text>Manage Custom Functions</text>
+      <translation>Manage Custom Functions</translation>
+    </entry>
+    <entry key="PeakLabeler">
+      <text>Peak\nLabeler</text>
+      <translation>Peak\nLabeler</translation>
+    </entry>
+    <entry key="PeakLabelerDesc">
+      <text>Add peak or valley point labels</text>
+      <translation>Add peak or valley point labels</translation>
+    </entry>
+    <entry key="UndoAutoLabelingLabels">
+      <text>Undo</text>
+      <translation>Undo</translation>
+    </entry>
+    <entry key="UndoAutoLabelingLabelsDesc">
+      <text>Undo auto-labeling</text>
+      <translation>Undo auto-labeling</translation>
+    </entry>
+    <entry key="AutoLabelBtnText">
+      <text>Auto-\nLabel</text>
+      <translation>Auto-\nLabel</translation>
+    </entry>
+    <entry key="AutoLabelBtnTextDesc">
+      <text>Auto-label plotted signals or all signals in labeled signal set</text>
+      <translation>Auto-label plotted signals or all signals in labeled signal set</translation>
+    </entry>
+    <entry key="AutoLabelPlottedListBtnText">
+      <text>Auto-Label and Inspect Plotted</text>
+      <translation>Auto-Label and Inspect Plotted</translation>
+    </entry>
+    <entry key="AutoLabelSignalsListBtnText">
+      <text>Auto-Label All Signals</text>
+      <translation>Auto-Label All Signals</translation>
+    </entry>
+    <entry key="DashboardDescription">
+      <text>Inspect label statistics</text>
+      <translation>Inspect label statistics</translation>
+    </entry>
+    <entry key="LabelTabCloseSectionName">
+      <text>CLOSE</text>
+      <translation>CLOSE</translation>
+    </entry>
+    <entry key="LabelTabAcceptAllLabel">
+      <text>Save\nLabels</text>
+      <translation>Save\nLabels</translation>
+    </entry>
+    <entry key="LabelTabAcceptAllLabelDesc">
+      <text>Save labeling</text>
+      <translation>Save labeling</translation>
+    </entry>
+    <entry key="LabelTabCloseLabel">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="LabelTabCloseLabelDesc">
+      <text>Cancel labeling</text>
+      <translation>Cancel labeling</translation>
+    </entry>
+    <entry key="ExportSectionName">
+      <text>EXPORT</text>
+      <translation>EXPORT</translation>
+    </entry>
+    <entry key="ExportButtonLabeledSignalsHeader">
+      <text>LABELED SIGNAL SET</text>
+      <translation>LABELED SIGNAL SET</translation>
+    </entry>
+    <entry key="ExportButtonLabeledSignalsToFileItemLabel">
+      <text>To File</text>
+      <translation>To File</translation>
+    </entry>
+    <entry key="ExportButtonLabeledSignalsToWorkspaceItemLabel">
+      <text>To Workspace</text>
+      <translation>To Workspace</translation>
+    </entry>
+    <entry key="ExportButtonLabelDefinitionsHeader">
+      <text>LABEL DEFINITIONS</text>
+      <translation>LABEL DEFINITIONS</translation>
+    </entry>
+    <entry key="ExportButtonLabelDefinitionsToFileItem">
+      <text>To File</text>
+      <translation>To File</translation>
+    </entry>
+    <entry key="ExportButtonLabelDefinitionsToWorkspaceItem">
+      <text>To Workspace</text>
+      <translation>To Workspace</translation>
+    </entry>
+    <entry key="ExportButtonText">
+      <text>Export</text>
+      <translation>Export</translation>
+    </entry>
+    <entry key="ExportButtonDesc">
+      <text>Export labeled signal set or label definitions</text>
+      <translation>Export labeled signal set or label definitions</translation>
+    </entry>
+    <entry key="AutoLabelModeDefaultTabLabel">
+      <text>AUTOLABEL</text>
+      <translation>AUTOLABEL</translation>
+    </entry>
+    <entry key="AutoLabelTabRunTimeLimitsSectionName">
+      <text>RUN TIME LIMITS</text>
+      <translation>RUN TIME LIMITS</translation>
+    </entry>
+    <entry key="AutoLabelTabUnitsLabel">
+      <text>Units</text>
+      <translation>Units</translation>
+    </entry>
+    <entry key="AutoLabelTabMinLabel" note="short for minimum">
+      <text>Min</text>
+      <translation>Min</translation>
+    </entry>
+    <entry key="AutoLabelTabMaxLabel" note="short for maximum">
+      <text>Max</text>
+      <translation>Max</translation>
+    </entry>
+    <entry key="AutoLabelTabRunSectionName">
+      <text>RUN</text>
+      <translation>RUN</translation>
+    </entry>
+    <entry key="AutoLabelTabRun">
+      <text>Run</text>
+      <translation>Run</translation>
+    </entry>
+    <entry key="AutoLabelTabRunDesc">
+      <text>Auto-label plotted signals using run time limits</text>
+      <translation>Auto-label plotted signals using run time limits</translation>
+    </entry>
+    <entry key="AutoLabelTabUndo">
+      <text>Undo</text>
+      <translation>Undo</translation>
+    </entry>
+    <entry key="AutoLabelTabUndoDesc">
+      <text>Undo auto-labeling</text>
+      <translation>Undo auto-labeling</translation>
+    </entry>
+    <entry key="AutoLabelTabCloseSectionName">
+      <text>CLOSE</text>
+      <translation>CLOSE</translation>
+    </entry>
+    <entry key="AutoLabelTabSaveLabels">
+      <text>Save\nLabels</text>
+      <translation>Save\nLabels</translation>
+    </entry>
+    <entry key="AutoLabelTabSaveLabelsLabelDesc">
+      <text>Save labeling</text>
+      <translation>Save labeling</translation>
+    </entry>
+    <entry key="AutoLabelTabCloseLabel">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="AutoLabelTabCloseLabelDesc">
+      <text>Cancel labeling</text>
+      <translation>Cancel labeling</translation>
+    </entry>
+    <entry key="FastLabelTabCloseLabel">
+      <text>Close</text>
+      <translation>Close</translation>
+    </entry>
+    <entry key="FastLabelTabCloseLabelDesc">
+      <text>Close Fast Navigation</text>
+      <translation>Close Fast Navigation</translation>
+    </entry>
+    <entry key="FastLabelAttributeButton">
+      <text>Label\nAttribute</text>
+      <translation>Label\nAttribute</translation>
+    </entry>
+    <entry key="RunTimeLimitsMinGreaterThanMax">
+      <text>Value greater than maximum</text>
+      <translation>Value greater than maximum</translation>
+    </entry>
+    <entry key="RunTimeLimitsMaxLessThanMin">
+      <text>Value less than minimum</text>
+      <translation>Value less than minimum</translation>
+    </entry>
+    <entry key="InvalidValue">
+      <text>Invalid value</text>
+      <translation>Invalid value</translation>
+    </entry>
+    <entry key="DrawLabel">
+      <text>Draw Labels</text>
+      <translation>Draw Labels</translation>
+    </entry>
+    <entry key="DrawLabelDesc">
+      <text>Draw new labels in time (Ctrl+L)</text>
+      <translation>Draw new labels in time (Ctrl+L)</translation>
+    </entry>
+    <entry key="LabelviewerDomain">
+      <text>Label Viewer</text>
+      <translation>Label Viewer</translation>
+    </entry>
+    <entry key="LabelviewerDomainAdditionalText">
+      <text>View label viewer</text>
+      <translation>View label viewer</translation>
+    </entry>
+    <entry key="FastLabelMemberBrowserSectionName">
+      <text>BROWSER</text>
+      <translation>BROWSER</translation>
+    </entry>
+    <entry key="FastLabelPlotPreviousMember">
+      <text>Plot Previous</text>
+      <translation>Plot Previous</translation>
+    </entry>
+    <entry key="FastLabelPlotPreviousMemberDesc">
+      <text>Plot signals of previous member (Ctrl+Up)</text>
+      <translation>Plot signals of previous member (Ctrl+Up)</translation>
+    </entry>
+    <entry key="FastLabelPlotNextMember">
+      <text>Plot Next</text>
+      <translation>Plot Next</translation>
+    </entry>
+    <entry key="FastLabelPlotNextMemberDesc">
+      <text>Plot signals of next member (Ctrl+Down)</text>
+      <translation>Plot signals of next member (Ctrl+Down)</translation>
+    </entry>
+    <entry key="FastLabelSignalSelectionSectionName">
+      <text>CHANNEL SELECTION</text>
+      <translation>CHANNEL SELECTION</translation>
+    </entry>
+    <entry key="SignalSelectionButton">
+      <text>Channel\nSelector</text>
+      <translation>Channel\nSelector</translation>
+    </entry>
+    <entry key="SignalSelectionButtonDesc">
+      <text>Select channels to plot in each member</text>
+      <translation>Select channels to plot in each member</translation>
+    </entry>
+    <entry key="PlotFirstSignalRadioButton">
+      <text>Plot First</text>
+      <translation>Plot First</translation>
+    </entry>
+    <entry key="PlotFirstSignalRadioButtonDesc">
+      <text>Plot first channel in each member</text>
+      <translation>Plot first channel in each member</translation>
+    </entry>
+    <entry key="PlotAllSignalsRadioButton">
+      <text>Plot All</text>
+      <translation>Plot All</translation>
+    </entry>
+    <entry key="PlotAllSignalsRadioButtonDesc">
+      <text>Plot all channels in each member</text>
+      <translation>Plot all channels in each member</translation>
+    </entry>
+    <entry key="PlotSelectedSignalsRadioButton">
+      <text>Plot Selected</text>
+      <translation>Plot Selected</translation>
+    </entry>
+    <entry key="PlotSelectedSignalsRadioButtonDesc">
+      <text>Select channels to plot for each member using channel selector</text>
+      <translation>Select channels to plot for each member using channel selector</translation>
+    </entry>
+    <entry key="PreviousPan">
+      <text>Previous</text>
+      <translation>Previous</translation>
+    </entry>
+    <entry key="PreviousPanDesc">
+      <text>Pan Left</text>
+      <translation>Pan Left</translation>
+    </entry>
+    <entry key="NextPan">
+      <text>Next</text>
+      <translation>Next</translation>
+    </entry>
+    <entry key="NextPanDesc">
+      <text>Pan Right</text>
+      <translation>Pan Right</translation>
+    </entry>
+    <entry key="DataSetSectionName">
+      <text>DATASET</text>
+      <translation>DATASET</translation>
+    </entry>
+    <entry key="DashboardName">
+      <text>DASHBOARD</text>
+      <translation>DASHBOARD</translation>
+    </entry>
+    <entry key="DashboardTitle">
+      <text>Dashboard</text>
+      <translation>Dashboard</translation>
+    </entry>
+    <entry key="DashboardHelp">
+      <text>Dashboard Help</text>
+      <translation>Dashboard Help</translation>
+    </entry>
+    <entry key="DashboardLabelDefinitions">
+      <text>Definition\nSelection</text>
+      <translation>Definition\nSelection</translation>
+    </entry>
+    <entry key="DashboardPlotsSec">
+      <text>PLOTS</text>
+      <translation>PLOTS</translation>
+    </entry>
+    <entry key="DashboardProgress">
+      <text>Progress</text>
+      <translation>Progress</translation>
+    </entry>
+    <entry key="DashboardProgressDesc">
+      <text>Calculate percentage of labeled members for all members</text>
+      <translation>Calculate percentage of labeled members for all members</translation>
+    </entry>
+    <entry key="DashboardProgressLegendNonAttributeLabeled">
+      <text>Labeled</text>
+      <translation>Labeled</translation>
+    </entry>
+    <entry key="DashboardProgressLegendNonAttributeUnabeled">
+      <text>Unlabeled</text>
+      <translation>Unlabeled</translation>
+    </entry>
+    <entry key="DashboardProgressLegendAttributeLabeled">
+      <text>Labeled</text>
+      <translation>Labeled</translation>
+    </entry>
+    <entry key="DashboardProgressLegendAttributeUnlabeled">
+      <text>Members with number of</text>
+      <translation>Members with number of</translation>
+    </entry>
+    <entry key="DashboardProgressThresholdLabel">
+      <text>Threshold</text>
+      <translation>Threshold</translation>
+    </entry>
+    <entry key="DashboardValueDistribution">
+      <text>Label Distribution</text>
+      <translation>Label Distribution</translation>
+    </entry>
+    <entry key="DashboardCatValueDistributionDesc">
+      <text>Calculate distribution of different categorical, string, or logical labels across all members</text>
+      <translation>Calculate distribution of different categorical, string, or logical labels across all members</translation>
+    </entry>
+    <entry key="DashboardNumValueDistributionDesc">
+      <text>Calculate distribution of numeric labels across all members</text>
+      <translation>Calculate distribution of numeric labels across all members</translation>
+    </entry>
+    <entry key="DashboardNumValueDistributionXAxisTitle">
+      <text>Value</text>
+      <translation>Value</translation>
+    </entry>
+    <entry key="DashboardNumValueDistributionYAxisTitle">
+      <text>Instances</text>
+      <translation>Instances</translation>
+    </entry>
+    <entry key="DashboardNumXBinsLabel">
+      <text>X Bins:</text>
+      <translation>X Bins:</translation>
+    </entry>
+    <entry key="DashboardNumYBinsLabel">
+      <text>Y Bins:</text>
+      <translation>Y Bins:</translation>
+    </entry>
+    <entry key="DashboardNumXBins">
+      <text>Number of bins in the heatmap x-axis</text>
+      <translation>Number of bins in the heatmap x-axis</translation>
+    </entry>
+    <entry key="DashboardNumYBins">
+      <text>Number of bins in the heatmap y axis</text>
+      <translation>Number of bins in the heatmap y axis</translation>
+    </entry>
+    <entry key="DashboardOutlierToggle">
+      <text>Show data outliers in the box plot</text>
+      <translation>Show data outliers in the box plot</translation>
+    </entry>
+    <entry key="DashboardOutlierToggleLabel">
+      <text>Show Outliers</text>
+      <translation>Show Outliers</translation>
+    </entry>
+    <entry key="DashboardDurationDistribution">
+      <text>Time Distribution</text>
+      <translation>Time Distribution</translation>
+    </entry>
+    <entry key="DashboardDurationDistributionTitle">
+      <text>Duration Distribution</text>
+      <translation>Duration Distribution</translation>
+    </entry>
+    <entry key="DashboardCatDurationDistributionDesc">
+      <text>Calculate distribution of different ROI durations for categorical, string, or logical labels across all members</text>
+      <translation>Calculate distribution of different ROI durations for categorical, string, or logical labels across all members</translation>
+    </entry>
+    <entry key="DashboardCatDurationDistributionYAxisTitle">
+      <text>Duration</text>
+      <translation>Duration</translation>
+    </entry>
+    <entry key="DashboardNumDurationDistributionDesc">
+      <text>Calculate distribution of different ROI durations for numeric labels across all members</text>
+      <translation>Calculate distribution of different ROI durations for numeric labels across all members</translation>
+    </entry>
+    <entry key="DashboardNumDurationDistributionXAxisTitle">
+      <text>Duration</text>
+      <translation>Duration</translation>
+    </entry>
+    <entry key="DashboardNumDurationDistributionYAxisTitle">
+      <text>Instances</text>
+      <translation>Instances</translation>
+    </entry>
+    <entry key="DashboardHeatXMin">
+      <text>Specify heatmap x-axis minimum</text>
+      <translation>Specify heatmap x-axis minimum</translation>
+    </entry>
+    <entry key="DashboardHeatXMax">
+      <text>Specify heatmap x-axis maximum</text>
+      <translation>Specify heatmap x-axis maximum</translation>
+    </entry>
+    <entry key="DashboardHeatYMin">
+      <text>Specify heatmap y-axis minimum</text>
+      <translation>Specify heatmap y-axis minimum</translation>
+    </entry>
+    <entry key="DashboardHeatYMax">
+      <text>Specify heatmap y-axis maximum</text>
+      <translation>Specify heatmap y-axis maximum</translation>
+    </entry>
+    <entry key="DashboardHeatYMaxLabel">
+      <text>Y Max:</text>
+      <translation>Y Max:</translation>
+    </entry>
+    <entry key="DashboardHeatYMinLabel">
+      <text>Y Min:</text>
+      <translation>Y Min:</translation>
+    </entry>
+    <entry key="DashboardTimeDistribution">
+      <text>Time Distribution</text>
+      <translation>Time Distribution</translation>
+    </entry>
+    <entry key="DashboardPointDistributionTitle">
+      <text>Location Distribution</text>
+      <translation>Location Distribution</translation>
+    </entry>
+    <entry key="DashboardCatLocationDistributionDesc">
+      <text>Calculate distribution of different point locations for categorical, string, or logical labels across all members</text>
+      <translation>Calculate distribution of different point locations for categorical, string, or logical labels across all members</translation>
+    </entry>
+    <entry key="DashboardCatLocationDistributionYAxisTitle">
+      <text>Location</text>
+      <translation>Location</translation>
+    </entry>
+    <entry key="DashboardNumLocationDistributionDesc">
+      <text>Calculate distribution of different point locations for numeric labels across all members</text>
+      <translation>Calculate distribution of different point locations for numeric labels across all members</translation>
+    </entry>
+    <entry key="DashboardNumPointDistributionXAxisTitle">
+      <text>Location</text>
+      <translation>Location</translation>
+    </entry>
+    <entry key="DashboardNumPointDistributionYAxisTitle">
+      <text>Instances</text>
+      <translation>Instances</translation>
+    </entry>
+    <entry key="DashboardMemberAndRegionCount">
+      <text>Member Count</text>
+      <translation>Member Count</translation>
+    </entry>
+    <entry key="DashboardMemberCountYAxisTitle">
+      <text>Value</text>
+      <translation>Value</translation>
+    </entry>
+    <entry key="DashboardMemberAndRegionCountTitle">
+      <text>Member and Region Count</text>
+      <translation>Member and Region Count</translation>
+    </entry>
+    <entry key="DashboardMemberAndRegionCountDesc">
+      <text>Count number of members that have a given number of region labels</text>
+      <translation>Count number of members that have a given number of region labels</translation>
+    </entry>
+    <entry key="DashboardMemberAndRegionCountXAxisTitle">
+      <text>Region Instances</text>
+      <translation>Region Instances</translation>
+    </entry>
+    <entry key="DashboardMemberAndPointCount">
+      <text>Member Count</text>
+      <translation>Member Count</translation>
+    </entry>
+    <entry key="DashboardMemberAndPointCountTitle">
+      <text>Member and Point Count</text>
+      <translation>Member and Point Count</translation>
+    </entry>
+    <entry key="DashboardMemberAndPointCountDesc">
+      <text>Count number of members that have a given number of point labels</text>
+      <translation>Count number of members that have a given number of point labels</translation>
+    </entry>
+    <entry key="DashboardMemberAndPointCountXAxisTitle">
+      <text>Point Instances</text>
+      <translation>Point Instances</translation>
+    </entry>
+    <entry key="DashboardROI">
+      <text>ROI</text>
+      <translation>ROI</translation>
+    </entry>
+    <entry key="DashboardPoint">
+      <text>Point</text>
+      <translation>Point</translation>
+    </entry>
+    <entry key="DashboardAttr">
+      <text>Attribute</text>
+      <translation>Attribute</translation>
+    </entry>
+    <entry key="DashboardTabCloseLabel">
+      <text>Close Dashboard</text>
+      <translation>Close Dashboard</translation>
+    </entry>
+    <entry key="DashboardTabCloseLabelDesc">
+      <text>Close Dashboard</text>
+      <translation>Close Dashboard</translation>
+    </entry>
+    <entry key="DashboardInvalidNonInteger">
+      <text>Value must be positive integer</text>
+      <translation>Value must be positive integer</translation>
+    </entry>
+    <entry key="DashboardInvalidMinGreaterThanMax">
+      <text>Minimum must be less than the maximum</text>
+      <translation>Minimum must be less than the maximum</translation>
+    </entry>
+    <entry key="DashboardInvalidMaxGreaterThanMin">
+      <text>Maximum must be greater than minimum</text>
+      <translation>Maximum must be greater than minimum</translation>
+    </entry>
+    <entry key="DashboardInvalidNonNegativeInteger">
+      <text>Value must be non-negative</text>
+      <translation>Value must be non-negative</translation>
+    </entry>
+    <entry key="DashboardProgressThresholdText">
+      <text>Threshold of labels to count in the progress bar for a member</text>
+      <translation>Threshold of labels to count in the progress bar for a member</translation>
+    </entry>
+    <entry key="DashboardNumBins">
+      <text>Number of bins in the histogram</text>
+      <translation>Number of bins in the histogram</translation>
+    </entry>
+    <entry key="DashboardHistogramXMax">
+      <text>Specify histogram x-axis maximum</text>
+      <translation>Specify histogram x-axis maximum</translation>
+    </entry>
+    <entry key="DashboardHistogramXMin">
+      <text>Specify histogram x-axis minimum</text>
+      <translation>Specify histogram x-axis minimum</translation>
+    </entry>
+    <entry key="DashboardNumBinsLabel">
+      <text>Bins:</text>
+      <translation>Bins:</translation>
+    </entry>
+    <entry key="DashboardHistogramXMinLabel">
+      <text>X Min:</text>
+      <translation>X Min:</translation>
+    </entry>
+    <entry key="DashboardHistogramXMaxLabel">
+      <text>X Max:</text>
+      <translation>X Max:</translation>
+    </entry>
+    <entry key="FeatureExtractionTitle">
+      <text>Extract\nFeatures</text>
+      <translation>Extract\nFeatures</translation>
+    </entry>
+    <entry key="FeatureExtractionDescription">
+      <text>Extract full-signal or frame-based features from all members of labeled signal set</text>
+      <translation>Extract full-signal or frame-based features from all members of labeled signal set</translation>
+    </entry>
+    <entry key="FeatureExtractionHelp">
+      <text>Extract Features Help</text>
+      <translation>Extract Features Help</translation>
+    </entry>
+    <entry key="FeatureExtractionHelpDescription">
+      <text>View Extract Features mode documentation</text>
+      <translation>View Extract Features mode documentation</translation>
+    </entry>
+    <entry key="FeatureModeDefaultTabLabel">
+      <text>EXTRACT FEATURES</text>
+      <translation>EXTRACT FEATURES</translation>
+    </entry>
+    <entry key="FeatureExtractionChannelSelectionSectionName">
+      <text>CHANNEL SELECTION</text>
+      <translation>CHANNEL SELECTION</translation>
+    </entry>
+    <entry key="FeatureExtractionFirstChannelRadioButton">
+      <text>First</text>
+      <translation>First</translation>
+    </entry>
+    <entry key="FeatureExtractionFirstChannelRadioButtonDesc">
+      <text>Use first channel in each member for feature extraction</text>
+      <translation>Use first channel in each member for feature extraction</translation>
+    </entry>
+    <entry key="FeatureExtractionSelectedChannelRadioButton">
+      <text>Selected</text>
+      <translation>Selected</translation>
+    </entry>
+    <entry key="FeatureExtractionSelectedChannelRadioButtonDesc">
+      <text>Use selected channel in each member for feature extraction</text>
+      <translation>Use selected channel in each member for feature extraction</translation>
+    </entry>
+    <entry key="FeatureExtractionChannelSelectionButtonLabel">
+      <text>Channel\nSelector</text>
+      <translation>Channel\nSelector</translation>
+    </entry>
+    <entry key="FeatureExtractionChannelSelectionButtonDesc">
+      <text>Select channel in each member for feature extraction</text>
+      <translation>Select channel in each member for feature extraction</translation>
+    </entry>
+    <entry key="FeatureModeTabFeatureSectionName">
+      <text>FEATURE</text>
+      <translation>FEATURE</translation>
+    </entry>
+    <entry key="EditFeatureDef">
+      <text>Edit</text>
+      <translation>Edit</translation>
+    </entry>
+    <entry key="EditFeatureDefDesc">
+      <text>Edit feature label definition</text>
+      <translation>Edit feature label definition</translation>
+    </entry>
+    <entry key="DeleteFeatureDef">
+      <text>Delete</text>
+      <translation>Delete</translation>
+    </entry>
+    <entry key="DeleteFeatureDefDesc">
+      <text>Delete selected feature label definition</text>
+      <translation>Delete selected feature label definition</translation>
+    </entry>
+    <entry key="DeleteAllFeatureDef">
+      <text>Delete All</text>
+      <translation>Delete All</translation>
+    </entry>
+    <entry key="DeleteAllFeatureDefDesc">
+      <text>Delete all feature label definitions</text>
+      <translation>Delete all feature label definitions</translation>
+    </entry>
+    <entry key="FeatureModeTabDataSectionName">
+      <text>FRAME POLICY</text>
+      <translation>FRAME POLICY</translation>
+    </entry>
+    <entry key="FullSignalFeatureRadioBtn">
+      <text>Full-signal</text>
+      <translation>Full-signal</translation>
+    </entry>
+    <entry key="FullSignalFeatureRadioBtnDesc">
+      <text>Use the full signal to extract features</text>
+      <translation>Use the full signal to extract features</translation>
+    </entry>
+    <entry key="FrameBasedSignalFeatureRadioBtn">
+      <text>Frame-based</text>
+      <translation>Frame-based</translation>
+    </entry>
+    <entry key="FrameBasedSignalFeatureRadioBtnDesc">
+      <text>Use frame-based or window-based regions of interest to extract features</text>
+      <translation>Use frame-based or window-based regions of interest to extract features</translation>
+    </entry>
+    <entry key="FrameRuleDropLabel">
+      <text>Drop incomplete frames</text>
+      <translation>Drop incomplete frames</translation>
+    </entry>
+    <entry key="FrameRuleZeroPadLabel">
+      <text>Zero-pad and include incomplete frames</text>
+      <translation>Zero-pad and include incomplete frames</translation>
+    </entry>
+    <entry key="FrameSizeLabel">
+      <text>Frame Size</text>
+      <translation>Frame Size</translation>
+    </entry>
+    <entry key="FrameRateLabel">
+      <text>Frame Rate</text>
+      <translation>Frame Rate</translation>
+    </entry>
+    <entry key="FrameOverlaptLabel">
+      <text>Frame Overlap Length</text>
+      <translation>Frame Overlap Length</translation>
+    </entry>
+    <entry key="FrameOverlapGreaterThanFrameSizeError">
+      <text>Frame overlap length must be less than frame size.</text>
+      <translation>Frame overlap length must be less than frame size.</translation>
+    </entry>
+    <entry key="FrameSizeIsZeroAfterConvertingToSamplesError">
+      <text>Frame size must be greater than 0 after converting to samples.</text>
+      <translation>Frame size must be greater than 0 after converting to samples.</translation>
+    </entry>
+    <entry key="FrameRateIsZeroAfterConvertingToSamplesError">
+      <text>Frame rate must be greater than 0 after converting to samples.</text>
+      <translation>Frame rate must be greater than 0 after converting to samples.</translation>
+    </entry>
+    <entry key="FeatureModeTabFeatureGenerationSectionName">
+      <text>FEATURE GENERATION</text>
+      <translation>FEATURE GENERATION</translation>
+    </entry>
+    <entry key="SignalFeatureExtractorGalleryTitle">
+      <text>Signal Feature Extractor</text>
+      <translation>Signal Feature Extractor</translation>
+    </entry>
+    <entry key="TimeDomainFeatureGalleryBtn">
+      <text>Time-Domain Features</text>
+      <translation>Time-Domain Features</translation>
+    </entry>
+    <entry key="TimeDomainFeatureGalleryBtnDesc">
+      <text>Generate time-domain features from the selected signal for all labeled signal set members</text>
+      <translation>Generate time-domain features from the selected signal for all labeled signal set members</translation>
+    </entry>
+    <entry key="FrequencyDomainFeatureGalleryBtn">
+      <text>Spectral Features</text>
+      <translation>Spectral Features</translation>
+    </entry>
+    <entry key="FrequencyDomainFeatureGalleryBtnDesc">
+      <text>Generate frequency-domain features from the selected signal for all labeled signal set members</text>
+      <translation>Generate frequency-domain features from the selected signal for all labeled signal set members</translation>
+    </entry>
+    <entry key="ExportFeatureTableBtn">
+      <text>Export\nFeatures</text>
+      <translation>Export\nFeatures</translation>
+    </entry>
+    <entry key="ExportFeatureTableBtnDesc">
+      <text>Export features to MATLAB workspace or Classification Learner</text>
+      <translation>Export features to MATLAB workspace or Classification Learner</translation>
+    </entry>
+    <entry key="ExportFeatureToWSItem">
+      <text>Workspace</text>
+      <translation>Workspace</translation>
+    </entry>
+    <entry key="ExportFeatureToWSItemDesc">
+      <text>Export features to MATLAB workspace</text>
+      <translation>Export features to MATLAB workspace</translation>
+    </entry>
+    <entry key="ExportFeatureToCLAppItem">
+      <text>Classification Learner</text>
+      <translation>Classification Learner</translation>
+    </entry>
+    <entry key="ExportFeatureToCLAppItemDesc">
+      <text>Export features to Classification Learner</text>
+      <translation>Export features to Classification Learner</translation>
+    </entry>
+    <entry key="FeatureModeTabCloseSectionName">
+      <text>CLOSE</text>
+      <translation>CLOSE</translation>
+    </entry>
+    <entry key="SaveFeatureLabels">
+      <text>Save\nLabels</text>
+      <translation>Save\nLabels</translation>
+    </entry>
+    <entry key="SaveFeatureLabelsDesc">
+      <text>Save extracted features as labels of the labeled signal set</text>
+      <translation>Save extracted features as labels of the labeled signal set</translation>
+    </entry>
+    <entry key="CancelFeatureLabels">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="CancelFeatureLabelsDesc">
+      <text>Cancel feature extraction</text>
+      <translation>Cancel feature extraction</translation>
+    </entry>
+    <entry key="ThresholdLabeler">
+      <text>Threshold\nLabeler</text>
+      <translation>Threshold\nLabeler</translation>
+    </entry>
+    <entry key="ThresholdLabelerDesc">
+      <text>Add threshold or range labels</text>
+      <translation>Add threshold or range labels</translation>
+    </entry>
+  </message>
+</bicat>

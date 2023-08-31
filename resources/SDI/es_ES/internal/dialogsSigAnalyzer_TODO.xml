@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="PreprocessSignalsMenu">
+      <text>Preprocess...</text>
+      <translation>Preprocess...</translation>
+    </entry>
+    <entry key="PreprocessInfoTitle">
+      <text>Preprocess Information</text>
+      <translation>Preprocess Information</translation>
+    </entry>
+    <entry key="PreprocessInfoSubTitle">
+      <text>List of preprocessing actions applied to signal</text>
+      <translation>List of preprocessing actions applied to signal</translation>
+    </entry>
+    <entry key="PreprocessManageTitle">
+      <text>Manage Custom Functions</text>
+      <translation>Manage Custom Functions</translation>
+    </entry>
+    <entry key="PreprocessManageSubTitle">
+      <text>Edit functions in MATLAB Editor, edit description, or remove from the preprocess gallery.</text>
+      <translation>Edit functions in MATLAB Editor, edit description, or remove from the preprocess gallery.</translation>
+    </entry>
+    <entry key="PreprocessManageCloseBtn">
+      <text>Close</text>
+      <translation>Close</translation>
+    </entry>
+    <entry key="PreprocessManageEditBtn">
+      <text>Edit Function</text>
+      <translation>Edit Function</translation>
+    </entry>
+    <entry key="PreprocessManageEditDescBtn">
+      <text>Edit Description</text>
+      <translation>Edit Description</translation>
+    </entry>
+    <entry key="PreprocessManageTableHeaderCol1">
+      <text>Select</text>
+      <translation>Select</translation>
+    </entry>
+    <entry key="PreprocessManageTableHeaderCol2">
+      <text>Function</text>
+      <translation>Function</translation>
+    </entry>
+    <entry key="PreprocessManageRemoveBtn">
+      <text>Remove</text>
+      <translation>Remove</translation>
+    </entry>
+    <entry key="PreprocessAddTitle">
+      <text>Add Custom Function</text>
+      <translation>Add Custom Function</translation>
+    </entry>
+    <entry key="PreprocessAddSubTitle">
+      <text>Add a function with the following syntax to the Signal Analyzer preprocessing gallery.&lt;br&gt;&amp;nbsp;&lt;div class='customManageFunctionDivStyle'&gt;[y,tOut] = Name(x,tIn,varargin)&lt;/div&gt;&lt;br&gt;&amp;nbsp;x, the selected signal, and tIn, its time vector, are automatically passed into the function.&lt;br&gt;&amp;nbsp;An optional input argument list can also be specified.</text>
+      <translation>Add a function with the following syntax to the Signal Analyzer preprocessing gallery.&lt;br&gt;&amp;nbsp;&lt;div class='customManageFunctionDivStyle'&gt;[y,tOut] = Name(x,tIn,varargin)&lt;/div&gt;&lt;br&gt;&amp;nbsp;x, the selected signal, and tIn, its time vector, are automatically passed into the function.&lt;br&gt;&amp;nbsp;An optional input argument list can also be specified.</translation>
+    </entry>
+    <entry key="PreprocessAddInputLabel">
+      <text>Name:</text>
+      <translation>Name:</translation>
+    </entry>
+    <entry key="PreprocessAddInputPlaceHolder">
+      <text>Specify function name</text>
+      <translation>Specify function name</translation>
+    </entry>
+    <entry key="PreprocessAddDescInputLabel">
+      <text>Description:</text>
+      <translation>Description:</translation>
+    </entry>
+    <entry key="PreprocessAddDescInputPlaceHolder">
+      <text>My custom function with optional input arguments 'arg1,arg2...'</text>
+      <translation>My custom function with optional input arguments 'arg1,arg2...'</translation>
+    </entry>
+    <entry key="EmptyFunctionNameWarning">
+      <text>Specify function name</text>
+      <translation>Specify function name</translation>
+    </entry>
+    <entry key="InvalidFunctionNameWarning">
+      <text>Specify a valid MATLAB function name</text>
+      <translation>Specify a valid MATLAB function name</translation>
+    </entry>
+    <entry key="PreprocessCreateTitle">
+      <text>Create Custom Functions</text>
+      <translation>Create Custom Functions</translation>
+    </entry>
+    <entry key="PreprocessCreateFileMsgStart">
+      <text>File</text>
+      <translation>File</translation>
+    </entry>
+    <entry key="PreprocessCreateFileMsgEnd">
+      <text>does not exist.&lt;br&gt;&amp;nbsp;Do you want to create it?</text>
+      <translation>does not exist.&lt;br&gt;&amp;nbsp;Do you want to create it?</translation>
+    </entry>
+    <entry key="PreprocessEditDescTitle">
+      <text>Edit Custom Function Description</text>
+      <translation>Edit Custom Function Description</translation>
+    </entry>
+    <entry key="PreprocessEditDescSubTitle">
+      <text>Edit description of custom function in the Signal Analyzer preprocessing gallery.</text>
+      <translation>Edit description of custom function in the Signal Analyzer preprocessing gallery.</translation>
+    </entry>
+    <entry key="PreprocessEditDescFunctionLabel">
+      <text>Name:</text>
+      <translation>Name:</translation>
+    </entry>
+    <entry key="PreprocessEditDescInputLabel">
+      <text>Description:</text>
+      <translation>Description:</translation>
+    </entry>
+    <entry key="VarOverwriteWarningDialogTitle">
+      <text>Overwrite Warning</text>
+      <translation>Overwrite Warning</translation>
+    </entry>
+    <entry key="VarOverwriteWarningDialogMsg">
+      <text>Are you sure you want to overwrite the following signals?&lt;br&gt;&lt;br&gt;{0}&lt;br&gt;&lt;br&gt;</text>
+      <translation>Are you sure you want to overwrite the following signals?&lt;br&gt;&lt;br&gt;{0}&lt;br&gt;&lt;br&gt;</translation>
+    </entry>
+    <entry key="VarOverwriteWarningDialogCheckBoxLbl">
+      <text>Do not ask again. Signals will be overwritten.</text>
+      <translation>Do not ask again. Signals will be overwritten.</translation>
+    </entry>
+    <entry key="VarOverwriteWarningDialogOverwriteBtn">
+      <text>Overwrite</text>
+      <translation>Overwrite</translation>
+    </entry>
+    <entry key="LogScaleForComplexSignal">
+      <text>Unable to plot the spectrum or spectrogram of a complex-valued signal using log scale. Turn off the spectrum and spectrogram views or change the frequency scale.</text>
+      <translation>Unable to plot the spectrum or spectrogram of a complex-valued signal using log scale. Turn off the spectrum and spectrogram views or change the frequency scale.</translation>
+    </entry>
+    <entry key="NonUniformlySampledSignalInScalogram">
+      <text>Scalogram plot does not support non-uniformly sampled signals. Resample the signal or change the signal table selection.</text>
+      <translation>Scalogram plot does not support non-uniformly sampled signals. Resample the signal or change the signal table selection.</translation>
+    </entry>
+    <entry key="ComplexSignalInScalogram">
+      <text>Scalogram in Signal Analyzer does not support complex signals. Plot a different signal or turn off the scalogram view.</text>
+      <translation>Scalogram in Signal Analyzer does not support complex signals. Plot a different signal or turn off the scalogram view.</translation>
+    </entry>
+    <entry key="MultiSignalInSpectrogram">
+      <text>Unable to plot the spectrogram, scalogram or persistence spectrum of more than one signal. Use a separate display or turn off the spectrogram view and persistence view.</text>
+      <translation>Unable to plot the spectrogram, scalogram or persistence spectrum of more than one signal. Use a separate display or turn off the spectrogram view and persistence view.</translation>
+    </entry>
+    <entry key="NotFiniteSignalInExceptTimeDomain">
+      <text>Unable to plot the spectrum, spectrogram or persistence spectrum of signals with non-finite values. Turn off the spectrum, spectrogram and persistence spectrum view.</text>
+      <translation>Unable to plot the spectrum, spectrogram or persistence spectrum of signals with non-finite values. Turn off the spectrum, spectrogram and persistence spectrum view.</translation>
+    </entry>
+    <entry key="NotFiniteSignalInExceptTimeDomainWavelet">
+      <text>Unable to plot the spectrum, spectrogram, scalogram or persistence spectrum of signals with non-finite values. Turn off the spectrum, spectrogram, scalogram and persistence spectrum view.</text>
+      <translation>Unable to plot the spectrum, spectrogram, scalogram or persistence spectrum of signals with non-finite values. Turn off the spectrum, spectrogram, scalogram and persistence spectrum view.</translation>
+    </entry>
+    <entry key="IncompatibleSignalUnplotMsg">
+      <text>Some signals were unplotted because the spectrum, spectrogram or persistence spectrum cannot be plotted for signals with non-finite values.</text>
+      <translation>Some signals were unplotted because the spectrum, spectrogram or persistence spectrum cannot be plotted for signals with non-finite values.</translation>
+    </entry>
+    <entry key="IncompatibleSignalUnplotMsgWavelet">
+      <text>Some signals were unplotted because the spectrum, spectrogram, scalogram or persistence spectrum cannot be plotted for signals with non-finite values.</text>
+      <translation>Some signals were unplotted because the spectrum, spectrogram, scalogram or persistence spectrum cannot be plotted for signals with non-finite values.</translation>
+    </entry>
+    <entry key="CannotWriteInCurrentFolderMsg">
+      <text>Change current folder in MATLAB and try again. You do not have write permission to following folder: </text>
+      <translation>Change current folder in MATLAB and try again. You do not have write permission to following folder: </translation>
+    </entry>
+    <entry key="EditLabeledSignalSetWarning">
+      <text>Unable to edit signals in a labeledSignalSet. Change signal table selection.</text>
+      <translation>Unable to edit signals in a labeledSignalSet. Change signal table selection.</translation>
+    </entry>
+    <entry key="WarningTitle">
+      <text>Warning</text>
+      <translation>Warning</translation>
+    </entry>
+    <entry key="DoNotShowAgainLabel">
+      <text>Do not show again</text>
+      <translation>Do not show again</translation>
+    </entry>
+    <entry key="LongWindowWarningMessage">
+      <text>Power levels are smaller than expected for some signals because their spectra were computed using a window length greater than 2^(floor(log2(L)) + 3), where L is the signal length.</text>
+      <translation>Power levels are smaller than expected for some signals because their spectra were computed using a window length greater than 2^(floor(log2(L)) + 3), where L is the signal length.</translation>
+    </entry>
+  </message>
+</bicat>

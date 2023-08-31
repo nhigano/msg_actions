@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="PreprocessSignalsMenu">【P◇reprocess...】</entry>
+    <entry key="PreprocessInfoTitle">【Preprocess◇ Information】</entry>
+    <entry key="PreprocessInfoSubTitle">【List◇ of preprocessing actions applied to signal】</entry>
+    <entry key="PreprocessManageTitle">【Manage◇ Custom Functions】</entry>
+    <entry key="PreprocessManageSubTitle">【Edit◇ functions in MATLAB Editor, edit description, or remove from the preprocess gallery.】</entry>
+    <entry key="PreprocessManageCloseBtn">【C◇lose】</entry>
+    <entry key="PreprocessManageEditBtn">【Edit◇ Function】</entry>
+    <entry key="PreprocessManageEditDescBtn">【Edit◇ Description】</entry>
+    <entry key="PreprocessManageTableHeaderCol1">【S◇elect】</entry>
+    <entry key="PreprocessManageTableHeaderCol2">【F◇unction】</entry>
+    <entry key="PreprocessManageRemoveBtn">【R◇emove】</entry>
+    <entry key="PreprocessAddTitle">【Add◇ Custom Function】</entry>
+    <entry key="PreprocessAddSubTitle">【Add a◇ function with the following syntax to the Signal Analyzer preprocessing gallery.&lt;br&gt;&amp;nbsp;&lt;div class='customManageFunctionDivStyle'&gt;[y,tOut] = Name(x,tIn,varargin)&lt;/div&gt;&lt;br&gt;&amp;nbsp;x, the selected signal, and tIn, its time vector, are automatically passed into the function.&lt;br&gt;&amp;nbsp;An optional input argument list can also be specified.】</entry>
+    <entry key="PreprocessAddInputLabel">【N◇ame:】</entry>
+    <entry key="PreprocessAddInputPlaceHolder">【Specify◇ function name】</entry>
+    <entry key="PreprocessAddDescInputLabel">【D◇escription:】</entry>
+    <entry key="PreprocessAddDescInputPlaceHolder">【My custom◇ function with optional input arguments 'arg1,arg2...'】</entry>
+    <entry key="EmptyFunctionNameWarning">【Specify◇ function name】</entry>
+    <entry key="InvalidFunctionNameWarning">【Specify◇ a valid MATLAB function name】</entry>
+    <entry key="PreprocessCreateTitle">【Create◇ Custom Functions】</entry>
+    <entry key="PreprocessCreateFileMsgStart">【F◇ile】</entry>
+    <entry key="PreprocessCreateFileMsgEnd">【does not◇ exist.&lt;br&gt;&amp;nbsp;Do you want to create it?】</entry>
+    <entry key="PreprocessEditDescTitle">【Edit◇ Custom Function Description】</entry>
+    <entry key="PreprocessEditDescSubTitle">【Edit◇ description of custom function in the Signal Analyzer preprocessing gallery.】</entry>
+    <entry key="PreprocessEditDescFunctionLabel">【N◇ame:】</entry>
+    <entry key="PreprocessEditDescInputLabel">【D◇escription:】</entry>
+    <entry key="VarOverwriteWarningDialogTitle">【Overwrite◇ Warning】</entry>
+    <entry key="VarOverwriteWarningDialogMsg">【Are you◇ sure you want to overwrite the following signals?&lt;br&gt;&lt;br&gt;{0}&lt;br&gt;&lt;br&gt;】</entry>
+    <entry key="VarOverwriteWarningDialogCheckBoxLbl">【Do◇ not ask again. Signals will be overwritten.】</entry>
+    <entry key="VarOverwriteWarningDialogOverwriteBtn">【O◇verwrite】</entry>
+    <entry key="LogScaleForComplexSignal">【Unable◇ to plot the spectrum or spectrogram of a complex-valued signal using log scale. Turn off the spectrum and spectrogram views or change the frequency scale.】</entry>
+    <entry key="NonUniformlySampledSignalInScalogram">【Scalogram◇ plot does not support non-uniformly sampled signals. Resample the signal or change the signal table selection.】</entry>
+    <entry key="ComplexSignalInScalogram">【Scalogram◇ in Signal Analyzer does not support complex signals. Plot a different signal or turn off the scalogram view.】</entry>
+    <entry key="MultiSignalInSpectrogram">【Unable◇ to plot the spectrogram, scalogram or persistence spectrum of more than one signal. Use a separate display or turn off the spectrogram view and persistence view.】</entry>
+    <entry key="NotFiniteSignalInExceptTimeDomain">【Unable◇ to plot the spectrum, spectrogram or persistence spectrum of signals with non-finite values. Turn off the spectrum, spectrogram and persistence spectrum view.】</entry>
+    <entry key="NotFiniteSignalInExceptTimeDomainWavelet">【Unable◇ to plot the spectrum, spectrogram, scalogram or persistence spectrum of signals with non-finite values. Turn off the spectrum, spectrogram, scalogram and persistence spectrum view.】</entry>
+    <entry key="IncompatibleSignalUnplotMsg">【Some◇ signals were unplotted because the spectrum, spectrogram or persistence spectrum cannot be plotted for signals with non-finite values.】</entry>
+    <entry key="IncompatibleSignalUnplotMsgWavelet">【Some◇ signals were unplotted because the spectrum, spectrogram, scalogram or persistence spectrum cannot be plotted for signals with non-finite values.】</entry>
+    <entry key="CannotWriteInCurrentFolderMsg">【Change◇ current folder in MATLAB and try again. You do not have write permission to following folder: 】</entry>
+    <entry key="EditLabeledSignalSetWarning">【Unable◇ to edit signals in a labeledSignalSet. Change signal table selection.】</entry>
+    <entry key="WarningTitle">【W◇arning】</entry>
+    <entry key="DoNotShowAgainLabel">【Do◇ not show again】</entry>
+    <entry key="LongWindowWarningMessage">【Power levels◇ are smaller than expected for some signals because their spectra were computed using a window length greater than 2^(floor(log2(L)) + 3), where L is the signal length.】</entry>
+    <entry key="SignalInfoMenu">Info...</entry>
+  </message>
+</rsccat>

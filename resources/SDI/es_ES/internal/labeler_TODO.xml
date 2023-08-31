@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="SPTRequired">
+      <text>Signal Processing Toolbox license required.</text>
+      <translation>Signal Processing Toolbox license required.</translation>
+    </entry>
+    <entry key="ToolName">
+      <text>Signal Labeler</text>
+      <translation>Signal Labeler</translation>
+    </entry>
+    <entry key="LabelDefinitionTreeHeader">
+      <text>Label Definitions</text>
+      <translation>Label Definitions</translation>
+    </entry>
+    <entry key="LabeledSignalTreeTableHeader">
+      <text>Labeled Signal Set Browser</text>
+      <translation>Labeled Signal Set Browser</translation>
+    </entry>
+    <entry key="NameColumn">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="CheckBoxColumn">
+      <text>Plot</text>
+      <translation>Plot</translation>
+    </entry>
+    <entry key="ValueColumn">
+      <text>Value</text>
+      <translation>Value</translation>
+    </entry>
+    <entry key="LocationColumn">
+      <text>Location</text>
+      <translation>Location</translation>
+    </entry>
+    <entry key="LocationColumnMin" note="short for minimum">
+      <text>Min</text>
+      <translation>Min</translation>
+    </entry>
+    <entry key="LocationColumnMax" note="short for maximum">
+      <text>Max</text>
+      <translation>Max</translation>
+    </entry>
+    <entry key="TimeColumn">
+      <text>Time</text>
+      <translation>Time</translation>
+    </entry>
+    <entry key="TreeTableEdit">
+      <text>Edit</text>
+      <translation>Edit</translation>
+    </entry>
+    <entry key="TreeTableDelete">
+      <text>Delete</text>
+      <translation>Delete</translation>
+    </entry>
+    <entry key="TreeTablePlot">
+      <text>Plot</text>
+      <translation>Plot</translation>
+    </entry>
+    <entry key="TreeTableClear">
+      <text>Clear from Plot</text>
+      <translation>Clear from Plot</translation>
+    </entry>
+    <entry key="TreeTablePlotAll">
+      <text>Plot All</text>
+      <translation>Plot All</translation>
+    </entry>
+    <entry key="TreeTableClearAll">
+      <text>Clear All from Plot</text>
+      <translation>Clear All from Plot</translation>
+    </entry>
+    <entry key="TreeTableDeleteAllLabelInstances">
+      <text>Delete all labels</text>
+      <translation>Delete all labels</translation>
+    </entry>
+    <entry key="TreeTableExpandAll">
+      <text>Expand All</text>
+      <translation>Expand All</translation>
+    </entry>
+    <entry key="TreeTableCollapseAll">
+      <text>Collapse All</text>
+      <translation>Collapse All</translation>
+    </entry>
+    <entry key="TreeTableCheckAllChildren">
+      <text>Check All Children</text>
+      <translation>Check All Children</translation>
+    </entry>
+    <entry key="TreeTableUnCheckAllChildren">
+      <text>Uncheck All Children</text>
+      <translation>Uncheck All Children</translation>
+    </entry>
+    <entry key="TreeEdit">
+      <text>Edit</text>
+      <translation>Edit</translation>
+    </entry>
+    <entry key="TreeDelete">
+      <text>Delete</text>
+      <translation>Delete</translation>
+    </entry>
+    <entry key="DrawLabel">
+      <text>Draw Labels</text>
+      <translation>Draw Labels</translation>
+    </entry>
+    <entry key="AcceptLabels">
+      <text>Accept</text>
+      <translation>Accept</translation>
+    </entry>
+    <entry key="EditLabels">
+      <text>Edit</text>
+      <translation>Edit</translation>
+    </entry>
+    <entry key="DeleteLabels">
+      <text>Delete</text>
+      <translation>Delete</translation>
+    </entry>
+    <entry key="CancelLabels">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="PlotPreviousMember">
+      <text>Plot Previous</text>
+      <translation>Plot Previous</translation>
+    </entry>
+    <entry key="PlotNextMember">
+      <text>Plot Next</text>
+      <translation>Plot Next</translation>
+    </entry>
+    <entry key="ZoomToLabel">
+      <text>Zoom to Label</text>
+      <translation>Zoom to Label</translation>
+    </entry>
+    <entry key="PreviousPan">
+      <text>Previous</text>
+      <translation>Previous</translation>
+    </entry>
+    <entry key="PreviousPanDesc">
+      <text>Pan Left</text>
+      <translation>Pan Left</translation>
+    </entry>
+    <entry key="NextPan">
+      <text>Next</text>
+      <translation>Next</translation>
+    </entry>
+    <entry key="NextPanDesc">
+      <text>Pan Right</text>
+      <translation>Pan Right</translation>
+    </entry>
+    <entry key="FastLabelSignalTreeTableHeader">
+      <text>Member Browser</text>
+      <translation>Member Browser</translation>
+    </entry>
+    <entry key="PickAColor">
+      <text>Pick a Color</text>
+      <translation>Pick a Color</translation>
+    </entry>
+    <entry key="ChangeColor">
+      <text>Change Color</text>
+      <translation>Change Color</translation>
+    </entry>
+    <entry key="DifferentColorsOptionLabel">
+      <text>Use Different Colors</text>
+      <translation>Use Different Colors</translation>
+    </entry>
+    <entry key="SameColorsOptionLabel">
+      <text>Use Same Colors</text>
+      <translation>Use Same Colors</translation>
+    </entry>
+    <entry key="SameColoringAcrossMembersColoringOptionLabel">
+      <text>Use Same Colors Across Members</text>
+      <translation>Use Same Colors Across Members</translation>
+    </entry>
+    <entry key="FeatureDefinitionTreeHeader">
+      <text>Feature Definitions</text>
+      <translation>Feature Definitions</translation>
+    </entry>
+    <entry key="classificationLearnerTitle">
+      <text>Classification Learner</text>
+      <translation>Classification Learner</translation>
+    </entry>
+  </message>
+</bicat>

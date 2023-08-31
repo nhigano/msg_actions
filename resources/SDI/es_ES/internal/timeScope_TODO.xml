@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="TimeXLabel">
+      <text>Time</text>
+      <translation>Time</translation>
+    </entry>
+    <entry key="YLabel">
+      <text>Amplitude</text>
+      <translation>Amplitude</translation>
+    </entry>
+    <entry key="TimeOffset">
+      <text>Time offset: </text>
+      <translation>Time offset: </translation>
+    </entry>
+    <entry key="AutoScaleAxesLimits">
+      <text>Automatically Scale Axes Limits</text>
+      <translation>Automatically Scale Axes Limits</translation>
+    </entry>
+    <entry key="ScaleAxesLimits">
+      <text>Scale Y-Axis Limits</text>
+      <translation>Scale Y-Axis Limits</translation>
+    </entry>
+    <entry key="EnableZoom">
+      <text>Enable Zoom</text>
+      <translation>Enable Zoom</translation>
+    </entry>
+    <entry key="ShowLegend">
+      <text>Show Legend</text>
+      <translation>Show Legend</translation>
+    </entry>
+  </message>
+</bicat>

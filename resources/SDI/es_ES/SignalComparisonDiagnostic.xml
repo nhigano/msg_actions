@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="SnapshotCaptured">【Comparison◇ snapshots captured to:】</entry>
+  </message>
+</rsccat>

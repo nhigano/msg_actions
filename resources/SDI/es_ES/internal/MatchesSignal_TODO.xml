@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="ConstraintFailed">
+      <text>{0} failed.</text>
+      <translation>{0} failed.</translation>
+    </entry>
+    <entry key="ValidAlignTypes">
+      <text>Expected "AlignmentOrder" to be one of the following:\n\t{0}\nInstead it was {1}.\n</text>
+      <translation>Expected "AlignmentOrder" to be one of the following:\n\t{0}\nInstead it was {1}.\n</translation>
+    </entry>
+    <entry key="DataTypeMismatch">
+      <text>Data types do not match for the following aligned signals:\n</text>
+      <translation>Data types do not match for the following aligned signals:\n</translation>
+    </entry>
+    <entry key="DataTypeMismatchManySignals">
+      <text>Data types do not match for multiple signals after aligning. The first {0} signals are displayed below:\n</text>
+      <translation>Data types do not match for multiple signals after aligning. The first {0} signals are displayed below:\n</translation>
+    </entry>
+    <entry key="DataTypeMismatchConcise">
+      <text>There are signals whose data types do not match.</text>
+      <translation>There are signals whose data types do not match.</translation>
+    </entry>
+    <entry key="Unaligned">
+      <text>The following signals could not be aligned:\n</text>
+      <translation>The following signals could not be aligned:\n</translation>
+    </entry>
+    <entry key="UnalignedManySignals">
+      <text>Multiple signals could not be aligned. The first {0} signals are displayed below:\n</text>
+      <translation>Multiple signals could not be aligned. The first {0} signals are displayed below:\n</translation>
+    </entry>
+    <entry key="UnalignedConcise">
+      <text>There are signals that could not be aligned.</text>
+      <translation>There are signals that could not be aligned.</translation>
+    </entry>
+    <entry key="ExtraData">
+      <text>The following aligned signals have additional data that could not be compared:\n</text>
+      <translation>The following aligned signals have additional data that could not be compared:\n</translation>
+    </entry>
+    <entry key="ExtraDataManySignals">
+      <text>Signals were detected with additional data after alignment that could not be compared. The first {0} signals are displayed below:\n</text>
+      <translation>Signals were detected with additional data after alignment that could not be compared. The first {0} signals are displayed below:\n</translation>
+    </entry>
+    <entry key="ExtraDataConcise">
+      <text>There are signals with extra data at the beginning or end that could not be compared.</text>
+      <translation>There are signals with extra data at the beginning or end that could not be compared.</translation>
+    </entry>
+    <entry key="NumericMismatch">
+      <text>The following aligned signals did not match:\n</text>
+      <translation>The following aligned signals did not match:\n</translation>
+    </entry>
+    <entry key="NumericMismatchManySignals">
+      <text>Multiple aligned signals did not match. The first {0} signals are displayed below:\n</text>
+      <translation>Multiple aligned signals did not match. The first {0} signals are displayed below:\n</translation>
+    </entry>
+    <entry key="NumericMismatchConcise">
+      <text>There are aligned signals that did not match.</text>
+      <translation>There are aligned signals that did not match.</translation>
+    </entry>
+    <entry key="Expected">
+      <text>&lt;Expected&gt;</text>
+      <translation>&lt;Expected&gt;</translation>
+    </entry>
+    <entry key="Actual">
+      <text>&lt;Actual&gt;</text>
+      <translation>&lt;Actual&gt;</translation>
+    </entry>
+    <entry key="ValidNameValuePairs">
+      <text>Expected one or more optional name-value pairs to be one of the following:\n\n\t{0}\n\nInstead it was:\n\n\t{1}\n</text>
+      <translation>Expected one or more optional name-value pairs to be one of the following:\n\n\t{0}\n\nInstead it was:\n\n\t{1}\n</translation>
+    </entry>
+    <entry key="Value">
+      <text>&lt;Value&gt;</text>
+      <translation>&lt;Value&gt;</translation>
+    </entry>
+    <entry key="ComparisonResultsSaved">
+      <text>Comparison results have been saved to:\n</text>
+      <translation>Comparison results have been saved to:\n</translation>
+    </entry>
+    <entry key="InvalidData">
+      <text>The {0} value has no time-based data in a format supported by the Simulation Data Inspector.</text>
+      <translation>The {0} value has no time-based data in a format supported by the Simulation Data Inspector.</translation>
+    </entry>
+    <entry key="InvalidDataConcise">
+      <text>No time-based data in a format supported by the Simulation Data Inspector was found.</text>
+      <translation>No time-based data in a format supported by the Simulation Data Inspector was found.</translation>
+    </entry>
+  </message>
+</bicat>

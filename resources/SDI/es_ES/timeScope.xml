@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<rsccat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/msgcat.xsd">
+  <message>
+    <entry key="TimeXLabel">【T◇ime】</entry>
+    <entry key="YLabel">【A◇mplitude】</entry>
+    <entry key="TimeOffset">【Time◇ offset: 】</entry>
+    <entry key="AutoScaleAxesLimits">【Automatically◇ Scale Axes Limits】</entry>
+    <entry key="ScaleAxesLimits">【Scale◇ Y-Axis Limits】</entry>
+    <entry key="EnableZoom">【Enable◇ Zoom】</entry>
+    <entry key="ShowLegend">【Show◇ Legend】</entry>
+  </message>
+</rsccat>

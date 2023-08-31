@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="OK">
+      <text>OK</text>
+      <translation>OK</translation>
+    </entry>
+    <entry key="Cancel">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="Close">
+      <text>Close</text>
+      <translation>Close</translation>
+    </entry>
+    <entry key="MGExportDataTitleDesc">
+      <text>Export label definitions to MAT-file</text>
+      <translation>Export label definitions to MAT-file</translation>
+    </entry>
+    <entry key="LabelDefDefaultVarName">
+      <text>lblDefs</text>
+      <translation>lblDefs</translation>
+    </entry>
+    <entry key="LabelDefDefaultFileName">
+      <text>lblDefs.mat</text>
+      <translation>lblDefs.mat</translation>
+    </entry>
+    <entry key="InValidVariableName">
+      <text>Variable name must be a valid MATLAB variable name.</text>
+      <translation>Variable name must be a valid MATLAB variable name.</translation>
+    </entry>
+    <entry key="MGAcceptAllTitle">
+      <text>Save Labels</text>
+      <translation>Save Labels</translation>
+    </entry>
+    <entry key="MGAcceptAllExportDataTitleDesc">
+      <text>Save labeling and return to Signal Analyzer.</text>
+      <translation>Save labeling and return to Signal Analyzer.</translation>
+    </entry>
+    <entry key="mgExportDataVarName">
+      <text> Labeled Signal Set Variable Name:</text>
+      <translation> Labeled Signal Set Variable Name:</translation>
+    </entry>
+    <entry key="mgExportOverwriteVariableWarn">
+      <text>Overwrite existing variable?</text>
+      <translation>Overwrite existing variable?</translation>
+    </entry>
+    <entry key="LSSDefaultVarName">
+      <text>ls</text>
+      <translation>ls</translation>
+    </entry>
+    <entry key="CancelLabelingTitle">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="CancelLabelingWarningMsg">
+      <text> Are you sure you want to cancel all labeling? Unsaved labels will be deleted.</text>
+      <translation> Are you sure you want to cancel all labeling? Unsaved labels will be deleted.</translation>
+    </entry>
+    <entry key="mgClearRunsWarn">
+      <text>Are you sure you want to close Signal Analyzer? All unsaved Signal Analyzer and label data will be lost.</text>
+      <translation>Are you sure you want to close Signal Analyzer? All unsaved Signal Analyzer and label data will be lost.</translation>
+    </entry>
+    <entry key="mgSaveSessionTitle">
+      <text>Close</text>
+      <translation>Close</translation>
+    </entry>
+    <entry key="AddLabelTitle">
+      <text>Add Label Definition</text>
+      <translation>Add Label Definition</translation>
+    </entry>
+    <entry key="EditLabelTitle">
+      <text>Edit Label Definition</text>
+      <translation>Edit Label Definition</translation>
+    </entry>
+    <entry key="AddSubLabelTitle">
+      <text>Add Sublabel Definition</text>
+      <translation>Add Sublabel Definition</translation>
+    </entry>
+    <entry key="EditSubLabelTitle">
+      <text>Edit Sublabel Definition</text>
+      <translation>Edit Sublabel Definition</translation>
+    </entry>
+    <entry key="AddLabelDefParentNameLabel">
+      <text>Parent Name:</text>
+      <translation>Parent Name:</translation>
+    </entry>
+    <entry key="AddLabelDefNameLabel">
+      <text>Label Name</text>
+      <translation>Label Name</translation>
+    </entry>
+    <entry key="AddLabelDefTypeLabel">
+      <text>Label Type</text>
+      <translation>Label Type</translation>
+    </entry>
+    <entry key="AddLabelDescriptionLabel">
+      <text>Label Description</text>
+      <translation>Label Description</translation>
+    </entry>
+    <entry key="AddLabelDataTypeLabel">
+      <text>Data Type</text>
+      <translation>Data Type</translation>
+    </entry>
+    <entry key="AddLabelCategoriesLabel">
+      <text>Categories</text>
+      <translation>Categories</translation>
+    </entry>
+    <entry key="AddLabelCategoriesLabelDesc">
+      <text>Enter each category on a new line</text>
+      <translation>Enter each category on a new line</translation>
+    </entry>
+    <entry key="AddLabelDefaultLabel">
+      <text>Default</text>
+      <translation>Default</translation>
+    </entry>
+    <entry key="AddLabelTextWarning">
+      <text>Invalid Label Definition Name</text>
+      <translation>Invalid Label Definition Name</translation>
+    </entry>
+    <entry key="AddLabelOptionalLabel">
+      <text>Optional</text>
+      <translation>Optional</translation>
+    </entry>
+    <entry key="AddLabelAttribute">
+      <text>Attribute</text>
+      <translation>Attribute</translation>
+    </entry>
+    <entry key="AddLabelROI">
+      <text>ROI</text>
+      <translation>ROI</translation>
+    </entry>
+    <entry key="AddLabelPoint">
+      <text>Point</text>
+      <translation>Point</translation>
+    </entry>
+    <entry key="EditFeatureROI">
+      <text>Feature ROI</text>
+      <translation>Feature ROI</translation>
+    </entry>
+    <entry key="EditFeatureAttribute">
+      <text>Feature Attribute</text>
+      <translation>Feature Attribute</translation>
+    </entry>
+    <entry key="AddLabelString">
+      <text>string</text>
+      <translation>string</translation>
+    </entry>
+    <entry key="AddLabelNumeric">
+      <text>numeric</text>
+      <translation>numeric</translation>
+    </entry>
+    <entry key="AddLabelLogical">
+      <text>logical</text>
+      <translation>logical</translation>
+    </entry>
+    <entry key="AddLabelCatagorical">
+      <text>categorical</text>
+      <translation>categorical</translation>
+    </entry>
+    <entry key="AddLabelTrue">
+      <text>true</text>
+      <translation>true</translation>
+    </entry>
+    <entry key="AddLabelFalse">
+      <text>false</text>
+      <translation>false</translation>
+    </entry>
+    <entry key="LabelSignalTitle">
+      <text>Label All</text>
+      <translation>Label All</translation>
+    </entry>
+    <entry key="LabelSignalLabelAllRadioLabel">
+      <text>All Members</text>
+      <translation>All Members</translation>
+    </entry>
+    <entry key="LabelSignalLabelSelectedRadioLabel">
+      <text>Select Members</text>
+      <translation>Select Members</translation>
+    </entry>
+    <entry key="LabelPlottedSignalTitle">
+      <text>Label Plotted Signals</text>
+      <translation>Label Plotted Signals</translation>
+    </entry>
+    <entry key="UpdateLabelInstanceTitle">
+      <text>Edit Label</text>
+      <translation>Edit Label</translation>
+    </entry>
+    <entry key="LabelValue">
+      <text>Value:</text>
+      <translation>Value:</translation>
+    </entry>
+    <entry key="LabelLocation">
+      <text>Location</text>
+      <translation>Location</translation>
+    </entry>
+    <entry key="LabelLocationMin" note="short for minimum">
+      <text>Min</text>
+      <translation>Min</translation>
+    </entry>
+    <entry key="LabelLocationMax" note="short for maximum">
+      <text>Max</text>
+      <translation>Max</translation>
+    </entry>
+    <entry key="SelectSignals">
+      <text>Select</text>
+      <translation>Select</translation>
+    </entry>
+    <entry key="NameColumn">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="ImportDialogOk">
+      <text>Import</text>
+      <translation>Import</translation>
+    </entry>
+    <entry key="ImportDialogTitle">
+      <text>Import</text>
+      <translation>Import</translation>
+    </entry>
+    <entry key="ImportDialogTitleDesc">
+      <text>Import label definitions from MAT-file</text>
+      <translation>Import label definitions from MAT-file</translation>
+    </entry>
+    <entry key="FileNameLabel">
+      <text>File name:</text>
+      <translation>File name:</translation>
+    </entry>
+    <entry key="NoLabelDefinitionsErrorMsg">
+      <text>File does not contain valid data of type 'signalLabelDefinition'.</text>
+      <translation>File does not contain valid data of type 'signalLabelDefinition'.</translation>
+    </entry>
+    <entry key="AutoLabelSignalsTitle">
+      <text>Auto-Label Signals</text>
+      <translation>Auto-Label Signals</translation>
+    </entry>
+    <entry key="UnitsSeconds">
+      <text>s</text>
+      <translation>s</translation>
+    </entry>
+    <entry key="UnitsSamples">
+      <text>samples</text>
+      <translation>samples</translation>
+    </entry>
+    <entry key="RestoreDefaultSettingsBtnLabel">
+      <text>Restore Defaults</text>
+      <translation>Restore Defaults</translation>
+    </entry>
+    <entry key="RestoreDefaultSettingsBtnDesc">
+      <text>Restore default settings</text>
+      <translation>Restore default settings</translation>
+    </entry>
+    <entry key="PeakLabelerHeaderLabel">
+      <text>Settings - Peak Labeler</text>
+      <translation>Settings - Peak Labeler</translation>
+    </entry>
+    <entry key="MaxNumPeakLabel">
+      <text>Number of Peaks:</text>
+      <translation>Number of Peaks:</translation>
+    </entry>
+    <entry key="MaxNumPeakAllLabel">
+      <text>All</text>
+      <translation>All</translation>
+    </entry>
+    <entry key="AtMostNumPeakLabel">
+      <text>At Most</text>
+      <translation>At Most</translation>
+    </entry>
+    <entry key="FindLocalLabel">
+      <text>Find Local:</text>
+      <translation>Find Local:</translation>
+    </entry>
+    <entry key="FindLocalMaximaLabel">
+      <text>Maxima</text>
+      <translation>Maxima</translation>
+    </entry>
+    <entry key="FindLocalMinimaLabel">
+      <text>Minima</text>
+      <translation>Minima</translation>
+    </entry>
+    <entry key="ProminenceAtLeastLabel">
+      <text>Prominence At Least:</text>
+      <translation>Prominence At Least:</translation>
+    </entry>
+    <entry key="ProminenceWindowLabel">
+      <text>Prominence Window ({0}):</text>
+      <translation>Prominence Window ({0}):</translation>
+    </entry>
+    <entry key="FlatRegionPointLabel">
+      <text>Flat Region Point:</text>
+      <translation>Flat Region Point:</translation>
+    </entry>
+    <entry key="FlatRegionPointCenterLabel">
+      <text>Center</text>
+      <translation>Center</translation>
+    </entry>
+    <entry key="FlatRegionPointFirstLabel">
+      <text>First</text>
+      <translation>First</translation>
+    </entry>
+    <entry key="FlatRegionPointLastLabel">
+      <text>Last</text>
+      <translation>Last</translation>
+    </entry>
+    <entry key="FlatRegionPointAllLabel">
+      <text>All</text>
+      <translation>All</translation>
+    </entry>
+    <entry key="MinSeperationLabel">
+      <text>Minimum Separation ({0}):</text>
+      <translation>Minimum Separation ({0}):</translation>
+    </entry>
+    <entry key="InvalidNumericValue">
+      <text>Value must be numeric.</text>
+      <translation>Value must be numeric.</translation>
+    </entry>
+    <entry key="CustomLabelerHeaderLabel">
+      <text>Settings - Custom Labeler</text>
+      <translation>Settings - Custom Labeler</translation>
+    </entry>
+    <entry key="CustomLabelerFunctionNameLabel">
+      <text>Function: {0}</text>
+      <translation>Function: {0}</translation>
+    </entry>
+    <entry key="CustomLabelerArgsLabel">
+      <text>Arguments:</text>
+      <translation>Arguments:</translation>
+    </entry>
+    <entry key="CustomLabelerArgsNonLabel">
+      <text>none</text>
+      <translation>none</translation>
+    </entry>
+    <entry key="AutoLabelFuctionTitle">
+      <text>Add Custom Function</text>
+      <translation>Add Custom Function</translation>
+    </entry>
+    <entry key="AutoLabelFuctionName">
+      <text>Name:</text>
+      <translation>Name:</translation>
+    </entry>
+    <entry key="AutoLabelFuctionDescription">
+      <text>Description:</text>
+      <translation>Description:</translation>
+    </entry>
+    <entry key="AutoLabelFuctionDescriptionPlaceHolder">
+      <text>My custom function with optional input arguments 'arg1,arg2'</text>
+      <translation>My custom function with optional input arguments 'arg1,arg2'</translation>
+    </entry>
+    <entry key="AutoLabelFuctionLabelType">
+      <text>Label Type:</text>
+      <translation>Label Type:</translation>
+    </entry>
+    <entry key="FunctionAPIInfoHeaderLabel">
+      <text>Add a function with the following syntax to the Automated Labeling Functions gallery.</text>
+      <translation>Add a function with the following syntax to the Automated Labeling Functions gallery.</translation>
+    </entry>
+    <entry key="FunctionAPIInfoLabel">
+      <text>[labelVals,labelLocs] = fx(x,t,parentLabelVal,parentLabelLoc,varargin)</text>
+      <translation>[labelVals,labelLocs] = fx(x,t,parentLabelVal,parentLabelLoc,varargin)</translation>
+    </entry>
+    <entry key="FunctionAPIDescriptionLabel">
+      <text>x, the selected signal, t its time vector, the arguments parentLabelVal and parentLabelLoc\nare automatically passed into the function. An optional input argument list can also be specified.</text>
+      <translation>x, the selected signal, t its time vector, the arguments parentLabelVal and parentLabelLoc\nare automatically passed into the function. An optional input argument list can also be specified.</translation>
+    </entry>
+    <entry key="AutoLabelFuctionCreateTitle">
+      <text>Create Custom Functions</text>
+      <translation>Create Custom Functions</translation>
+    </entry>
+    <entry key="AutoLabelFuctionCreateFileMsgStart">
+      <text>File</text>
+      <translation>File</translation>
+    </entry>
+    <entry key="AutoLabelFuctionCreateFileMsgEnd">
+      <text>does not exist.&lt;br&gt;Do you want to create it?</text>
+      <translation>does not exist.&lt;br&gt;Do you want to create it?</translation>
+    </entry>
+    <entry key="AutoLabelFuctionEditDescTitle">
+      <text>Edit Custom Function Description</text>
+      <translation>Edit Custom Function Description</translation>
+    </entry>
+    <entry key="AutoLabelFuctionEditDescSubTitle">
+      <text>Edit description of custom function in the Automated Labeling Functions gallery.</text>
+      <translation>Edit description of custom function in the Automated Labeling Functions gallery.</translation>
+    </entry>
+    <entry key="AutoLabelFuctionEditDescFunctionLabel">
+      <text>Name:</text>
+      <translation>Name:</translation>
+    </entry>
+    <entry key="AutoLabelFuctionEditDescInputLabel">
+      <text>Description:</text>
+      <translation>Description:</translation>
+    </entry>
+    <entry key="AutoLabelFuctionManageTitle">
+      <text>Manage Custom Functions</text>
+      <translation>Manage Custom Functions</translation>
+    </entry>
+    <entry key="AutoLabelFuctionManageSubTitle">
+      <text>Edit functions in MATLAB Editor, edit description, or remove from the Automated Labeling Functions gallery.</text>
+      <translation>Edit functions in MATLAB Editor, edit description, or remove from the Automated Labeling Functions gallery.</translation>
+    </entry>
+    <entry key="AutoLabelFuctionManageEditBtn">
+      <text>Edit Function</text>
+      <translation>Edit Function</translation>
+    </entry>
+    <entry key="AutoLabelFuctionManageEditDescBtn">
+      <text>Edit Description</text>
+      <translation>Edit Description</translation>
+    </entry>
+    <entry key="AutoLabelFuctionManageTableHeaderCol1">
+      <text>Select</text>
+      <translation>Select</translation>
+    </entry>
+    <entry key="AutoLabelFuctionManageTableHeaderCol2">
+      <text>Function</text>
+      <translation>Function</translation>
+    </entry>
+    <entry key="AutoLabelFuctionManageRemoveBtn">
+      <text>Remove</text>
+      <translation>Remove</translation>
+    </entry>
+    <entry key="MessageDialogDoNotShowAgainLabel">
+      <text>Do not show again.</text>
+      <translation>Do not show again.</translation>
+    </entry>
+    <entry key="AutoLabelSuccessInfoDialogTitle">
+      <text>Auto-Label Signals For Selected Definition</text>
+      <translation>Auto-Label Signals For Selected Definition</translation>
+    </entry>
+    <entry key="AutoLabelSuccessInfoMsgForLabelsWithRunTimeLImits">
+      <text>{0} {1} labels were automatically added within {2} and {3} using {4} to {5} signals.</text>
+      <translation>{0} {1} labels were automatically added within {2} and {3} using {4} to {5} signals.</translation>
+    </entry>
+    <entry key="AutoLabelSuccessInfoMsgForSubLabelsWithRunTimeLImits">
+      <text>{0} {1} sublabels were automatically added within {2} and {3} using {4} to {5} signals.</text>
+      <translation>{0} {1} sublabels were automatically added within {2} and {3} using {4} to {5} signals.</translation>
+    </entry>
+    <entry key="AutoLabelSuccessInfoMsgForLabels">
+      <text>{0} {1} labels were automatically added using {2} to {3} signals.</text>
+      <translation>{0} {1} labels were automatically added using {2} to {3} signals.</translation>
+    </entry>
+    <entry key="AutoLabelSuccessInfoMsgForSubLabels">
+      <text>{0} {1} sublabels were automatically added using {2} to {3} signals.</text>
+      <translation>{0} {1} sublabels were automatically added using {2} to {3} signals.</translation>
+    </entry>
+    <entry key="AutoLabelErrorDialogTitle">
+      <text>Auto-Label Signals For Selected Definition</text>
+      <translation>Auto-Label Signals For Selected Definition</translation>
+    </entry>
+    <entry key="CannotWriteInCurrentFolderMsg">
+      <text>Change current folder in MATLAB and try again. You do not have write permission to following folder: </text>
+      <translation>Change current folder in MATLAB and try again. You do not have write permission to following folder: </translation>
+    </entry>
+    <entry key="InvalidFunctionNameWarning">
+      <text>Specify a valid MATLAB function name</text>
+      <translation>Specify a valid MATLAB function name</translation>
+    </entry>
+    <entry key="EmptyFunctionNameWarning">
+      <text>Specify function name</text>
+      <translation>Specify function name</translation>
+    </entry>
+    <entry key="mgWarn">
+      <text>Warning</text>
+      <translation>Warning</translation>
+    </entry>
+    <entry key="EmptyLabelDefNameText">
+      <text>Label name must be a valid MATLAB variable name.</text>
+      <translation>Label name must be a valid MATLAB variable name.</translation>
+    </entry>
+    <entry key="DuplicateLabelDefNameText">
+      <text>Names of new and existing labels must be unique.</text>
+      <translation>Names of new and existing labels must be unique.</translation>
+    </entry>
+    <entry key="UnsupportedLabelDefinitionImport">
+      <text>Unable to import one or more signalLabelDefinition objects because at least one&lt;br /&gt;label is of timetable or table data type.</text>
+      <translation>Unable to import one or more signalLabelDefinition objects because at least one&lt;br /&gt;label is of timetable or table data type.</translation>
+    </entry>
+    <entry key="EmptyLabelCategoriesText">
+      <text>Categories must be specified.</text>
+      <translation>Categories must be specified.</translation>
+    </entry>
+    <entry key="EmptyStringLabelValue">
+      <text>Value must be string.</text>
+      <translation>Value must be string.</translation>
+    </entry>
+    <entry key="InvalidLabelValue">
+      <text>Value must be numeric.</text>
+      <translation>Value must be numeric.</translation>
+    </entry>
+    <entry key="InvalidLlocationValue">
+      <text>Location value must be double.</text>
+      <translation>Location value must be double.</translation>
+    </entry>
+    <entry key="TmaxLessThanTMinValue" note="min=short for minimum and max=short for maximum">
+      <text>Location (Min) value must be less than or equal to Location (Max) value.</text>
+      <translation>Location (Min) value must be less than or equal to Location (Max) value.</translation>
+    </entry>
+    <entry key="SelectParentLabelForSubLabel">
+      <text>Select a {0} label before labeling its {1} sublabels.&lt;br /&gt;Use Pan and Select mode if selecting in time plot and then use Draw Labels mode (Ctrl+ L) to draw.</text>
+      <translation>Select a {0} label before labeling its {1} sublabels.&lt;br /&gt;Use Pan and Select mode if selecting in time plot and then use Draw Labels mode (Ctrl+ L) to draw.</translation>
+    </entry>
+    <entry key="ImportMixedTimeSignalsWarning">
+      <text>Unable to label signals with and without time information simultaneously. Change table selection.</text>
+      <translation>Unable to label signals with and without time information simultaneously. Change table selection.</translation>
+    </entry>
+    <entry key="InvalidConcatLabelDefinitions">
+      <text>Label definitions of selected labeled signal sets must be equal.</text>
+      <translation>Label definitions of selected labeled signal sets must be equal.</translation>
+    </entry>
+    <entry key="NonUniqueMemberNames">
+      <text>Unable to label multiple labeled signal sets containing equivalent member names. Label each set individually or rename members to be unique.</text>
+      <translation>Unable to label multiple labeled signal sets containing equivalent member names. Label each set individually or rename members to be unique.</translation>
+    </entry>
+    <entry key="ImportComplexSignalsWarning">
+      <text>Unable to label complex signals. Change table selection.</text>
+      <translation>Unable to label complex signals. Change table selection.</translation>
+    </entry>
+    <entry key="AutoLabelSignalsFailedMsg">
+      <text>No signals were labeled due to the following error: {0}</text>
+      <translation>No signals were labeled due to the following error: {0}</translation>
+    </entry>
+    <entry key="OnCleanupMsg">
+      <text>Auto-labeling action was interrupted.</text>
+      <translation>Auto-labeling action was interrupted.</translation>
+    </entry>
+    <entry key="MustBeNumeric">
+      <text>Value must be numeric.</text>
+      <translation>Value must be numeric.</translation>
+    </entry>
+    <entry key="MustBeLogical">
+      <text>Value must be logical.</text>
+      <translation>Value must be logical.</translation>
+    </entry>
+    <entry key="MustBeString">
+      <text>Value must be a scalar string or a char.</text>
+      <translation>Value must be a scalar string or a char.</translation>
+    </entry>
+    <entry key="InvalidCategoryValue">
+      <text>Value must be a string scalar, char, or categorical with value set being a subset or the same set of names defined in the 'Categorical' property. Ordinal categoricals are not supported.</text>
+      <translation>Value must be a string scalar, char, or categorical with value set being a subset or the same set of names defined in the 'Categorical' property. Ordinal categoricals are not supported.</translation>
+    </entry>
+    <entry key="InvalidROILimits">
+      <text>Each row in label location limits must contain a pair of values in ascending order.</text>
+      <translation>Each row in label location limits must contain a pair of values in ascending order.</translation>
+    </entry>
+    <entry key="IncorrectNumcols">
+      <text>Number of label values must match the number of rows in label locations.</text>
+      <translation>Number of label values must match the number of rows in label locations.</translation>
+    </entry>
+    <entry key="InvalidMultipleRegions">
+      <text>Each row in label values must be a scalar.</text>
+      <translation>Each row in label values must be a scalar.</translation>
+    </entry>
+    <entry key="InvalidLabelValueDimension">
+      <text>Label values must be a column vector</text>
+      <translation>Label values must be a column vector</translation>
+    </entry>
+    <entry key="InvalidLocationDimensionPoint">
+      <text>Location values must be a column vector</text>
+      <translation>Location values must be a column vector</translation>
+    </entry>
+    <entry key="InvalidLocationDimensionROI">
+      <text>Location values must be a matrix with 2 columns</text>
+      <translation>Location values must be a matrix with 2 columns</translation>
+    </entry>
+    <entry key="AutoLabelingModeCancelLabelingTitle">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="AutoLabelingModeCancelLabelingWarningMsg">
+      <text> Are you sure you want to cancel? All labels created by auto-labeling will be deleted.</text>
+      <translation> Are you sure you want to cancel? All labels created by auto-labeling will be deleted.</translation>
+    </entry>
+    <entry key="FastLabelSignalSelectionTitle">
+      <text>Channel Selection</text>
+      <translation>Channel Selection</translation>
+    </entry>
+    <entry key="FastLabelSignalSelectionSignalHeader">
+      <text>Channel</text>
+      <translation>Channel</translation>
+    </entry>
+    <entry key="ImportSignalsFromWorkspaceDialogTitle">
+      <text>Import Members from Workspace</text>
+      <translation>Import Members from Workspace</translation>
+    </entry>
+    <entry key="ImportSignalsFromWorkspaceImportButton">
+      <text>Import</text>
+      <translation>Import</translation>
+    </entry>
+    <entry key="ImportSignalsFromWorkspaceImportAndCloseButton">
+      <text>Import and Close</text>
+      <translation>Import and Close</translation>
+    </entry>
+    <entry key="ImportLabelDesc">
+      <text>Select variables to import</text>
+      <translation>Select variables to import</translation>
+    </entry>
+    <entry key="ImportWSBFilterNoneLabelDesc">
+      <text>Filtered by: All supported variables</text>
+      <translation>Filtered by: All supported variables</translation>
+    </entry>
+    <entry key="ImportWSBFilterInMemoryAndSamplesLabelDesc" note="as in regular variables in matlab workspace(e.g numeric matrix) and user choose to not associated time with it, during import">
+      <text>Filtered by: Variables with in-memory data supported in samples</text>
+      <translation>Filtered by: Variables with in-memory data supported in samples</translation>
+    </entry>
+    <entry key="ImportWSBFilterInMemoryAndTimeLabelDesc" note="as in regular variables in matlab workspace(e.g numeric matrix,timetable) and user choose to associate time with it or already has time associated with it, during import">
+      <text>Filtered by: Variables with in-memory data supported in time</text>
+      <translation>Filtered by: Variables with in-memory data supported in time</translation>
+    </entry>
+    <entry key="ImportWSBFilterFilesLabelDesc">
+      <text>Filtered by: Variables that point to files</text>
+      <translation>Filtered by: Variables that point to files</translation>
+    </entry>
+    <entry key="SetTimeLabel">
+      <text>Set time information of selected variables</text>
+      <translation>Set time information of selected variables</translation>
+    </entry>
+    <entry key="SetTimeLabelDisclaimer">
+      <text>Settings are ignored for variables with inherent time information.</text>
+      <translation>Settings are ignored for variables with inherent time information.</translation>
+    </entry>
+    <entry key="TimeValuePlaceHolderTextFs">
+      <text>Set sample rate</text>
+      <translation>Set sample rate</translation>
+    </entry>
+    <entry key="TimeValuePlaceHolderTextTs">
+      <text>Set sample time</text>
+      <translation>Set sample time</translation>
+    </entry>
+    <entry key="TimeValuePlaceHolderTextTv">
+      <text>Set time values</text>
+      <translation>Set time values</translation>
+    </entry>
+    <entry key="TimeModeLabel">
+      <text>Working in:</text>
+      <translation>Working in:</translation>
+    </entry>
+    <entry key="WorkInSamples">
+      <text>Samples</text>
+      <translation>Samples</translation>
+    </entry>
+    <entry key="WorkInTime">
+      <text>Time</text>
+      <translation>Time</translation>
+    </entry>
+    <entry key="WorkWithFiles">
+      <text>Samples or time (inferred from file)</text>
+      <translation>Samples or time (inferred from file)</translation>
+    </entry>
+    <entry key="SampleRateTimeSpec">
+      <text>Sample Rate</text>
+      <translation>Sample Rate</translation>
+    </entry>
+    <entry key="SampleTimeTimeSpec">
+      <text>Sample Time</text>
+      <translation>Sample Time</translation>
+    </entry>
+    <entry key="TimeValuesTimeSpec">
+      <text>Time Values</text>
+      <translation>Time Values</translation>
+    </entry>
+    <entry key="Years">
+      <text>Years</text>
+      <translation>Years</translation>
+    </entry>
+    <entry key="Days">
+      <text>Days</text>
+      <translation>Days</translation>
+    </entry>
+    <entry key="Hours">
+      <text>Hours</text>
+      <translation>Hours</translation>
+    </entry>
+    <entry key="Minutes">
+      <text>Minutes</text>
+      <translation>Minutes</translation>
+    </entry>
+    <entry key="InvalidTimeMetadataTimeValuesSize">
+      <text>Time values must be a vector with the same length as the selected variables.</text>
+      <translation>Time values must be a vector with the same length as the selected variables.</translation>
+    </entry>
+    <entry key="AllNonUniqueMemberNames">
+      <text>Unable to import. Member names must match already imported members.</text>
+      <translation>Unable to import. Member names must match already imported members.</translation>
+    </entry>
+    <entry key="LSSConcatenationIncompatibilityBetweenSelections">
+      <text>Selected labeled signal sets were not imported because they have incompatible label definitions. Change your selection.</text>
+      <translation>Selected labeled signal sets were not imported because they have incompatible label definitions. Change your selection.</translation>
+    </entry>
+    <entry key="LSSInvalidLabelDefType">
+      <text>Unable to import. Label definitions with timetable or table label data types are not supported.</text>
+      <translation>Unable to import. Label definitions with timetable or table label data types are not supported.</translation>
+    </entry>
+    <entry key="LSSFailedConcatenationWithExistingLSS">
+      <text>Selected labeled signal sets were not imported because their label definitions are not compatible with the label definitions in the Signal Labeler App. Change your selection.</text>
+      <translation>Selected labeled signal sets were not imported because their label definitions are not compatible with the label definitions in the Signal Labeler App. Change your selection.</translation>
+    </entry>
+    <entry key="LSSFailedMergeLabelDefinitions">
+      <text>Unable to import. Label definitions with same name must be matching.</text>
+      <translation>Unable to import. Label definitions with same name must be matching.</translation>
+    </entry>
+    <entry key="LSSFailedMergeMembers">
+      <text>Unable to import. Member names must be unique.</text>
+      <translation>Unable to import. Member names must be unique.</translation>
+    </entry>
+    <entry key="LSSFailedUnsupportedLabelDefsOrData">
+      <text>Unable to import selected labeled signal sets. Label definitions with timetable, table, or non-scalar label data types are not supported.</text>
+      <translation>Unable to import selected labeled signal sets. Label definitions with timetable, table, or non-scalar label data types are not supported.</translation>
+    </entry>
+    <entry key="ImportDisabledLSSTimeIncompatible">
+      <text>Unable to import selected labeled signal sets. All labeled signal sets must have time information or have no time information.</text>
+      <translation>Unable to import selected labeled signal sets. All labeled signal sets must have time information or have no time information.</translation>
+    </entry>
+    <entry key="ImportDisabledLSSAndVarsTimeIncompatible">
+      <text>Unable to import selected variables. All variables must have time information or have no time information.</text>
+      <translation>Unable to import selected variables. All variables must have time information or have no time information.</translation>
+    </entry>
+    <entry key="ImportDisabledTimeIncompatibleWithSamplesMode">
+      <text>Unable to import. Already imported members have no time information.</text>
+      <translation>Unable to import. Already imported members have no time information.</translation>
+    </entry>
+    <entry key="ImportDisabledTimeIncompatibleWithTimeMode">
+      <text>Unable to import. Already imported members have time information.</text>
+      <translation>Unable to import. Already imported members have time information.</translation>
+    </entry>
+    <entry key="ImportDisabledSelectVariables">
+      <text>Select variables from the Workspace Browser.</text>
+      <translation>Select variables from the Workspace Browser.</translation>
+    </entry>
+    <entry key="ImportInvalidTimeInherentDataWarn">
+      <text>Unable to import at least one timetable or labeled signal set because it contains unsupported values. For more information on supported data types, please see the documentation.</text>
+      <translation>Unable to import at least one timetable or labeled signal set because it contains unsupported values. For more information on supported data types, please see the documentation.</translation>
+    </entry>
+    <entry key="ImportDisabledLSSSourceIncompatible">
+      <text>Unable to import selected labeled signal sets. All labeled signal sets must have datastore pointing to file or have in-memory data.</text>
+      <translation>Unable to import selected labeled signal sets. All labeled signal sets must have datastore pointing to file or have in-memory data.</translation>
+    </entry>
+    <entry key="ImportDisabledLSSAndVariableIncompatible">
+      <text>Unable to import selected variables. All variables must have in-memory data or be labeled signal sets with datastore pointing to file.</text>
+      <translation>Unable to import selected variables. All variables must have in-memory data or be labeled signal sets with datastore pointing to file.</translation>
+    </entry>
+    <entry key="ImportDisabledLSSSourceInvalid">
+      <text>Unable to import selected labeled signal sets. All labeled signal sets must have in-memory data.</text>
+      <translation>Unable to import selected labeled signal sets. All labeled signal sets must have in-memory data.</translation>
+    </entry>
+    <entry key="InvalidMergeSources">
+      <text>Unable to import. Labeled signal sets must have same datastore type.</text>
+      <translation>Unable to import. Labeled signal sets must have same datastore type.</translation>
+    </entry>
+    <entry key="IncompatibleTimeInformation">
+      <text>Unable to import. Time information of datastore in labeled signal sets must be compatible.</text>
+      <translation>Unable to import. Time information of datastore in labeled signal sets must be compatible.</translation>
+    </entry>
+    <entry key="IncompatibleFileTypes">
+      <text>Unable to import. All files must have same extension as already imported files.</text>
+      <translation>Unable to import. All files must have same extension as already imported files.</translation>
+    </entry>
+    <entry key="IncompatibleSignalVariableNames">
+      <text>Unable to import. All labeled signal sets must either not have the 'SignalVariableNames' datastore property specified, or have it specified with the same property value.</text>
+      <translation>Unable to import. All labeled signal sets must either not have the 'SignalVariableNames' datastore property specified, or have it specified with the same property value.</translation>
+    </entry>
+    <entry key="IncompatibleSampleRateVariableName">
+      <text>Unable to import. All labeled signal sets must either not have the 'SampleRateVariableName' datastore property specified, or have it specified with the same property value.</text>
+      <translation>Unable to import. All labeled signal sets must either not have the 'SampleRateVariableName' datastore property specified, or have it specified with the same property value.</translation>
+    </entry>
+    <entry key="IncompatibleSampleTimeVariableName">
+      <text>Unable to import. All labeled signal sets must either not have the 'SampleTimeVariableName' datastore property specified, or have it specified with the same property value.</text>
+      <translation>Unable to import. All labeled signal sets must either not have the 'SampleTimeVariableName' datastore property specified, or have it specified with the same property value.</translation>
+    </entry>
+    <entry key="IncompatibleTimeValuesVariableName">
+      <text>Unable to import. All labeled signal sets must either not have the 'TimeValuesVariableName' datastore property specified, or have it specified with the same property value.</text>
+      <translation>Unable to import. All labeled signal sets must either not have the 'TimeValuesVariableName' datastore property specified, or have it specified with the same property value.</translation>
+    </entry>
+    <entry key="IncompatibleLabelWarning">
+      <text>All labels in imported labeled signal sets must have real scalar values. Some labels were not imported.</text>
+      <translation>All labels in imported labeled signal sets must have real scalar values. Some labels were not imported.</translation>
+    </entry>
+    <entry key="InvalidMemberDataInforNan">
+      <text>Unable to import. Labeled signal sets data must have finite values.</text>
+      <translation>Unable to import. Labeled signal sets data must have finite values.</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileImportButton">
+      <text>Import</text>
+      <translation>Import</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileDialogTitle">
+      <text>Import Members from File</text>
+      <translation>Import Members from File</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileDialogNameLabel">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileExtensionLabel">
+      <text>Extension</text>
+      <translation>Extension</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileAutoSignalVarNameLabel">
+      <text>First signal variable</text>
+      <translation>First signal variable</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileSpecifySignalVarNameLabel">
+      <text>Specify</text>
+      <translation>Specify</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileSpecifyPlaceholder">
+      <text>Enter comma separated names</text>
+      <translation>Enter comma separated names</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileSignalVarNameLabel">
+      <text>Signal Variable</text>
+      <translation>Signal Variable</translation>
+    </entry>
+    <entry key="MatFileItemLabel">
+      <text>MAT-files</text>
+      <translation>MAT-files</translation>
+    </entry>
+    <entry key="CsvFileItemLabel">
+      <text>CSV</text>
+      <translation>CSV</translation>
+    </entry>
+    <entry key="TimeInfoLabel">
+      <text>Time information</text>
+      <translation>Time information</translation>
+    </entry>
+    <entry key="AutoTimeInfoCheckboxLabel">
+      <text>Infer from signal variable</text>
+      <translation>Infer from signal variable</translation>
+    </entry>
+    <entry key="AutoTimeInfoLabelValue">
+      <text>Inferred from signal variable</text>
+      <translation>Inferred from signal variable</translation>
+    </entry>
+    <entry key="SpecifyTimeInfoCheckboxLabel">
+      <text>Working in</text>
+      <translation>Working in</translation>
+    </entry>
+    <entry key="SampleRateVariableNameItemLabel">
+      <text>Sample Rate Variable From File</text>
+      <translation>Sample Rate Variable From File</translation>
+    </entry>
+    <entry key="SampleTimeVariableNameItemLabel">
+      <text>Sample Time Variable From File</text>
+      <translation>Sample Time Variable From File</translation>
+    </entry>
+    <entry key="TimeValuesVariableNameItemLabel">
+      <text>Time Values Variable From File</text>
+      <translation>Time Values Variable From File</translation>
+    </entry>
+    <entry key="TimeInfoVariableNamePlaceholder">
+      <text>Enter a variable name</text>
+      <translation>Enter a variable name</translation>
+    </entry>
+    <entry key="SampleRateItemLabel">
+      <text>Sample Rate</text>
+      <translation>Sample Rate</translation>
+    </entry>
+    <entry key="SampleTimeItemLabel">
+      <text>Sample Time</text>
+      <translation>Sample Time</translation>
+    </entry>
+    <entry key="TimeValuesItemLabel">
+      <text>Time Values</text>
+      <translation>Time Values</translation>
+    </entry>
+    <entry key="TimeInfoValuesPlaceholder">
+      <text>Enter comma separated values</text>
+      <translation>Enter comma separated values</translation>
+    </entry>
+    <entry key="InvalidImportToFileNameWarning">
+      <text>Specify a file Name</text>
+      <translation>Specify a file Name</translation>
+    </entry>
+    <entry key="ImportSignalsFromFolderDialogTitle">
+      <text>Import Members From Folder</text>
+      <translation>Import Members From Folder</translation>
+    </entry>
+    <entry key="ImportSignalsFromFolderDialogNameLabel">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileIncludeSubFolderLabel">
+      <text>Include Subfolders</text>
+      <translation>Include Subfolders</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileInferedMsg">
+      <text>{0} files were imported. When plotted, data will be shown in samples or time based on inferred time information.</text>
+      <translation>{0} files were imported. When plotted, data will be shown in samples or time based on inferred time information.</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileInSampleMsg">
+      <text>{0} files were imported. When plotted, data will be shown in samples.</text>
+      <translation>{0} files were imported. When plotted, data will be shown in samples.</translation>
+    </entry>
+    <entry key="ImportSignalsFromFileInTimeMsg">
+      <text>{0} files were imported. When plotted, data will be shown in time.</text>
+      <translation>{0} files were imported. When plotted, data will be shown in time.</translation>
+    </entry>
+    <entry key="ImportFromFileNotificationInitMsg">
+      <text>Initializing.</text>
+      <translation>Initializing.</translation>
+    </entry>
+    <entry key="ImportFromFileNotificationMsg">
+      <text>Reading signal data from {0} of {1} files.</text>
+      <translation>Reading signal data from {0} of {1} files.</translation>
+    </entry>
+    <entry key="LazyLoadDataNotificationTitle">
+      <text>Reading Data from File</text>
+      <translation>Reading Data from File</translation>
+    </entry>
+    <entry key="LazyLoadDataFailedTitle">
+      <text>Reading Data from File</text>
+      <translation>Reading Data from File</translation>
+    </entry>
+    <entry key="InvalidFsOrTsValueOfTimeVariableInFile">
+      <text>Unable to read data for file ''{0}''. ''{1}'' variable must have a real numeric value.</text>
+      <translation>Unable to read data for file ''{0}''. ''{1}'' variable must have a real numeric value.</translation>
+    </entry>
+    <entry key="InvalidTimeValuesOfTimeVariableInFile">
+      <text>Unable to read data for file ''{0}''. ''{1}'' variable must have sorted real numeric values.</text>
+      <translation>Unable to read data for file ''{0}''. ''{1}'' variable must have sorted real numeric values.</translation>
+    </entry>
+    <entry key="InvalidTimeInherentDataInFile">
+      <text>Unable to read data for file ''{0}''. ''{1}'' variable must have sorted real numeric uniform time values.</text>
+      <translation>Unable to read data for file ''{0}''. ''{1}'' variable must have sorted real numeric uniform time values.</translation>
+    </entry>
+    <entry key="NonNumericDataValueInFile">
+      <text>Unable to read data for file ''{0}''. ''{1}'' variables must have real numeric values.</text>
+      <translation>Unable to read data for file ''{0}''. ''{1}'' variables must have real numeric values.</translation>
+    </entry>
+    <entry key="InvalidDataWithMixedTime">
+      <text>Unable to read data for file ''{0}''. ''{1}'' variables must have same time information.</text>
+      <translation>Unable to read data for file ''{0}''. ''{1}'' variables must have same time information.</translation>
+    </entry>
+    <entry key="InvalidDataWithMixedTimeTable">
+      <text>Unable to read data for file ''{0}''. ''{1}'' variables must have same time information.</text>
+      <translation>Unable to read data for file ''{0}''. ''{1}'' variables must have same time information.</translation>
+    </entry>
+    <entry key="InvalidDataWithTime">
+      <text>Unable to read data for file ''{0}''. ''{1}'' variables must be in samples.</text>
+      <translation>Unable to read data for file ''{0}''. ''{1}'' variables must be in samples.</translation>
+    </entry>
+    <entry key="InvalidDataWithOutTime">
+      <text>Unable to read data for file ''{0}''. ''{1}'' variables must have time information.</text>
+      <translation>Unable to read data for file ''{0}''. ''{1}'' variables must have time information.</translation>
+    </entry>
+    <entry key="InvalidDataAndTimeValuesDims">
+      <text>Unable to read data for file ''{0}''. Time values must be a vector with the same length as the data in variable ''{1}''.</text>
+      <translation>Unable to read data for file ''{0}''. Time values must be a vector with the same length as the data in variable ''{1}''.</translation>
+    </entry>
+    <entry key="LazyLoadFailedRemoveFileErrorMsg">
+      <text>Do you want to delete the file from Signal Labeler?</text>
+      <translation>Do you want to delete the file from Signal Labeler?</translation>
+    </entry>
+    <entry key="DefaultFilesNotFound">
+      <text>There are no files with the default supported file extensions in the specified file location.</text>
+      <translation>There are no files with the default supported file extensions in the specified file location.</translation>
+    </entry>
+    <entry key="InvalidSampleRateDims">
+      <text>'SampleRate' must be a scalar or an ordered, comma-separated list of scalars with length equal to the number of files specified.</text>
+      <translation>'SampleRate' must be a scalar or an ordered, comma-separated list of scalars with length equal to the number of files specified.</translation>
+    </entry>
+    <entry key="InvalidSampleTimeDims">
+      <text>'SampleTime' must be a scalar or an ordered, comma-separated list of scalars with length equal to the number of files specified.</text>
+      <translation>'SampleTime' must be a scalar or an ordered, comma-separated list of scalars with length equal to the number of files specified.</translation>
+    </entry>
+    <entry key="InvalidTimeValuesDims">
+      <text>'TimeValues' must be a vector or an ordered, comma-separated list of vectors with length equal to the number of files specified.</text>
+      <translation>'TimeValues' must be a vector or an ordered, comma-separated list of vectors with length equal to the number of files specified.</translation>
+    </entry>
+    <entry key="InvalidMergeMembers">
+      <text>Unable to import. All files must have a unique full file path name.</text>
+      <translation>Unable to import. All files must have a unique full file path name.</translation>
+    </entry>
+    <entry key="MATDesc2">
+      <text>MAT-files</text>
+      <translation>MAT-files</translation>
+    </entry>
+    <entry key="ExportDialogExportButton">
+      <text>Export</text>
+      <translation>Export</translation>
+    </entry>
+    <entry key="OverwriteVariableInWorkspaceMsg">
+      <text>Overwrite existing variable in the base workspace?</text>
+      <translation>Overwrite existing variable in the base workspace?</translation>
+    </entry>
+    <entry key="OverwriteVariableInWorkspaceTitle">
+      <text>Overwrite variable</text>
+      <translation>Overwrite variable</translation>
+    </entry>
+    <entry key="OverwriteFileContentMsg">
+      <text>Overwrite existing file in the current directory?</text>
+      <translation>Overwrite existing file in the current directory?</translation>
+    </entry>
+    <entry key="OverwriteFileContentTitle">
+      <text>Overwrite File</text>
+      <translation>Overwrite File</translation>
+    </entry>
+    <entry key="ExportLSSToWorkspaceDialogTitle">
+      <text>Export Labeled Signal Set To Workspace</text>
+      <translation>Export Labeled Signal Set To Workspace</translation>
+    </entry>
+    <entry key="ExportLSSToWorkspaceDialogNameLabel">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="ExportLSSToWorkspaceDialogDescriptionLabel">
+      <text>Description</text>
+      <translation>Description</translation>
+    </entry>
+    <entry key="InvalidExportToWSNameWarning">
+      <text>Name must be a valid MATLAB variable name</text>
+      <translation>Name must be a valid MATLAB variable name</translation>
+    </entry>
+    <entry key="ExportLabelDefToWorkspaceDialogTitle">
+      <text>Export Label Definitions To Workspace</text>
+      <translation>Export Label Definitions To Workspace</translation>
+    </entry>
+    <entry key="ExportLabelDefToWorkspaceDialogNameLabel">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="ExportLSSToFileDialogTitle">
+      <text>Export Labeled Signal Set To File</text>
+      <translation>Export Labeled Signal Set To File</translation>
+    </entry>
+    <entry key="ExportLSSToFileDialogNameLabel">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="ExportLSSToFileDialogDescriptionLabel">
+      <text>Description</text>
+      <translation>Description</translation>
+    </entry>
+    <entry key="InvalidExportToFileNameWarning">
+      <text>Specify a file Name</text>
+      <translation>Specify a file Name</translation>
+    </entry>
+    <entry key="ExportLabelDefToFileDialogTitle">
+      <text>Export Label Definitions To File</text>
+      <translation>Export Label Definitions To File</translation>
+    </entry>
+    <entry key="ExportLabelDefToFileDialogNameLabel">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="NewSessionTitle">
+      <text>New Session</text>
+      <translation>New Session</translation>
+    </entry>
+    <entry key="NewSessionMessage">
+      <text>Are you sure you want to start a new session? All unexported data will be lost.</text>
+      <translation>Are you sure you want to start a new session? All unexported data will be lost.</translation>
+    </entry>
+    <entry key="CloseMessage">
+      <text>Are you sure you want to close Signal Labeler? All unexported data will be lost.</text>
+      <translation>Are you sure you want to close Signal Labeler? All unexported data will be lost.</translation>
+    </entry>
+    <entry key="MultiSignalSelectedWithSpectrogramOn">
+      <text>Unable to plot the spectrogram of more than one signal. Turn off spectrogram view or change selection.</text>
+      <translation>Unable to plot the spectrogram of more than one signal. Turn off spectrogram view or change selection.</translation>
+    </entry>
+    <entry key="featureExtractionChannelSelectionHeaderMsg">
+      <text>Select member channel to be used for feature extraction.</text>
+      <translation>Select member channel to be used for feature extraction.</translation>
+    </entry>
+    <entry key="FeatureExtractionDlgOKBtnLabel">
+      <text>Run</text>
+      <translation>Run</translation>
+    </entry>
+    <entry key="FeatureExtractionDlgTimeTitle">
+      <text>Generate Time-Domain features</text>
+      <translation>Generate Time-Domain features</translation>
+    </entry>
+    <entry key="FeatureExtractionDlgFreqTitle">
+      <text>Generate Frequency-Domain features</text>
+      <translation>Generate Frequency-Domain features</translation>
+    </entry>
+    <entry key="FeatureExtractionCancelLabelingTitle">
+      <text>Cancel</text>
+      <translation>Cancel</translation>
+    </entry>
+    <entry key="FeatureExtractionCancelLabelingWarningMsg">
+      <text> Are you sure you want to cancel? All extracted features will be deleted.</text>
+      <translation> Are you sure you want to cancel? All extracted features will be deleted.</translation>
+    </entry>
+    <entry key="FeatureExtractionSelectFeaturesLabel">
+      <text>Select Features To Extract</text>
+      <translation>Select Features To Extract</translation>
+    </entry>
+    <entry key="FeatureExtractionFeatureParameters">
+      <text>Parameters</text>
+      <translation>Parameters</translation>
+    </entry>
+    <entry key="FeatureExtractionNotificationTitle">
+      <text>Feature Extraction</text>
+      <translation>Feature Extraction</translation>
+    </entry>
+    <entry key="FeatureExtractionNotificationInitMsg">
+      <text>Initializing.</text>
+      <translation>Initializing.</translation>
+    </entry>
+    <entry key="FeatureExtractionFeatureNotificationMsg">
+      <text>Extracting features for {0} of {1} members.</text>
+      <translation>Extracting features for {0} of {1} members.</translation>
+    </entry>
+    <entry key="FeatureExtractionFeatureDefNotificationMsg">
+      <text>Creating label definition for {0} of {1} features.</text>
+      <translation>Creating label definition for {0} of {1} features.</translation>
+    </entry>
+    <entry key="Mean">
+      <text>Mean</text>
+      <translation>Mean</translation>
+    </entry>
+    <entry key="RMS">
+      <text>RMS</text>
+      <translation>RMS</translation>
+    </entry>
+    <entry key="StandardDeviation">
+      <text>Standard Deviation</text>
+      <translation>Standard Deviation</translation>
+    </entry>
+    <entry key="ShapeFactor">
+      <text>Shape Factor</text>
+      <translation>Shape Factor</translation>
+    </entry>
+    <entry key="SNR">
+      <text>SNR</text>
+      <translation>SNR</translation>
+    </entry>
+    <entry key="THD">
+      <text>THD</text>
+      <translation>THD</translation>
+    </entry>
+    <entry key="SINAD">
+      <text>SINAD</text>
+      <translation>SINAD</translation>
+    </entry>
+    <entry key="PeakValue">
+      <text>Peak Value</text>
+      <translation>Peak Value</translation>
+    </entry>
+    <entry key="CrestFactor">
+      <text>Crest Factor</text>
+      <translation>Crest Factor</translation>
+    </entry>
+    <entry key="ClearanceFactor">
+      <text>Clearance Factor</text>
+      <translation>Clearance Factor</translation>
+    </entry>
+    <entry key="ImpulseFactor">
+      <text>Impulse Factor</text>
+      <translation>Impulse Factor</translation>
+    </entry>
+    <entry key="FeatureExtractionStatisticsLabel">
+      <text>Statistics</text>
+      <translation>Statistics</translation>
+    </entry>
+    <entry key="FeatureExtractionPulseMetricsLabel">
+      <text>Pulse Metrics</text>
+      <translation>Pulse Metrics</translation>
+    </entry>
+    <entry key="FeatureExtractionHarmonicsLabel">
+      <text>Harmonics</text>
+      <translation>Harmonics</translation>
+    </entry>
+    <entry key="UnitsHZ">
+      <text>Hz</text>
+      <translation>Hz</translation>
+    </entry>
+    <entry key="UnitsRadians">
+      <text>radians/sample</text>
+      <translation>radians/sample</translation>
+    </entry>
+    <entry key="FeatureExtractionSetFeatureWelchParameters">
+      <text>Specify parameters of Welch's PSD used for selected features </text>
+      <translation>Specify parameters of Welch's PSD used for selected features </translation>
+    </entry>
+    <entry key="MeanFrequency">
+      <text>Mean Frequency</text>
+      <translation>Mean Frequency</translation>
+    </entry>
+    <entry key="MedianFrequency">
+      <text>Median Frequency</text>
+      <translation>Median Frequency</translation>
+    </entry>
+    <entry key="BandPower">
+      <text>Band Power</text>
+      <translation>Band Power</translation>
+    </entry>
+    <entry key="OccupiedBandwidth">
+      <text>Occupied Bandwidth</text>
+      <translation>Occupied Bandwidth</translation>
+    </entry>
+    <entry key="PowerBandwidth">
+      <text>Power Bandwidth</text>
+      <translation>Power Bandwidth</translation>
+    </entry>
+    <entry key="FeatureExtractionWindowLengthLabel">
+      <text>Window Length({0})</text>
+      <translation>Window Length({0})</translation>
+    </entry>
+    <entry key="FeatureExtractionWindowParamLabel">
+      <text>Window Parameter</text>
+      <translation>Window Parameter</translation>
+    </entry>
+    <entry key="FeatureExtractionOverlapLabel">
+      <text>Overlap Length({0})</text>
+      <translation>Overlap Length({0})</translation>
+    </entry>
+    <entry key="FeatureExtractionSpecifyFreqLabel">
+      <text>Specify FFT Length or Frequency Vector</text>
+      <translation>Specify FFT Length or Frequency Vector</translation>
+    </entry>
+    <entry key="FeatureExtractionFFTLengthLabel">
+      <text>FFT Length</text>
+      <translation>FFT Length</translation>
+    </entry>
+    <entry key="FeatureExtractionFrequencyVectorLabel">
+      <text>Frequency Vector({0})</text>
+      <translation>Frequency Vector({0})</translation>
+    </entry>
+    <entry key="FeatureExtractionFrequencyMinLabel">
+      <text>Min</text>
+      <translation>Min</translation>
+    </entry>
+    <entry key="FeatureExtractionFrequencyMaxLabel">
+      <text>Max</text>
+      <translation>Max</translation>
+    </entry>
+    <entry key="FeatureExtractionFrequencyLengthLabel">
+      <text>Length</text>
+      <translation>Length</translation>
+    </entry>
+    <entry key="FeatureExtractionHamming">
+      <text>Hamming</text>
+      <translation>Hamming</translation>
+    </entry>
+    <entry key="FeatureExtractionHann">
+      <text>Hann</text>
+      <translation>Hann</translation>
+    </entry>
+    <entry key="FeatureExtractionKaiser">
+      <text>Kaiser</text>
+      <translation>Kaiser</translation>
+    </entry>
+    <entry key="FeatureExtractionRectangular">
+      <text>Rectangular</text>
+      <translation>Rectangular</translation>
+    </entry>
+    <entry key="FeatureExtractionChebyshev">
+      <text>Chebyshev</text>
+      <translation>Chebyshev</translation>
+    </entry>
+    <entry key="FeatureExtractionBarlett">
+      <text>Bartlett</text>
+      <translation>Bartlett</translation>
+    </entry>
+    <entry key="FeatureExtractionBlackman">
+      <text>Blackman</text>
+      <translation>Blackman</translation>
+    </entry>
+    <entry key="FeatureExtractionFlatTop">
+      <text>Flat top</text>
+      <translation>Flat top</translation>
+    </entry>
+    <entry key="FeatureExtractionGaussian">
+      <text>Gaussian</text>
+      <translation>Gaussian</translation>
+    </entry>
+    <entry key="FeatureExtractionNuttall">
+      <text>Nuttall</text>
+      <translation>Nuttall</translation>
+    </entry>
+    <entry key="FeatureExtractionTriangular">
+      <text>Triangular</text>
+      <translation>Triangular</translation>
+    </entry>
+    <entry key="InvalidNonPositiveNumericValueError">
+      <text>Value must be positive numeric.</text>
+      <translation>Value must be positive numeric.</translation>
+    </entry>
+    <entry key="InvalidNonPositiveIntegerValueError">
+      <text>Value must be positive integer.</text>
+      <translation>Value must be positive integer.</translation>
+    </entry>
+    <entry key="InvalidIntegerValueLessThanTwoError">
+      <text>Value must be positive integer greater than or equal to 2.</text>
+      <translation>Value must be positive integer greater than or equal to 2.</translation>
+    </entry>
+    <entry key="OverLapLengthGreaterThanWindowLengthError">
+      <text>Overlap length must be less than window length.</text>
+      <translation>Overlap length must be less than window length.</translation>
+    </entry>
+    <entry key="FreqMinGreaterThanFreqMaxError">
+      <text>Frequency min must be less than frequency max.</text>
+      <translation>Frequency min must be less than frequency max.</translation>
+    </entry>
+    <entry key="OccupiedBandwidthPercentageLabel">
+      <text>Percentage</text>
+      <translation>Percentage</translation>
+    </entry>
+    <entry key="OccupiedBandwidthPercentageError">
+      <text>Value must be positive numeric less than 100.</text>
+      <translation>Value must be positive numeric less than 100.</translation>
+    </entry>
+    <entry key="PowerBandwidthAmplitudeLabel">
+      <text>Relative amplitude(db)</text>
+      <translation>Relative amplitude(db)</translation>
+    </entry>
+    <entry key="PowerBandwidthAmplitudeError">
+      <text>Value must be numeric.</text>
+      <translation>Value must be numeric.</translation>
+    </entry>
+    <entry key="FullSignalFeatueDefinitionDescription">
+      <text>Full-signal {0} generated by Signal Labeler {1}.</text>
+      <translation>Full-signal {0} generated by Signal Labeler {1}.</translation>
+    </entry>
+    <entry key="FrameBasedSignalFeatueDefinitionDescription">
+      <text>Frame-based {0} generated by Signal Labeler {1}.</text>
+      <translation>Frame-based {0} generated by Signal Labeler {1}.</translation>
+    </entry>
+    <entry key="FeatueExtractionImportErrorDialogTitle">
+      <text>Extract Features</text>
+      <translation>Extract Features</translation>
+    </entry>
+    <entry key="FeatueExtractionImportSampeRateMisMatch">
+      <text>Your data set contains signals with different sample rates. Feature extraction requires the same sample rate. Consider deleting some signals from your dataset.</text>
+      <translation>Your data set contains signals with different sample rates. Feature extraction requires the same sample rate. Consider deleting some signals from your dataset.</translation>
+    </entry>
+    <entry key="FeatueExtractionImportComplexSignal">
+      <text>Your data set contains complex signals which are not supported by feature extraction. Delete complex signals from your data set.</text>
+      <translation>Your data set contains complex signals which are not supported by feature extraction. Delete complex signals from your data set.</translation>
+    </entry>
+    <entry key="EmptyFeatureDefNameText">
+      <text>Feature name must be a valid MATLAB variable name.</text>
+      <translation>Feature name must be a valid MATLAB variable name.</translation>
+    </entry>
+    <entry key="DuplicateFeatureDefNameText">
+      <text>Names of new and existing features must be unique.</text>
+      <translation>Names of new and existing features must be unique.</translation>
+    </entry>
+    <entry key="ExportFeatureToCLDlgTitle">
+      <text>Export Features to Classification Learner</text>
+      <translation>Export Features to Classification Learner</translation>
+    </entry>
+    <entry key="ExportFeatureTableDlgTitle">
+      <text>Export Features to Workspace</text>
+      <translation>Export Features to Workspace</translation>
+    </entry>
+    <entry key="ExportFeatureTableHeaderLabel">
+      <text>Label</text>
+      <translation>Label</translation>
+    </entry>
+    <entry key="SelectResponseLabel">
+      <text>Select response labels</text>
+      <translation>Select response labels</translation>
+    </entry>
+    <entry key="SelectFeatureLabel">
+      <text>Select feature labels</text>
+      <translation>Select feature labels</translation>
+    </entry>
+    <entry key="FramePolicyLabel">
+      <text>Frame Policy</text>
+      <translation>Frame Policy</translation>
+    </entry>
+    <entry key="FrameSizeLabel">
+      <text>Frame Size ({0}):</text>
+      <translation>Frame Size ({0}):</translation>
+    </entry>
+    <entry key="FrameRateLabel">
+      <text>Frame Rate ({0}):</text>
+      <translation>Frame Rate ({0}):</translation>
+    </entry>
+    <entry key="FrameOverLapLengthLabel">
+      <text>Frame Overlap Length ({0}):</text>
+      <translation>Frame Overlap Length ({0}):</translation>
+    </entry>
+    <entry key="ExportFeatureToWorkspaceDialogNameLabel">
+      <text>Name</text>
+      <translation>Name</translation>
+    </entry>
+    <entry key="ExportFeatureToWorkspaceDialogOutputAsLabel">
+      <text>Output as</text>
+      <translation>Output as</translation>
+    </entry>
+    <entry key="FeatureOutputAsMatrixLabel">
+      <text>matrix</text>
+      <translation>matrix</translation>
+    </entry>
+    <entry key="FeatureOutputAsTableLabel">
+      <text>table</text>
+      <translation>table</translation>
+    </entry>
+    <entry key="FramePolicyMisMatchError">
+      <text>Feature labels must have the same frame policy. Change selection.</text>
+      <translation>Feature labels must have the same frame policy. Change selection.</translation>
+    </entry>
+    <entry key="MultiSignalInSpectrogram">
+      <text>Unable to plot the spectrogram of more than one signal. Turn off spectrogram view.</text>
+      <translation>Unable to plot the spectrogram of more than one signal. Turn off spectrogram view.</translation>
+    </entry>
+    <entry key="ColoringTypeHeading">
+      <text>Label and signal color scheme:   </text>
+      <translation>Label and signal color scheme:   </translation>
+    </entry>
+    <entry key="DifferentColorsOptionLabel">
+      <text>Use Different Colors</text>
+      <translation>Use Different Colors</translation>
+    </entry>
+    <entry key="SameColorsOptionLabel">
+      <text>Use Same Colors</text>
+      <translation>Use Same Colors</translation>
+    </entry>
+    <entry key="SameColoringAcrossMembersColoringOptionLabel">
+      <text>Use Same Colors Across Members</text>
+      <translation>Use Same Colors Across Members</translation>
+    </entry>
+    <entry key="DifferentColorsOptionSummary">
+      <text>Use different colors for signals and labels</text>
+      <translation>Use different colors for signals and labels</translation>
+    </entry>
+    <entry key="SameColorsOptionSummary">
+      <text>Use the same color for signals and labels</text>
+      <translation>Use the same color for signals and labels</translation>
+    </entry>
+    <entry key="SameColoringAcrossMembersColoringOptionSummary">
+      <text>Use the same color for signals in multi-signal members but a different label color</text>
+      <translation>Use the same color for signals in multi-signal members but a different label color</translation>
+    </entry>
+  </message>
+</bicat>

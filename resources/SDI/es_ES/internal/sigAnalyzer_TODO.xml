@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="ToolName">
+      <text>Signal Analyzer</text>
+      <translation>Signal Analyzer</translation>
+    </entry>
+    <entry key="TitleUnnamedFileDirty">
+      <text>Signal Analyzer - untitled*</text>
+      <translation>Signal Analyzer - untitled*</translation>
+    </entry>
+    <entry key="TitleFileNotDirty">
+      <text>Signal Analyzer - {0}</text>
+      <translation>Signal Analyzer - {0}</translation>
+    </entry>
+    <entry key="TitleFileDirty">
+      <text>Signal Analyzer - {0}*</text>
+      <translation>Signal Analyzer - {0}*</translation>
+    </entry>
+    <entry key="mgDelAll">
+      <text>Delete all signals from Signal Analyzer?</text>
+      <translation>Delete all signals from Signal Analyzer?</translation>
+    </entry>
+    <entry key="mgDeleteSignals">
+      <text>Delete selected signals from Signal Analyzer?</text>
+      <translation>Delete selected signals from Signal Analyzer?</translation>
+    </entry>
+    <entry key="mgDeleteRunAndSignals">
+      <text>Delete selected signals from Signal Analyzer?</text>
+      <translation>Delete selected signals from Signal Analyzer?</translation>
+    </entry>
+    <entry key="RGTitleDesc">
+      <text>Create a report of the plotted signals</text>
+      <translation>Create a report of the plotted signals</translation>
+    </entry>
+    <entry key="mgClearRunsWarn">
+      <text>Do you want to save the app data? Unsaved data will be deleted.</text>
+      <translation>Do you want to save the app data? Unsaved data will be deleted.</translation>
+    </entry>
+    <entry key="mgSaveSessionTitle">
+      <text>Save Session</text>
+      <translation>Save Session</translation>
+    </entry>
+    <entry key="TimeColumnHeader">
+      <text>Time</text>
+      <translation>Time</translation>
+    </entry>
+    <entry key="StartTimeColumnHeader">
+      <text>Start Time</text>
+      <translation>Start Time</translation>
+    </entry>
+    <entry key="InvalidMLDATXSessionFile">
+      <text>{0} is not a valid Signal Analyzer session file.</text>
+      <translation>{0} is not a valid Signal Analyzer session file.</translation>
+    </entry>
+    <entry key="WorkspaceBrowser">
+      <text>Workspace Browser</text>
+      <translation>Workspace Browser</translation>
+    </entry>
+    <entry key="SPTRequired">
+      <text>Signal Processing Toolbox license required.</text>
+      <translation>Signal Processing Toolbox license required.</translation>
+    </entry>
+    <entry key="ImportErrorWhenPreprocessingModeActive">
+      <text>Unable to import signals when preprocessing. Please see documentation.</text>
+      <translation>Unable to import signals when preprocessing. Please see documentation.</translation>
+    </entry>
+    <entry key="InvalidDataTypeInputs">
+      <text>Every input signal must be a numeric, embedded.fi, logical non-scalar vector or matrix, a timetable, a timeseries, or a labeled signal set.</text>
+      <translation>Every input signal must be a numeric, embedded.fi, logical non-scalar vector or matrix, a timetable, a timeseries, or a labeled signal set.</translation>
+    </entry>
+    <entry key="MultipleTimeInputs">
+      <text>Specify only one of 'SampleRate', 'SampleTime', or 'TimeValues'.</text>
+      <translation>Specify only one of 'SampleRate', 'SampleTime', or 'TimeValues'.</translation>
+    </entry>
+    <entry key="TimeVectorAndStartTime">
+      <text>'StartTime' is not supported with 'TimeValues' because the time values already include the starting time.</text>
+      <translation>'StartTime' is not supported with 'TimeValues' because the time values already include the starting time.</translation>
+    </entry>
+    <entry key="RepeatedMetaChanged">
+      <text>Unable to change an already imported signal from samples to time units, or from time units to samples. Use the Signal Analyzer app to update the signal.</text>
+      <translation>Unable to change an already imported signal from samples to time units, or from time units to samples. Use the Signal Analyzer app to update the signal.</translation>
+    </entry>
+    <entry key="InvalidSigAndTimeVectorSizes">
+      <text>All signals must be the same length as the 'TimeValues' vector.</text>
+      <translation>All signals must be the same length as the 'TimeValues' vector.</translation>
+    </entry>
+    <entry key="TimeVectorMustBeUnique">
+      <text>'TimeValues' vector must contain unique elements.</text>
+      <translation>'TimeValues' vector must contain unique elements.</translation>
+    </entry>
+    <entry key="TimeVectorMustBeSorted">
+      <text>'TimeValues' vector must contain increasing values. Sort the values and the signal vector or use a timetable.</text>
+      <translation>'TimeValues' vector must contain increasing values. Sort the values and the signal vector or use a timetable.</translation>
+    </entry>
+    <entry key="sigAnalyzerDlgStr1">
+      <text>Import signals from {0}?</text>
+      <translation>Import signals from {0}?</translation>
+    </entry>
+    <entry key="sigAnalyzerDlgStr2">
+      <text>{0} has more than 100 columns.</text>
+      <translation>{0} has more than 100 columns.</translation>
+    </entry>
+    <entry key="sigAnalyzerDlgStr3">
+      <text>Are you sure you want to import more than 100 signals? </text>
+      <translation>Are you sure you want to import more than 100 signals? </translation>
+    </entry>
+    <entry key="AlwaysImport">
+      <text>Always import all signals</text>
+      <translation>Always import all signals</translation>
+    </entry>
+    <entry key="LSSDatabaseMissing">
+      <text>Unable to access necessary resources for labeled signal sets. Please close the Signal Analyzer app and try again.</text>
+      <translation>Unable to access necessary resources for labeled signal sets. Please close the Signal Analyzer app and try again.</translation>
+    </entry>
+    <entry key="MixSigsWithTimeAndSamples">
+      <text>Invalid combination of input signals. Timeseries or timetable signals must be imported separately from other signals with no inherent time information.</text>
+      <translation>Invalid combination of input signals. Timeseries or timetable signals must be imported separately from other signals with no inherent time information.</translation>
+    </entry>
+    <entry key="SpecifiedInherentTimeDataAndTimeValues">
+      <text>Timeseries and timetable inputs have inherent time information and do not support 'SampleRate', 'SampleTime', or 'TimeValues'.</text>
+      <translation>Timeseries and timetable inputs have inherent time information and do not support 'SampleRate', 'SampleTime', or 'TimeValues'.</translation>
+    </entry>
+    <entry key="TimetableEmpty">
+      <text>Timetable input is empty.</text>
+      <translation>Timetable input is empty.</translation>
+    </entry>
+    <entry key="TimeInTableMustBeDuration">
+      <text>Time column in timetable must be a duration vector.</text>
+      <translation>Time column in timetable must be a duration vector.</translation>
+    </entry>
+    <entry key="TimeInTableIsNotUnique">
+      <text>Time column in timetable must have unique values.</text>
+      <translation>Time column in timetable must have unique values.</translation>
+    </entry>
+    <entry key="TimeInTableIsNotSorted">
+      <text>Time column in timetable must have increasing values.</text>
+      <translation>Time column in timetable must have increasing values.</translation>
+    </entry>
+    <entry key="TimeInTableIsNotFinite">
+      <text>Time column in timetable must contain finite values.</text>
+      <translation>Time column in timetable must contain finite values.</translation>
+    </entry>
+    <entry key="ColsInTableNotValid">
+      <text>At least one column in timetable must contain a one or two-dimensional matrix with finite, numeric, embedded.fi, or logical values.</text>
+      <translation>At least one column in timetable must contain a one or two-dimensional matrix with finite, numeric, embedded.fi, or logical values.</translation>
+    </entry>
+    <entry key="TimetableScalarValues">
+      <text>Timetable must contain signals longer than 1 sample.</text>
+      <translation>Timetable must contain signals longer than 1 sample.</translation>
+    </entry>
+    <entry key="TimeseriesScalarValues">
+      <text>Timeseries must contain signals longer than 1 sample.</text>
+      <translation>Timeseries must contain signals longer than 1 sample.</translation>
+    </entry>
+    <entry key="TimeseriesInvalidName">
+      <text>Timeseries must have a name that is a valid MATLAB variable name. Use the ISVARNAME function to check if the name is valid.</text>
+      <translation>Timeseries must have a name that is a valid MATLAB variable name. Use the ISVARNAME function to check if the name is valid.</translation>
+    </entry>
+    <entry key="TimeseriesMustBeScalar">
+      <text>Arrays of timeseries are not supported.</text>
+      <translation>Arrays of timeseries are not supported.</translation>
+    </entry>
+    <entry key="TimeInTimeseriesIsNotUnique">
+      <text>Timeseries must have unique time values.</text>
+      <translation>Timeseries must have unique time values.</translation>
+    </entry>
+    <entry key="TimeInTimeseriesInvalidTimeUnits">
+      <text>Timeseries must have time units of seconds.</text>
+      <translation>Timeseries must have time units of seconds.</translation>
+    </entry>
+    <entry key="DataInTimeseriesIsNotValid">
+      <text>Timeseries data  must contain finite, real, numeric or logical values.</text>
+      <translation>Timeseries data  must contain finite, real, numeric or logical values.</translation>
+    </entry>
+    <entry key="DataInTimeseriesInvalidInterpolation">
+      <text>Timeseries must have linear interpolation.</text>
+      <translation>Timeseries must have linear interpolation.</translation>
+    </entry>
+    <entry key="InvalidNonUnifSampledTime">
+      <text>Time values must obey constraints for nonuniformly sampled signals. Please see documentation.</text>
+      <translation>Time values must obey constraints for nonuniformly sampled signals. Please see documentation.</translation>
+    </entry>
+    <entry key="LabeledSignalSetEmpty">
+      <text>LabeledSignalSet input is empty.</text>
+      <translation>LabeledSignalSet input is empty.</translation>
+    </entry>
+    <entry key="UnsuportedLabelsForSignalAnalyzer">
+      <text>Unable to import one or more labeledSignalSet objects because at least one label is of timetable or table data type or has a nonscalar numeric or logical label value.</text>
+      <translation>Unable to import one or more labeledSignalSet objects because at least one label is of timetable or table data type or has a nonscalar numeric or logical label value.</translation>
+    </entry>
+    <entry key="ImportWarning">
+      <text>Warning</text>
+      <translation>Warning</translation>
+    </entry>
+    <entry key="Ok">
+      <text>OK</text>
+      <translation>OK</translation>
+    </entry>
+    <entry key="ImportInvalidTimeInherentDataWarn">
+      <text>Unable to import at least one timetable, timeseries, or labeled signal set because it contains unsupported values. Please see Supported Data Types documentation.</text>
+      <translation>Unable to import at least one timetable, timeseries, or labeled signal set because it contains unsupported values. Please see Supported Data Types documentation.</translation>
+    </entry>
+    <entry key="MGExportDataTitleDesc">
+      <text>Export selected signals to the MATLAB workspace or MAT-file</text>
+      <translation>Export selected signals to the MATLAB workspace or MAT-file</translation>
+    </entry>
+    <entry key="mgExportToBaseWorkspace">
+      <text>Export to MATLAB workspace</text>
+      <translation>Export to MATLAB workspace</translation>
+    </entry>
+    <entry key="mgExportToBaseWorkspaceLabel">
+      <text>Export selected signals to the MATLAB workspace</text>
+      <translation>Export selected signals to the MATLAB workspace</translation>
+    </entry>
+    <entry key="EmptyFileNames">
+      <text>Specify a file name.</text>
+      <translation>Specify a file name.</translation>
+    </entry>
+    <entry key="mgExportOverwriteBaseWksWarn">
+      <text>Exporting selected signals will create variables with the same names as existing variables in the MATLAB workspace. Overwrite existing variables?</text>
+      <translation>Exporting selected signals will create variables with the same names as existing variables in the MATLAB workspace. Overwrite existing variables?</translation>
+    </entry>
+    <entry key="mgExportOverwriteBaseWksTitle">
+      <text>Overwrite variables</text>
+      <translation>Overwrite variables</translation>
+    </entry>
+    <entry key="mgExportToMatFile">
+      <text>Export to MAT-file</text>
+      <translation>Export to MAT-file</translation>
+    </entry>
+    <entry key="mgExportToMatFileLabel">
+      <text>Export selected signals to a MAT-file</text>
+      <translation>Export selected signals to a MAT-file</translation>
+    </entry>
+    <entry key="MGExportData">
+      <text>Export...</text>
+      <translation>Export...</translation>
+    </entry>
+    <entry key="ExportDlgPreferenceSuggestion">
+      <text>*Go to preferences to export as timetable</text>
+      <translation>*Go to preferences to export as timetable</translation>
+    </entry>
+    <entry key="mgExportAsIndividualSignalsWarning">
+      <text>Some rows selected in the signal table will be exported as separate variables because they contain signals with different lengths or time information.</text>
+      <translation>Some rows selected in the signal table will be exported as separate variables because they contain signals with different lengths or time information.</translation>
+    </entry>
+    <entry key="mgWarn">
+      <text>Warning</text>
+      <translation>Warning</translation>
+    </entry>
+    <entry key="mgExportAsIndividualSignalsCheckBoxLbl">
+      <text>Do not show again.</text>
+      <translation>Do not show again.</translation>
+    </entry>
+    <entry key="mgExportAsIndividualSignalsNamingError">
+      <text>Exporting selected signals will result in conflicting variable names. Consider renaming the signals or exporting each one individually.</text>
+      <translation>Exporting selected signals will result in conflicting variable names. Consider renaming the signals or exporting each one individually.</translation>
+    </entry>
+    <entry key="ScriptH1LineROI">
+      <text>Extract time region of interest from signals</text>
+      <translation>Extract time region of interest from signals</translation>
+    </entry>
+    <entry key="ScriptH1LineSpectrum">
+      <text>Compute power spectrum</text>
+      <translation>Compute power spectrum</translation>
+    </entry>
+    <entry key="ScriptH1LinePersistence">
+      <text>Compute persistence spectrum</text>
+      <translation>Compute persistence spectrum</translation>
+    </entry>
+    <entry key="ScriptH1LineSpectrogram">
+      <text>Compute spectrogram</text>
+      <translation>Compute spectrogram</translation>
+    </entry>
+    <entry key="ScriptH1LineScalogram">
+      <text>Compute scalogram</text>
+      <translation>Compute scalogram</translation>
+    </entry>
+    <entry key="ScriptParameter">
+      <text>Parameters</text>
+      <translation>Parameters</translation>
+    </entry>
+    <entry key="ScriptSeconds">
+      <text>seconds</text>
+      <translation>seconds</translation>
+    </entry>
+    <entry key="ScriptSamples">
+      <text>samples</text>
+      <translation>samples</translation>
+    </entry>
+    <entry key="CallForPlot" note="this is a comment on a script. Run = execute">
+      <text>Run the function call below without output arguments to plot the results</text>
+      <translation>Run the function call below without output arguments to plot the results</translation>
+    </entry>
+    <entry key="GenerateScriptWarnDlgTitle">
+      <text>Generate Script</text>
+      <translation>Generate Script</translation>
+    </entry>
+    <entry key="NoSignalsValidForTime">
+      <text>Unable to generate MATLAB script. Signal values must exist within the current time limits.</text>
+      <translation>Unable to generate MATLAB script. Signal values must exist within the current time limits.</translation>
+    </entry>
+    <entry key="NoSignalsValidForTimeAndFreq">
+      <text>Unable to generate MATLAB script. Signal values must exist within the current time or frequency limits.</text>
+      <translation>Unable to generate MATLAB script. Signal values must exist within the current time or frequency limits.</translation>
+    </entry>
+    <entry key="ExtractROIComment">
+      <text>Index into signal time region of interest</text>
+      <translation>Index into signal time region of interest</translation>
+    </entry>
+    <entry key="GetSpectralEstimatesComment">
+      <text>Compute spectral estimate</text>
+      <translation>Compute spectral estimate</translation>
+    </entry>
+    <entry key="ConvertFreqUnitComment">
+      <text>Convert to cycles/samples</text>
+      <translation>Convert to cycles/samples</translation>
+    </entry>
+    <entry key="LimitFreqLimitsComment">
+      <text>Limit the cwt frequency limits</text>
+      <translation>Limit the cwt frequency limits</translation>
+    </entry>
+    <entry key="GetCWTComment">
+      <text>Compute cwt</text>
+      <translation>Compute cwt</translation>
+    </entry>
+    <entry key="PreprocessAvgFs">
+      <text>Average sample rate</text>
+      <translation>Average sample rate</translation>
+    </entry>
+    <entry key="PreprocessFcnGenH1">
+      <text>Preprocess input x</text>
+      <translation>Preprocess input x</translation>
+    </entry>
+    <entry key="newCreatedSignalPrefix">
+      <text>Created using:</text>
+      <translation>Created using:</translation>
+    </entry>
+    <entry key="smooth">
+      <text>Smooth</text>
+      <translation>Smooth</translation>
+    </entry>
+    <entry key="lowpassfilter">
+      <text>Lowpass filter</text>
+      <translation>Lowpass filter</translation>
+    </entry>
+    <entry key="highpassfilter">
+      <text>Highpass filter</text>
+      <translation>Highpass filter</translation>
+    </entry>
+    <entry key="bandpassfilter">
+      <text>Bandpass filter</text>
+      <translation>Bandpass filter</translation>
+    </entry>
+    <entry key="bandstopfilter">
+      <text>Bandstop filter</text>
+      <translation>Bandstop filter</translation>
+    </entry>
+    <entry key="SaveTitle">
+      <text>Save</text>
+      <translation>Save</translation>
+    </entry>
+    <entry key="ImportTitle">
+      <text>Import</text>
+      <translation>Import</translation>
+    </entry>
+    <entry key="resample">
+      <text>Resample</text>
+      <translation>Resample</translation>
+    </entry>
+    <entry key="PreprocessUndefinedFunction">
+      <text>Unrecognized function or variable while trying to execute</text>
+      <translation>Unrecognized function or variable while trying to execute</translation>
+    </entry>
+    <entry key="detrend">
+      <text>Detrend</text>
+      <translation>Detrend</translation>
+    </entry>
+    <entry key="envelope">
+      <text>Envelope</text>
+      <translation>Envelope</translation>
+    </entry>
+    <entry key="denoise">
+      <text>Denoise</text>
+      <translation>Denoise</translation>
+    </entry>
+    <entry key="trimleft">
+      <text>Trim Left</text>
+      <translation>Trim Left</translation>
+    </entry>
+    <entry key="trimright">
+      <text>Trim Right</text>
+      <translation>Trim Right</translation>
+    </entry>
+    <entry key="clipabove">
+      <text>Clip Above</text>
+      <translation>Clip Above</translation>
+    </entry>
+    <entry key="clipbelow">
+      <text>Clip Below</text>
+      <translation>Clip Below</translation>
+    </entry>
+    <entry key="crop">
+      <text>Crop</text>
+      <translation>Crop</translation>
+    </entry>
+    <entry key="extract">
+      <text>Extract</text>
+      <translation>Extract</translation>
+    </entry>
+    <entry key="split">
+      <text>Split</text>
+      <translation>Split</translation>
+    </entry>
+    <entry key="fillmissing">
+      <text>Fill Missing</text>
+      <translation>Fill Missing</translation>
+    </entry>
+    <entry key="PreprocessFcnGenCalculateRatioDescription">
+      <text>Calculate ratio based on critical frequency</text>
+      <translation>Calculate ratio based on critical frequency</translation>
+    </entry>
+    <entry key="ROIWarningTitle">
+      <text>Extract Signals</text>
+      <translation>Extract Signals</translation>
+    </entry>
+    <entry key="ROISomeExtractionNotPossible">
+      <text>Unable to extract some signal regions. Regions must contain at least two data points within the time limits.</text>
+      <translation>Unable to extract some signal regions. Regions must contain at least two data points within the time limits.</translation>
+    </entry>
+    <entry key="ROIAllExtractionNotPossible">
+      <text>Unable to extract signal regions. Regions must contain at least two data points within the time limits.</text>
+      <translation>Unable to extract signal regions. Regions must contain at least two data points within the time limits.</translation>
+    </entry>
+    <entry key="AxesLimitsOutsideNyquistRange">
+      <text>Invalid value. Frequency limits must be within Nyquist range [0 Fs/2]</text>
+      <translation>Invalid value. Frequency limits must be within Nyquist range [0 Fs/2]</translation>
+    </entry>
+    <entry key="AxesLimitsOutsideNyquistRangeSamples">
+      <text>Invalid value. Frequency limits must be within Nyquist range [0 1]</text>
+      <translation>Invalid value. Frequency limits must be within Nyquist range [0 1]</translation>
+    </entry>
+    <entry key="AxesLimitsOutsideNyquistRangeTwoSided">
+      <text>Invalid value. Frequency limits must be within Nyquist range [-Fs/2 Fs/2]</text>
+      <translation>Invalid value. Frequency limits must be within Nyquist range [-Fs/2 Fs/2]</translation>
+    </entry>
+    <entry key="AxesLimitsOutsideNyquistRangeTwoSidedSamples">
+      <text>Invalid value. Frequency limits must be within Nyquist range [-1 1]</text>
+      <translation>Invalid value. Frequency limits must be within Nyquist range [-1 1]</translation>
+    </entry>
+    <entry key="InfoColumnHeader">
+      <text>Info</text>
+      <translation>Info</translation>
+    </entry>
+    <entry key="mgMATErrorTitleSigApp">
+      <text>Loading Signal Analyzer Session</text>
+      <translation>Loading Signal Analyzer Session</translation>
+    </entry>
+    <entry key="mgMATErrorSigApp">
+      <text>The MAT-file does not contain a valid Signal Analyzer session.</text>
+      <translation>The MAT-file does not contain a valid Signal Analyzer session.</translation>
+    </entry>
+    <entry key="mgMLDATXErrorSigApp">
+      <text>The MLDATX-file does not contain a valid Signal Analyzer session.</text>
+      <translation>The MLDATX-file does not contain a valid Signal Analyzer session.</translation>
+    </entry>
+    <entry key="LegendRealSignal">
+      <text>real</text>
+      <translation>real</translation>
+    </entry>
+    <entry key="LegendImaginarySignal">
+      <text>imag</text>
+      <translation>imag</translation>
+    </entry>
+  </message>
+</bicat>

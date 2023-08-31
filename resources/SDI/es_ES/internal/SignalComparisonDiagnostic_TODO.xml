@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2023 The MathWorks, Inc.-->
+
+<bicat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" locale="fi_FI" product="SDI" xsi:noNamespaceSchemaLocation="../../resources/schema/bicat.xsd">
+  <message>
+    <entry key="SnapshotCaptured">
+      <text>Comparison snapshots captured to:</text>
+      <translation>Comparison snapshots captured to:</translation>
+    </entry>
+  </message>
+</bicat>
