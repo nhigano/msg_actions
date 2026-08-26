@@ -21,4 +21,5 @@ jobs:
           command: |
             disp('1. 【Hélló◇wórld'】);
             disp('2. «€こんにちはÇ»');
+            ! chcp
             feature locale
