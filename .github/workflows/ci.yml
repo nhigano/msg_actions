@@ -8,18 +8,21 @@ jobs:
         release: [R2023a, R2026a]
         os: [windows-latest]
     runs-on: ${{ matrix.os }}
+    env:
+      MLM_WEB_ID: ${{ vars.MLM_WEB_ID }}
+      MLM_WEB_LICENSE: ${{ vars.MLM_WEB_LICENSE }}
+      MLM_WEB_USER_CRED: ${{ vars.MLM_WEB_USER_CRED }}      
     steps:
       - name: Install MATLAB
         uses: matlab-actions/setup-matlab@v3
         with:
           release: ${{ matrix.release }}
           cache: true
-        
       - name: disp hello
         uses: matlab-actions/run-command@v3.2
         with:
           command: |
-            disp('1. 【Hélló◇wórld'】);
+            disp('1. 【Hélló◇wórld】');
             disp('2. «€こんにちはÇ»');
-            ! chcp
+            system('chcp');
             feature locale
