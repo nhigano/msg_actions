@@ -1,5 +1,5 @@
 name: MATLAB Test
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   hello:
@@ -8,21 +8,23 @@ jobs:
         release: [R2023a, R2026a]
         os: [windows-latest]
     runs-on: ${{ matrix.os }}
-    env:
-      MLM_WEB_ID: ${{ vars.MLM_WEB_ID }}
-      MLM_WEB_LICENSE: ${{ vars.MLM_WEB_LICENSE }}
-      MLM_WEB_USER_CRED: ${{ vars.MLM_WEB_USER_CRED }}      
     steps:
       - name: Install MATLAB
         uses: matlab-actions/setup-matlab@v3
         with:
           release: ${{ matrix.release }}
           cache: true
-      - name: disp hello
+
+      - name: disp via run-command (may garble on R2023a)
         uses: matlab-actions/run-command@v3.2
         with:
           command: |
             disp('1. 【Hélló◇wórld】');
             disp('2. «€こんにちはÇ»');
-            system('chcp');
-            feature locale
+
+      - name: disp via -logfile workaround
+        shell: cmd
+        run: |
+          matlab -batch "disp('1. 【Hélló◇wórld】'); disp('2. «€こんにちはÇ»');" -logfile output.log
+          echo === Log file content (UTF-8) ===
+          type output.log
